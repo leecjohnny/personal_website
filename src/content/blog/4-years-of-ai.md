@@ -4,13 +4,17 @@ pubDate: 2026-08-10
 sourceUrl: "https://johnnyclee.com/i/4-years-of-ai/"
 ---
 
-Soon, ChatGPT is going to have its 4th anniversary. It has been almost 4 years since AI has been released into the world.
+![A Costco greeter in Idiocracy wearing a “Welcome To Costco, I Love You” apron.](/assets/archive/item-ad12656c88ea1804b666b01fe1c82829.jpg)
+
+[**"Welcome To Costco, I Love You". Idiocracy (2006)**](https://i.redd.it/ak7cl37bhpj21.jpg)
+
+It has been almost 4 years since AI has been released into the world. ChatGPT was released in November 2022.
 
 For human development, 4 years is a substantial time period. 
 
-- High school is 4 years long, the formative years of teenage development.  
-- College is 4 years long, the socially accepted period of evolution from a dependent on society (student and learner) to a contributor to society (entering the workforce).  
-- At around 3 to 4 years old, babies begin to speak in complex sentences and tell stories. 
+* High school is 4 years long, the formative years of teenage development.
+* College is 4 years long, the socially accepted period of evolution from a dependent on society (student and learner) to a contributor to society (entering the workforce).
+* At around 3 to 4 years old, babies begin to speak in complex sentences and tell stories.
 
 Universities and employers are about to receive a shock to their system. 
 
