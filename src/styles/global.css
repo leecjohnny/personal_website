@@ -3,10 +3,12 @@
 @import "shadcn/tailwind.css";
 
 :root {
-  --background: transparent;
+  --background: #ffffff;
   --foreground: #24292f;
   --card: #ffffff;
   --card-foreground: #24292f;
+  --popover: #ffffff;
+  --popover-foreground: #24292f;
   --primary: #0997cc;
   --primary-foreground: #ffffff;
   --secondary: #f4f4f4;
@@ -21,6 +23,8 @@
   --ring: #0997cc;
   --radius: 0.2em;
   --link: #0997cc;
+  --content-max-width: 70ch;
+  --page-gutter: clamp(1rem, 4vw, 2rem);
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
@@ -30,6 +34,8 @@
   --color-foreground: var(--foreground);
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
   --color-primary: var(--primary);
   --color-primary-foreground: var(--primary-foreground);
   --color-secondary: var(--secondary);
@@ -57,9 +63,9 @@ html {
 body {
   min-width: 0;
   margin: 0;
-  padding: 0 0.2em 1.5em;
+  padding: 0 0 1.5rem;
   color: inherit;
-  background: transparent;
+  background: var(--background);
   font-family: inherit;
   line-height: inherit;
 }
@@ -73,14 +79,14 @@ body {
   background: var(--link);
 }
 
-a,
-a:visited {
+:where(a:not([data-slot="button"])),
+:where(a:not([data-slot="button"]):visited) {
   color: var(--link);
   font-weight: 500;
   text-decoration: none;
 }
 
-a:hover {
+:where(a:not([data-slot="button"]):hover) {
   opacity: 0.65;
 }
 
@@ -88,10 +94,18 @@ img {
   max-width: 100%;
 }
 
-.site-header {
-  max-width: calc(70ch - 1.4em);
-  padding-top: 1.5em;
+.site-header,
+.site-shell,
+.site-footer {
+  width: min(
+    calc(100% - var(--page-gutter) - var(--page-gutter)),
+    var(--content-max-width)
+  );
   margin: 0 auto;
+}
+
+.site-header {
+  padding-top: 1.5em;
 }
 
 .site-header h1,
@@ -103,14 +117,12 @@ img {
 }
 
 .wordmark {
-  color: var(--foreground) !important;
+  color: var(--foreground);
   font-weight: 700;
 }
 
 .site-shell {
-  width: auto;
-  max-width: calc(70ch - 1.4em);
-  margin: 0 auto;
+  min-width: 0;
 }
 
 .home {
@@ -199,7 +211,6 @@ img {
 }
 
 .site-footer {
-  max-width: calc(70ch - 1.4em);
   margin: 4em auto 0;
   color: inherit;
   font-size: inherit;
@@ -556,67 +567,6 @@ img {
   border-top: 1px solid var(--border);
   color: var(--muted-foreground);
   font-size: 0.88em;
-}
-
-.share-trigger {
-  height: auto !important;
-  padding: 0.25em 0.5em !important;
-  border: 1px solid var(--border) !important;
-  border-radius: var(--radius) !important;
-  background: transparent !important;
-  color: var(--link) !important;
-  font: inherit !important;
-}
-
-.share-positioner {
-  z-index: 50;
-}
-
-.share-popover {
-  width: min(280px, calc(100vw - 24px));
-  max-width: var(--available-width);
-  padding: 1em;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: #ffffff;
-  color: var(--foreground);
-  box-shadow: 0 0.35em 1.2em rgb(0 0 0 / 0.14);
-  line-height: 1.5;
-}
-
-.share-popover__title {
-  margin: 0;
-  font-size: 1em;
-  font-weight: 700;
-}
-
-.share-popover__description {
-  margin-top: 0.25em;
-  margin-bottom: 0;
-  color: var(--muted-foreground);
-  font-size: 0.8em;
-}
-
-.share-actions {
-  display: flex;
-  gap: 0.5em;
-  margin-top: 1em;
-}
-
-.share-actions button,
-.share-actions a {
-  display: inline-flex;
-  min-height: 2em;
-  align-items: center;
-  justify-content: center;
-  padding: 0.25em 0.5em;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: transparent;
-  color: var(--link);
-  font: inherit;
-  font-size: 0.8em;
-  text-decoration: none;
 }
 
 .hide-mobile {

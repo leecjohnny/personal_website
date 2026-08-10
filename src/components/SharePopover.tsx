@@ -1,7 +1,14 @@
-import { Popover } from '@base-ui/react/popover';
 import { useEffect, useState } from 'react';
 
-import { Button } from '@/components/ui/button';
+import { Button, buttonVariants } from '@/components/ui/button';
+import {
+	Popover,
+	PopoverContent,
+	PopoverDescription,
+	PopoverHeader,
+	PopoverTitle,
+	PopoverTrigger,
+} from '@/components/ui/popover';
 
 type Props = {
 	title: string;
@@ -45,9 +52,8 @@ export default function SharePopover({ title, url }: Props) {
 	if (useNativeShare) {
 		return (
 			<Button
-				className="share-trigger"
+				className="min-h-11 sm:min-h-8"
 				variant="outline"
-				size="sm"
 				type="button"
 				onClick={shareNatively}
 			>
@@ -57,41 +63,47 @@ export default function SharePopover({ title, url }: Props) {
 	}
 
 	return (
-		<Popover.Root>
-			<Popover.Trigger
-				render={
-					<Button className="share-trigger" variant="outline" size="sm">
-						Share
+		<Popover>
+			<PopoverTrigger
+				render={<Button className="min-h-11 sm:min-h-8" variant="outline" />}
+			>
+				Share
+			</PopoverTrigger>
+			<PopoverContent
+				align="start"
+				side="bottom"
+				sideOffset={8}
+				className="w-[min(18rem,calc(100vw-2rem))]"
+			>
+				<PopoverHeader>
+					<PopoverTitle>Share this article</PopoverTitle>
+					<PopoverDescription>{title}</PopoverDescription>
+				</PopoverHeader>
+				<div className="flex flex-wrap gap-2">
+					<Button
+						className="min-h-11 sm:min-h-7"
+						type="button"
+						variant="outline"
+						size="sm"
+						onClick={copyLink}
+					>
+						{copied ? 'Copied' : 'Copy link'}
 					</Button>
-				}
-			/>
-			<Popover.Portal>
-				<Popover.Positioner
-					className="share-positioner"
-					positionMethod="fixed"
-					side="bottom"
-					align="start"
-					sideOffset={8}
-					collisionPadding={12}
-				>
-					<Popover.Popup className="share-popover">
-						<Popover.Title className="share-popover__title">
-							Share this article
-						</Popover.Title>
-						<Popover.Description className="share-popover__description">
-							{title}
-						</Popover.Description>
-						<div className="share-actions">
-							<Button type="button" variant="outline" size="sm" onClick={copyLink}>
-								{copied ? 'Copied' : 'Copy link'}
-							</Button>
-							<a href={xUrl} target="_blank" rel="noreferrer">
-								Post to X
-							</a>
-						</div>
-					</Popover.Popup>
-				</Popover.Positioner>
-			</Popover.Portal>
-		</Popover.Root>
+					<a
+						data-slot="button"
+						className={buttonVariants({
+							variant: 'outline',
+							size: 'sm',
+							className: 'min-h-11 sm:min-h-7',
+						})}
+						href={xUrl}
+						target="_blank"
+						rel="noreferrer"
+					>
+						Post to X
+					</a>
+				</div>
+			</PopoverContent>
+		</Popover>
 	);
 }
