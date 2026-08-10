@@ -1,4 +1,4 @@
-# johnnyclee.com
+# personal_website
 
 The Astro/Vite rebuild of [johnnyclee.com](https://johnnyclee.com): a small personal blog backed by Markdown content and matched to the original site’s minimal visual language.
 
