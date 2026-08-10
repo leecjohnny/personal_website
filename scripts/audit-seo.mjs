@@ -113,8 +113,9 @@ if (!robots.includes('User-agent: *') || !robots.includes('Sitemap: https://john
 }
 if (emptyImageAlts > 0) failures.push(`${emptyImageAlts} of ${images} images have empty or missing alt text`);
 if (sitemapUrls.size !== htmlFiles.length) failures.push(`sitemap has ${sitemapUrls.size} URLs for ${htmlFiles.length} pages`);
-if (rssItems !== 28) failures.push(`RSS has ${rssItems} items; expected 28`);
-if (articlePages !== 28) failures.push(`found ${articlePages} article pages; expected 28`);
+if (rssItems !== articlePages) {
+  failures.push(`RSS has ${rssItems} items for ${articlePages} article pages`);
+}
 
 if (failures.length) {
   console.error(`SEO audit failed (${failures.length} issue${failures.length === 1 ? '' : 's'}):`);
