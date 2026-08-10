@@ -1,19 +1,40 @@
 ---
 import DynamismEssay from '../../components/dynamism/DynamismEssay';
+import BaseHead from '../../components/BaseHead.astro';
+import { articleSchema, siteSchemaGraph } from '../../lib/seo';
 import '../../styles/dynamism.css';
+
+const title = 'Dynamism as a supercomputing race';
+const pageTitle = `${title} · Johnny Lee`;
+const description =
+	'An essay about computing, human ambition, and the beginning of a new dynamism.';
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
+const publishedTime = new Date('2026-07-17T00:00:00.000Z').toISOString();
+const image = '/assets/essay/figure-01.png';
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" href="/favicon.png" />
-		<link rel="canonical" href={Astro.url} />
-		<title>Dynamism as a supercomputing race</title>
-		<meta
-			name="description"
-			content="An essay about computing, human ambition, and the beginning of a new dynamism."
+		<BaseHead
+			title={pageTitle}
+			description={description}
+			image={image}
+			imageAlt="Opening figure from “Dynamism as a supercomputing race”"
+			imageWidth={2048}
+			imageHeight={2048}
+			type="article"
+			publishedTime={publishedTime}
+			modifiedTime={publishedTime}
+			structuredData={siteSchemaGraph(
+				articleSchema({
+					title,
+					description,
+					url: canonicalUrl.toString(),
+					datePublished: publishedTime,
+					image,
+				}),
+			)}
 		/>
 	</head>
 	<body>

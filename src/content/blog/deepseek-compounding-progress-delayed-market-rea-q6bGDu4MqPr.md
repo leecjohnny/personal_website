@@ -8,7 +8,7 @@ It may surprise some people, but many of the improvements that [DeepSeek](https:
 
 Almost 9 months later, suddenly, public markets [decided](https://www.wsj.com/tech/chip-stocks-tumble-after-chinas-deepseek-ai-models-raise-doubts-over-u-s-tech-dominance-9799591b) that NVIDIA should be worth ~$500B less. Okay…, there was a catalyst, DeepSeek released [R1](https://arxiv.org/abs/2501.12948), their o1/3 comparable model the week before.
 
-# **Not an overnight affair: Random walk with upward drift**
+## **Not an overnight affair: Random walk with upward drift**
 
 Yet, the progress was gradual; an o1/3 class model in the public was an eventuality in 2025 [1].
 
@@ -20,7 +20,7 @@ With some luck and sheer grunt work, researchers often stumble on new clever ide
 
 DeepSeek’s journey training LLMs did not start in 2024, it started long before as a side project at High Flyer [2] from around 2019 [3].
 
-# **From DeepSeek V1 to R1: Leveraging other open source research**
+## **From DeepSeek V1 to R1: Leveraging other open source research**
 
 DeepSeek’s progress emerged from a sea of impressive and accelerating research. Mistrial and META’s open source stance only accelerated their progress. You can clearly see DeepSeek took many architectural and scaling guidance from the other labs (size of training runs in tokens trained, hyper parameters, etc..).
 
@@ -76,7 +76,7 @@ DeepSeek V2 release in May 2024 was the beginning of DeepSeek charting its own p
 
 Its V3 release very much cemented their self-efficiency in continuing to progress LLM research. From DualPipe, multi-token prediction, FP8 training dynamics without little loss in quality, and finally to providing 2 full pages of hardware “suggestions” to “hardware designers” (read NVIDIA), these are not behaviors of imitators.
 
-# **R1: Reinforcement learning and test-time compute will accelerate inference demands**
+## **R1: Reinforcement learning and test-time compute will accelerate inference demands**
 
 DeepSeek R1 claims to be on par with OpenAI o1/3 in benchmarks. LLM expert users are already [impressed](https://simonwillison.net/2025/Jan/20/deepseek-r1/) and running these models on different infra and model configurations (DeepSeek released R1 distillations down to 1.5B size, which can run on most modern MacBook Pro’s with 16+GB memory).
 
@@ -84,7 +84,7 @@ As reinforcement learning will require some method of evaluation (to give feedba
 
 For OpenAI, in the middle of 2024 (before the release of o1), inference costs are already [dominating](https://www.datacenterdynamics.com/en/news/openai-training-and-inference-costs-could-reach-7bn-for-2024-ai-startup-set-to-lose-5bn-report/) training costs (~$7B in compute costs, ~$4B for inference towards ChatGPT). This shifts from training to inference workloads will accelerate, to include inference workloads targeted for research for test-time compute regime models (evaluations, sample generation, etc..).
 
-# **Hundreds of Billions of CapEx in 2024-2026: Will only accelerate model scale ups and intelligence progress**
+## **Hundreds of Billions of CapEx in 2024-2026: Will only accelerate model scale ups and intelligence progress**
 
 > "I will say that Deep Learning has a legendary ravenous appetite for compute, like no other algorithm that has ever been developed in AI. You may not always be utilizing it fully but I would never bet against compute as the upper bound for achievable intelligence in the long run. Not just for an individual final training run, but also for the entire innovation / experimentation engine that silently underlies all the algorithmic innovations."
 

@@ -3,24 +3,51 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { siteSchemaGraph } from '../lib/seo';
+import '../styles/global.css';
 
 interface Props {
 	title?: string;
 	description?: string;
 	image?: string;
+	imageAlt?: string;
+	imageWidth?: number;
+	imageHeight?: number;
+	type?: 'website' | 'article';
+	publishedTime?: string;
+	modifiedTime?: string;
+	structuredData?: Record<string, unknown> | Record<string, unknown>[];
 }
 
 const {
 	title = SITE_TITLE,
 	description = SITE_DESCRIPTION,
 	image,
+	imageAlt,
+	imageWidth,
+	imageHeight,
+	type = 'website',
+	publishedTime,
+	modifiedTime,
+	structuredData,
 } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={description} image={image} />
+		<BaseHead
+			title={title}
+			description={description}
+			image={image}
+			imageAlt={imageAlt}
+			imageWidth={imageWidth}
+			imageHeight={imageHeight}
+			type={type}
+			publishedTime={publishedTime}
+			modifiedTime={modifiedTime}
+			structuredData={siteSchemaGraph(structuredData ?? [])}
+		/>
 	</head>
 	<body>
 		<Header />

@@ -1,6 +1,6 @@
 # johnnyclee.com
 
-The Astro/Vite rebuild of [johnnyclee.com](https://johnnyclee.com): a small personal blog backed by Markdown content, with the original warm paper-and-ink visual language retained.
+The Astro/Vite rebuild of [johnnyclee.com](https://johnnyclee.com): a small personal blog backed by Markdown content and matched to the original site’s minimal visual language.
 
 ## What is included
 
@@ -15,10 +15,11 @@ The Astro/Vite rebuild of [johnnyclee.com](https://johnnyclee.com): a small pers
 ## Commands
 
 ```sh
-npm install
-npm run dev
-npm run build
-npm run preview
+bun install
+bun run dev
+bun run build
+bun run audit:seo
+bun run preview
 ```
 
 ## Images
@@ -26,7 +27,7 @@ npm run preview
 Assets are committed locally so the site is self-contained. The optional Cloudflare Images Transformations integration is disabled by default while the zone is being configured. After Cloudflare Image Transformations is enabled for `johnnyclee.com`, set:
 
 ```sh
-PUBLIC_CLOUDFLARE_IMAGE_TRANSFORMS=true npm run build
+PUBLIC_CLOUDFLARE_IMAGE_TRANSFORMS=true bun run build
 ```
 
 When enabled, Markdown images and the migrated essay figures are emitted through `/cdn-cgi/image/` with automatic format selection, quality control, and lazy loading.

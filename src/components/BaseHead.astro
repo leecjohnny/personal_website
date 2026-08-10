@@ -1,23 +1,50 @@
 ---
-import '../styles/global.css';
 import { SITE_TITLE } from '../consts';
+import { DEFAULT_SOCIAL_IMAGE } from '../lib/seo';
 
 interface Props {
 	title: string;
 	description: string;
 	image?: string;
+	imageAlt?: string;
+	imageWidth?: number;
+	imageHeight?: number;
+	type?: 'website' | 'article';
+	publishedTime?: string;
+	modifiedTime?: string;
+	structuredData?: Record<string, unknown> | Record<string, unknown>[];
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
 
-const { title, description, image } = Astro.props;
+const {
+	title,
+	description,
+	image = DEFAULT_SOCIAL_IMAGE,
+	imageAlt = 'Johnny Lee — technology, markets, intelligence, and building.',
+	imageWidth = image === DEFAULT_SOCIAL_IMAGE ? 1200 : undefined,
+	imageHeight = image === DEFAULT_SOCIAL_IMAGE ? 630 : undefined,
+	type = 'website',
+	publishedTime,
+	modifiedTime,
+	structuredData,
+} = Astro.props;
+const socialImage = new URL(image, Astro.site ?? Astro.url.origin);
+const schemas = structuredData
+	? Array.isArray(structuredData)
+		? structuredData
+		: [structuredData]
+	: [];
+const serializeSchema = (schema: Record<string, unknown>) =>
+	JSON.stringify(schema).replace(/</g, '\\u003c');
 ---
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" href="/favicon.png" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="sitemap" href="/sitemap-index.xml" />
+<link rel="author" href="/about/" />
 <link
 	rel="alternate"
 	type="application/rss+xml"
@@ -25,13 +52,43 @@ const { title, description, image } = Astro.props;
 	href={new URL('rss.xml', Astro.site)}
 />
 <meta name="generator" content={Astro.generator} />
+<meta
+	name="robots"
+	content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+/>
 
 <link rel="canonical" href={canonicalURL} />
 <title>{title}</title>
 <meta name="description" content={description} />
-<meta property="og:type" content="website" />
+<meta property="og:type" content={type} />
+<meta property="og:site_name" content={SITE_TITLE} />
+<meta property="og:locale" content="en_US" />
 <meta property="og:url" content={canonicalURL} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-{image && <meta property="og:image" content={new URL(image, Astro.url)} />}
+<meta property="og:image" content={socialImage} />
+<meta property="og:image:alt" content={imageAlt} />
+{imageWidth && <meta property="og:image:width" content={imageWidth} />}
+{imageHeight && <meta property="og:image:height" content={imageHeight} />}
+{
+	type === 'article' && publishedTime && (
+		<meta property="article:published_time" content={publishedTime} />
+	)
+}
+{
+	type === 'article' && modifiedTime && (
+		<meta property="article:modified_time" content={modifiedTime} />
+	)
+}
+{type === 'article' && <meta property="article:author" content="https://johnnyclee.com/about/" />}
 <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@ByJohnnyLee" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={socialImage} />
+<meta name="twitter:image:alt" content={imageAlt} />
+{
+	schemas.map((schema) => (
+		<script type="application/ld+json" is:inline set:html={serializeSchema(schema)} />
+	))
+}

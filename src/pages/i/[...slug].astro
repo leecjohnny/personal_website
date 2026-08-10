@@ -4,6 +4,7 @@ import SharePopover from '../../components/SharePopover';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import { DYNAMISM_SLUG } from '../../consts';
 import { articlePath, articleSlug } from '../../lib/article-path';
+import { articleSchema, DEFAULT_SOCIAL_IMAGE, descriptionForPost } from '../../lib/seo';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('blog');
@@ -22,12 +23,26 @@ type Props = {
 const { post } = Astro.props as Props;
 const { Content } = await render(post);
 const canonicalUrl = new URL(articlePath(post.data.sourceUrl), Astro.site ?? Astro.url.origin);
-const description =
-	post.data.description ??
-	'An article by Johnny Lee on technology, markets, intelligence, and building.';
+const description = descriptionForPost(post);
+const publishedTime = post.data.pubDate.toISOString();
+const modifiedTime = (post.data.updatedDate ?? post.data.pubDate).toISOString();
 ---
 
-<SiteLayout title={post.data.title + ' · Johnny Lee'} description={description}>
+<SiteLayout
+	title={post.data.title + ' · Johnny Lee'}
+	description={description}
+	image={DEFAULT_SOCIAL_IMAGE}
+	type="article"
+	publishedTime={publishedTime}
+	modifiedTime={modifiedTime}
+	structuredData={articleSchema({
+		title: post.data.title,
+		description,
+		url: canonicalUrl.toString(),
+		datePublished: publishedTime,
+		dateModified: modifiedTime,
+	})}
+>
 	<main class="article-page">
 		<header class="article-header">
 			<h1>{post.data.title}</h1>

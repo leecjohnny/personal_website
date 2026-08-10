@@ -1,3 +1,13 @@
+---
+const isHome = Astro.url.pathname === '/';
+---
+
 <header class="site-header">
-	<h1><a class="wordmark" href="/">Johnny Lee</a></h1>
+	{
+		isHome ? (
+			<h1><a class="wordmark" href="/">Johnny Lee</a></h1>
+		) : (
+			<p class="site-title"><a class="wordmark" href="/">Johnny Lee</a></p>
+		)
+	}
 </header>

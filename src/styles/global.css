@@ -92,9 +92,12 @@ img {
   margin: 0;
 }
 
-.site-header h1 {
+.site-header h1,
+.site-title {
   margin: 0.67em 0;
   font-size: 2em;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .wordmark {

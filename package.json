@@ -2,12 +2,15 @@
   "name": "johnnyclee.com",
   "type": "module",
   "version": "0.0.1",
+  "packageManager": "bun@1.3.14",
   "engines": {
-    "node": ">=22.12.0"
+    "bun": ">=1.3.14"
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "assets:generate": "bun scripts/generate-og-image.mjs",
+    "build": "bun run assets:generate && astro build",
+    "audit:seo": "bun scripts/audit-seo.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },

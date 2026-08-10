@@ -14,19 +14,27 @@ function transformedSource(source) {
   return '/cdn-cgi/image/width=auto,quality=82,format=auto/' + normalized;
 }
 
-function walk(node) {
+function imageAlt(file) {
+  const title = file?.data?.astro?.frontmatter?.title;
+  return title ? `Illustration from “${title}”` : 'Article illustration';
+}
+
+function walk(node, file) {
   if (!node || typeof node !== 'object') return;
 
   if (node.type === 'element' && node.tagName === 'img') {
     node.properties ??= {};
     node.properties.src = transformedSource(node.properties.src);
+    if (!String(node.properties.alt ?? '').trim()) {
+      node.properties.alt = imageAlt(file);
+    }
     node.properties.loading ??= 'lazy';
     node.properties.decoding ??= 'async';
   }
 
-  for (const child of node.children ?? []) walk(child);
+  for (const child of node.children ?? []) walk(child, file);
 }
 
 export default function rehypeCloudflareImages() {
-  return (tree) => walk(tree);
+  return (tree, file) => walk(tree, file);
 }
