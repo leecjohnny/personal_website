@@ -1,49 +1,67 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Footer from '../components/Footer.astro';
-import Header from '../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { getCollection } from 'astro:content';
+import { articlePath } from '../lib/article-path';
+
+const posts = (await getCollection('blog'))
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+	.slice(0, 12);
 ---
 
-<!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This template
-				serves as a lightweight, minimally-styled starting point for anyone looking to build a personal
-				website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
+<SiteLayout>
+	<main class="home">
+		<section class="home-intro" aria-labelledby="home-title">
+			<div>
+				<p class="eyebrow">Johnny Lee</p>
+				<h1 id="home-title">Hi!<br />Welcome.</h1>
+			</div>
+			<div class="intro-copy">
+				<p>
+					Building <a href="https://caisey.me">caisey.me</a>.
+				</p>
+				<p>
+					Previously, at Adept (exited to Amazon), Amazon Lab126,
+					23andMe, and Salesforce.
+				</p>
+				<p>
+					Writing about technology, markets, intelligence, and the
+					things that make the future feel close.
+				</p>
+			</div>
+		</section>
+
+		<section class="latest" id="latest" aria-labelledby="latest-title">
+			<div class="section-heading">
+				<h2 id="latest-title">Latest</h2>
+				<a href="/blog/">View all articles →</a>
+			</div>
+			<ul class="article-list">
+				{
+					posts.map((post) => (
+						<li>
+							<a class="post-card" href={articlePath(post.data.sourceUrl)}>
+								<time
+									class="post-date"
+									datetime={post.data.pubDate.toISOString()}
+								>
+									{post.data.pubDate.toLocaleDateString('en-US', {
+										year: 'numeric',
+										month: 'short',
+										day: 'numeric',
+									})}
+								</time>
+								<div>
+									<h3 class="post-title">{post.data.title}</h3>
+									{post.data.externalUrl && (
+										<span class="post-external">Also published externally</span>
+									)}
+								</div>
+								<span class="post-arrow" aria-hidden="true">↗</span>
+							</a>
+						</li>
+					))
+				}
 			</ul>
-			<p>
-				Have fun! If you get stuck, remember to
-				<a href="https://docs.astro.build/">read the docs</a>
-				or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out
-				<a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a>
-				by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
-</html>
+		</section>
+	</main>
+</SiteLayout>

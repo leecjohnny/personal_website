@@ -1,0 +1,7673 @@
+{
+  "schema": "article-audio-sync/timing/v1",
+  "generated_at": "2026-07-17T11:44:49.738Z",
+  "article": {
+    "src": "./article.json",
+    "sha256": "231aaf5b8c5748863db5dd659889a565a5ac441ca49ac7cd30bb79acf1650818"
+  },
+  "voice": "coral",
+  "timebase": "html-media-current-time-seconds",
+  "audio": {
+    "src": "./audio/dynamism-narration-realtime-2.1-coral.mp3",
+    "sha256": "e1e160d353cdce303b42245d12ac37e658023e0fa0baf9677817001cc8e4cf7c",
+    "mime": "audio/mpeg",
+    "duration": 357.356479,
+    "sample_rate": 48000,
+    "channels": 2,
+    "ffprobe_start_time": 0.023021
+  },
+  "transcription": {
+    "provider": "openai",
+    "model": "whisper-1",
+    "language": "english",
+    "sources": [
+      {
+        "src": "./raw/dynamism-narration-realtime-2.1-coral.whisper.verbose.json",
+        "offset": 0,
+        "role": "full-file-pass"
+      },
+      {
+        "src": "./raw/coral-128-198.whisper.verbose.json",
+        "offset": 128,
+        "replaces": [
+          128,
+          198
+        ],
+        "role": "quality-retry"
+      }
+    ]
+  },
+  "alignment": {
+    "algorithm": "normalized-character-dp/v1",
+    "canonical_word_count": 742,
+    "raw_word_count": 744,
+    "exact": 741,
+    "fuzzy": 1,
+    "interpolated": 0,
+    "unresolved": 0,
+    "normalized_character_distance": 8,
+    "normalized_character_similarity": 0.997637,
+    "character_substitutions": 1,
+    "character_deletions": 1,
+    "character_insertions": 6,
+    "token_edit_distance": 4,
+    "token_error_rate": 0.005391,
+    "interpolation_rate": 0,
+    "resolution_shift_seconds": 0.662588
+  },
+  "quality": {
+    "caption_quality_passed": true,
+    "strict_web_sync_passed": true,
+    "music_token_count": 0,
+    "suspicious_short_filler_count": 0,
+    "shorter_than_50ms_count": 6,
+    "overlap_over_20ms_count": 0,
+    "non_finite_timing_count": 0,
+    "invalid_timing_count": 0,
+    "non_monotonic_timing_count": 0,
+    "repaired_zero_duration_count": 43,
+    "repaired_overlap_count": 0
+  },
+  "intentional_silence": {
+    "authored": {
+      "start_sample": 12325564,
+      "end_sample": 12469564,
+      "sample_rate": 48000,
+      "start": 256.782583,
+      "end": 259.782583,
+      "duration": 3,
+      "reference": "lossless-master-sample-window"
+    },
+    "observed": {
+      "after_word_id": "w549",
+      "before_word_id": "w550",
+      "start": 256.74,
+      "end": 259.783,
+      "duration": 3.043,
+      "reference": "mp3-whisper-word-gap"
+    }
+  },
+  "words": [
+    {
+      "id": "w0",
+      "start": 0,
+      "end": 0.76,
+      "match": "exact",
+      "source_word_ids": [
+        0
+      ]
+    },
+    {
+      "id": "w1",
+      "start": 0.76,
+      "end": 1.4,
+      "match": "exact",
+      "source_word_ids": [
+        1
+      ]
+    },
+    {
+      "id": "w2",
+      "start": 1.4,
+      "end": 1.82,
+      "match": "exact",
+      "source_word_ids": [
+        2
+      ]
+    },
+    {
+      "id": "w3",
+      "start": 1.82,
+      "end": 2.64,
+      "match": "exact",
+      "source_word_ids": [
+        3
+      ]
+    },
+    {
+      "id": "w4",
+      "start": 2.64,
+      "end": 3.1,
+      "match": "exact",
+      "source_word_ids": [
+        4
+      ]
+    },
+    {
+      "id": "w5",
+      "start": 4.22,
+      "end": 4.26,
+      "match": "exact",
+      "source_word_ids": [
+        5
+      ]
+    },
+    {
+      "id": "w6",
+      "start": 4.26,
+      "end": 4.5,
+      "match": "exact",
+      "source_word_ids": [
+        6
+      ]
+    },
+    {
+      "id": "w7",
+      "start": 4.5,
+      "end": 4.74,
+      "match": "exact",
+      "source_word_ids": [
+        7
+      ]
+    },
+    {
+      "id": "w8",
+      "start": 4.74,
+      "end": 5.2,
+      "match": "exact",
+      "source_word_ids": [
+        8
+      ]
+    },
+    {
+      "id": "w9",
+      "start": 5.2,
+      "end": 5.72,
+      "match": "exact",
+      "source_word_ids": [
+        9
+      ]
+    },
+    {
+      "id": "w10",
+      "start": 5.72,
+      "end": 6.1,
+      "match": "exact",
+      "source_word_ids": [
+        10
+      ]
+    },
+    {
+      "id": "w11",
+      "start": 6.1,
+      "end": 6.34,
+      "match": "exact",
+      "source_word_ids": [
+        11
+      ]
+    },
+    {
+      "id": "w12",
+      "start": 6.34,
+      "end": 6.6,
+      "match": "exact",
+      "source_word_ids": [
+        12
+      ]
+    },
+    {
+      "id": "w13",
+      "start": 6.6,
+      "end": 6.96,
+      "match": "exact",
+      "source_word_ids": [
+        13
+      ]
+    },
+    {
+      "id": "w14",
+      "start": 8.16,
+      "end": 8.22,
+      "match": "exact",
+      "source_word_ids": [
+        14
+      ]
+    },
+    {
+      "id": "w15",
+      "start": 8.22,
+      "end": 8.52,
+      "match": "exact",
+      "source_word_ids": [
+        15
+      ]
+    },
+    {
+      "id": "w16",
+      "start": 8.52,
+      "end": 8.66,
+      "match": "exact",
+      "source_word_ids": [
+        16
+      ]
+    },
+    {
+      "id": "w17",
+      "start": 8.66,
+      "end": 8.8,
+      "match": "exact",
+      "source_word_ids": [
+        17
+      ]
+    },
+    {
+      "id": "w18",
+      "start": 8.8,
+      "end": 9.205,
+      "match": "exact",
+      "source_word_ids": [
+        18
+      ]
+    },
+    {
+      "id": "w19",
+      "start": 9.205,
+      "end": 9.39,
+      "match": "exact",
+      "source_word_ids": [
+        19
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w20",
+      "start": 9.39,
+      "end": 9.54,
+      "match": "exact",
+      "source_word_ids": [
+        20
+      ]
+    },
+    {
+      "id": "w21",
+      "start": 9.54,
+      "end": 9.76,
+      "match": "exact",
+      "source_word_ids": [
+        21
+      ]
+    },
+    {
+      "id": "w22",
+      "start": 9.76,
+      "end": 10,
+      "match": "exact",
+      "source_word_ids": [
+        22
+      ]
+    },
+    {
+      "id": "w23",
+      "start": 10.82,
+      "end": 10.98,
+      "match": "exact",
+      "source_word_ids": [
+        23
+      ]
+    },
+    {
+      "id": "w24",
+      "start": 10.98,
+      "end": 11.26,
+      "match": "exact",
+      "source_word_ids": [
+        24
+      ]
+    },
+    {
+      "id": "w25",
+      "start": 11.26,
+      "end": 11.62,
+      "match": "exact",
+      "source_word_ids": [
+        25
+      ]
+    },
+    {
+      "id": "w26",
+      "start": 12.3,
+      "end": 12.44,
+      "match": "exact",
+      "source_word_ids": [
+        26
+      ]
+    },
+    {
+      "id": "w27",
+      "start": 12.44,
+      "end": 12.68,
+      "match": "exact",
+      "source_word_ids": [
+        27
+      ]
+    },
+    {
+      "id": "w28",
+      "start": 12.68,
+      "end": 13.22,
+      "match": "exact",
+      "source_word_ids": [
+        28
+      ]
+    },
+    {
+      "id": "w29",
+      "start": 13.82,
+      "end": 14.04,
+      "match": "exact",
+      "source_word_ids": [
+        29
+      ]
+    },
+    {
+      "id": "w30",
+      "start": 14.04,
+      "end": 14.5,
+      "match": "exact",
+      "source_word_ids": [
+        30
+      ]
+    },
+    {
+      "id": "w31",
+      "start": 14.5,
+      "end": 14.74,
+      "match": "exact",
+      "source_word_ids": [
+        31
+      ]
+    },
+    {
+      "id": "w32",
+      "start": 14.74,
+      "end": 15.18,
+      "match": "exact",
+      "source_word_ids": [
+        32
+      ]
+    },
+    {
+      "id": "w33",
+      "start": 15.18,
+      "end": 15.81,
+      "match": "exact",
+      "source_word_ids": [
+        33
+      ]
+    },
+    {
+      "id": "w34",
+      "start": 15.81,
+      "end": 16.075,
+      "match": "exact",
+      "source_word_ids": [
+        34
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w35",
+      "start": 16.075,
+      "end": 16.24,
+      "match": "exact",
+      "source_word_ids": [
+        35
+      ]
+    },
+    {
+      "id": "w36",
+      "start": 16.24,
+      "end": 16.66,
+      "match": "exact",
+      "source_word_ids": [
+        36
+      ]
+    },
+    {
+      "id": "w37",
+      "start": 16.66,
+      "end": 17.295,
+      "match": "exact",
+      "source_word_ids": [
+        37
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w38",
+      "start": 17.6,
+      "end": 17.98,
+      "match": "exact",
+      "source_word_ids": [
+        38
+      ]
+    },
+    {
+      "id": "w39",
+      "start": 17.98,
+      "end": 18.22,
+      "match": "exact",
+      "source_word_ids": [
+        39
+      ]
+    },
+    {
+      "id": "w40",
+      "start": 18.22,
+      "end": 18.78,
+      "match": "exact",
+      "source_word_ids": [
+        40
+      ]
+    },
+    {
+      "id": "w41",
+      "start": 18.78,
+      "end": 19.22,
+      "match": "exact",
+      "source_word_ids": [
+        41
+      ]
+    },
+    {
+      "id": "w42",
+      "start": 19.22,
+      "end": 19.78,
+      "match": "exact",
+      "source_word_ids": [
+        42
+      ]
+    },
+    {
+      "id": "w43",
+      "start": 20.07,
+      "end": 20.72,
+      "match": "exact",
+      "source_word_ids": [
+        43
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w44",
+      "start": 20.72,
+      "end": 20.96,
+      "match": "exact",
+      "source_word_ids": [
+        44
+      ]
+    },
+    {
+      "id": "w45",
+      "start": 20.96,
+      "end": 21.42,
+      "match": "exact",
+      "source_word_ids": [
+        45
+      ]
+    },
+    {
+      "id": "w46",
+      "start": 21.42,
+      "end": 21.94,
+      "match": "exact",
+      "source_word_ids": [
+        46
+      ]
+    },
+    {
+      "id": "w47",
+      "start": 21.94,
+      "end": 22.42,
+      "match": "exact",
+      "source_word_ids": [
+        47
+      ]
+    },
+    {
+      "id": "w48",
+      "start": 22.42,
+      "end": 22.94,
+      "match": "exact",
+      "source_word_ids": [
+        48
+      ]
+    },
+    {
+      "id": "w49",
+      "start": 22.94,
+      "end": 23.34,
+      "match": "exact",
+      "source_word_ids": [
+        49
+      ]
+    },
+    {
+      "id": "w50",
+      "start": 23.74,
+      "end": 24.4,
+      "match": "exact",
+      "source_word_ids": [
+        50
+      ]
+    },
+    {
+      "id": "w51",
+      "start": 24.4,
+      "end": 24.58,
+      "match": "exact",
+      "source_word_ids": [
+        51
+      ]
+    },
+    {
+      "id": "w52",
+      "start": 24.58,
+      "end": 24.88,
+      "match": "exact",
+      "source_word_ids": [
+        52
+      ]
+    },
+    {
+      "id": "w53",
+      "start": 24.88,
+      "end": 25.12,
+      "match": "exact",
+      "source_word_ids": [
+        53
+      ]
+    },
+    {
+      "id": "w54",
+      "start": 25.12,
+      "end": 25.44,
+      "match": "exact",
+      "source_word_ids": [
+        54
+      ]
+    },
+    {
+      "id": "w55",
+      "start": 25.44,
+      "end": 25.9,
+      "match": "exact",
+      "source_word_ids": [
+        55
+      ]
+    },
+    {
+      "id": "w56",
+      "start": 25.9,
+      "end": 26.66,
+      "match": "exact",
+      "source_word_ids": [
+        56
+      ]
+    },
+    {
+      "id": "w57",
+      "start": 26.66,
+      "end": 27.16,
+      "match": "exact",
+      "source_word_ids": [
+        57
+      ]
+    },
+    {
+      "id": "w58",
+      "start": 27.62,
+      "end": 27.82,
+      "match": "exact",
+      "source_word_ids": [
+        58
+      ]
+    },
+    {
+      "id": "w59",
+      "start": 27.82,
+      "end": 28.12,
+      "match": "exact",
+      "source_word_ids": [
+        59
+      ]
+    },
+    {
+      "id": "w60",
+      "start": 28.12,
+      "end": 28.76,
+      "match": "exact",
+      "source_word_ids": [
+        60
+      ]
+    },
+    {
+      "id": "w61",
+      "start": 29.98,
+      "end": 30.08,
+      "match": "exact",
+      "source_word_ids": [
+        61
+      ]
+    },
+    {
+      "id": "w62",
+      "start": 30.08,
+      "end": 30.7,
+      "match": "exact",
+      "source_word_ids": [
+        62
+      ]
+    },
+    {
+      "id": "w63",
+      "start": 31.14,
+      "end": 31.44,
+      "match": "exact",
+      "source_word_ids": [
+        63
+      ]
+    },
+    {
+      "id": "w64",
+      "start": 31.44,
+      "end": 31.84,
+      "match": "exact",
+      "source_word_ids": [
+        64
+      ]
+    },
+    {
+      "id": "w65",
+      "start": 32.1,
+      "end": 32.6,
+      "match": "exact",
+      "source_word_ids": [
+        65
+      ]
+    },
+    {
+      "id": "w66",
+      "start": 32.6,
+      "end": 33.02,
+      "match": "exact",
+      "source_word_ids": [
+        66
+      ]
+    },
+    {
+      "id": "w67",
+      "start": 33.02,
+      "end": 33.44,
+      "match": "exact",
+      "source_word_ids": [
+        67
+      ]
+    },
+    {
+      "id": "w68",
+      "start": 33.44,
+      "end": 33.96,
+      "match": "exact",
+      "source_word_ids": [
+        68
+      ]
+    },
+    {
+      "id": "w69",
+      "start": 34.1,
+      "end": 34.655,
+      "match": "exact",
+      "source_word_ids": [
+        69
+      ]
+    },
+    {
+      "id": "w70",
+      "start": 34.655,
+      "end": 35.61,
+      "match": "exact",
+      "source_word_ids": [
+        70
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w71",
+      "start": 36.08,
+      "end": 36.68,
+      "match": "exact",
+      "source_word_ids": [
+        71
+      ]
+    },
+    {
+      "id": "w72",
+      "start": 37.12,
+      "end": 37.56,
+      "match": "exact",
+      "source_word_ids": [
+        72
+      ]
+    },
+    {
+      "id": "w73",
+      "start": 38.14,
+      "end": 38.44,
+      "match": "exact",
+      "source_word_ids": [
+        73
+      ]
+    },
+    {
+      "id": "w74",
+      "start": 38.44,
+      "end": 38.7,
+      "match": "exact",
+      "source_word_ids": [
+        74
+      ]
+    },
+    {
+      "id": "w75",
+      "start": 38.7,
+      "end": 39.08,
+      "match": "exact",
+      "source_word_ids": [
+        75
+      ]
+    },
+    {
+      "id": "w76",
+      "start": 39.08,
+      "end": 39.86,
+      "match": "exact",
+      "source_word_ids": [
+        76
+      ]
+    },
+    {
+      "id": "w77",
+      "start": 39.86,
+      "end": 40.22,
+      "match": "exact",
+      "source_word_ids": [
+        77
+      ]
+    },
+    {
+      "id": "w78",
+      "start": 41.32,
+      "end": 41.52,
+      "match": "exact",
+      "source_word_ids": [
+        78
+      ]
+    },
+    {
+      "id": "w79",
+      "start": 41.52,
+      "end": 41.9,
+      "match": "exact",
+      "source_word_ids": [
+        79
+      ]
+    },
+    {
+      "id": "w80",
+      "start": 41.9,
+      "end": 42.16,
+      "match": "exact",
+      "source_word_ids": [
+        80
+      ]
+    },
+    {
+      "id": "w81",
+      "start": 42.16,
+      "end": 42.4,
+      "match": "exact",
+      "source_word_ids": [
+        81
+      ]
+    },
+    {
+      "id": "w82",
+      "start": 42.8,
+      "end": 43.375,
+      "match": "exact",
+      "source_word_ids": [
+        82
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w83",
+      "start": 43.375,
+      "end": 43.54,
+      "match": "exact",
+      "source_word_ids": [
+        83
+      ]
+    },
+    {
+      "id": "w84",
+      "start": 43.54,
+      "end": 43.66,
+      "match": "exact",
+      "source_word_ids": [
+        84
+      ]
+    },
+    {
+      "id": "w85",
+      "start": 43.66,
+      "end": 43.84,
+      "match": "exact",
+      "source_word_ids": [
+        85
+      ]
+    },
+    {
+      "id": "w86",
+      "start": 43.84,
+      "end": 44.02,
+      "match": "exact",
+      "source_word_ids": [
+        86
+      ]
+    },
+    {
+      "id": "w87",
+      "start": 44.02,
+      "end": 44.46,
+      "match": "exact",
+      "source_word_ids": [
+        87
+      ]
+    },
+    {
+      "id": "w88",
+      "start": 45.06,
+      "end": 45.22,
+      "match": "exact",
+      "source_word_ids": [
+        88
+      ]
+    },
+    {
+      "id": "w89",
+      "start": 45.22,
+      "end": 45.52,
+      "match": "exact",
+      "source_word_ids": [
+        89
+      ]
+    },
+    {
+      "id": "w90",
+      "start": 45.52,
+      "end": 45.78,
+      "match": "exact",
+      "source_word_ids": [
+        90
+      ]
+    },
+    {
+      "id": "w91",
+      "start": 45.78,
+      "end": 46.08,
+      "match": "exact",
+      "source_word_ids": [
+        91
+      ]
+    },
+    {
+      "id": "w92",
+      "start": 46.08,
+      "end": 46.44,
+      "match": "exact",
+      "source_word_ids": [
+        92
+      ]
+    },
+    {
+      "id": "w93",
+      "start": 46.44,
+      "end": 46.66,
+      "match": "exact",
+      "source_word_ids": [
+        93
+      ]
+    },
+    {
+      "id": "w94",
+      "start": 46.66,
+      "end": 47.1,
+      "match": "exact",
+      "source_word_ids": [
+        94
+      ]
+    },
+    {
+      "id": "w95",
+      "start": 47.1,
+      "end": 47.74,
+      "match": "exact",
+      "source_word_ids": [
+        95
+      ]
+    },
+    {
+      "id": "w96",
+      "start": 47.74,
+      "end": 48.04,
+      "match": "exact",
+      "source_word_ids": [
+        96
+      ]
+    },
+    {
+      "id": "w97",
+      "start": 48.04,
+      "end": 48.595,
+      "match": "exact",
+      "source_word_ids": [
+        97
+      ]
+    },
+    {
+      "id": "w98",
+      "start": 48.595,
+      "end": 48.98,
+      "match": "exact",
+      "source_word_ids": [
+        98
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w99",
+      "start": 48.98,
+      "end": 49.38,
+      "match": "exact",
+      "source_word_ids": [
+        99
+      ]
+    },
+    {
+      "id": "w100",
+      "start": 49.38,
+      "end": 49.62,
+      "match": "exact",
+      "source_word_ids": [
+        100
+      ]
+    },
+    {
+      "id": "w101",
+      "start": 49.62,
+      "end": 49.92,
+      "match": "exact",
+      "source_word_ids": [
+        101
+      ]
+    },
+    {
+      "id": "w102",
+      "start": 50.08,
+      "end": 50.6,
+      "match": "exact",
+      "source_word_ids": [
+        102
+      ]
+    },
+    {
+      "id": "w103",
+      "start": 50.6,
+      "end": 50.88,
+      "match": "exact",
+      "source_word_ids": [
+        103
+      ]
+    },
+    {
+      "id": "w104",
+      "start": 50.88,
+      "end": 51.16,
+      "match": "exact",
+      "source_word_ids": [
+        104
+      ]
+    },
+    {
+      "id": "w105",
+      "start": 51.16,
+      "end": 51.36,
+      "match": "exact",
+      "source_word_ids": [
+        105
+      ]
+    },
+    {
+      "id": "w106",
+      "start": 51.36,
+      "end": 51.6,
+      "match": "exact",
+      "source_word_ids": [
+        106
+      ]
+    },
+    {
+      "id": "w107",
+      "start": 51.6,
+      "end": 51.9,
+      "match": "exact",
+      "source_word_ids": [
+        107
+      ]
+    },
+    {
+      "id": "w108",
+      "start": 52.7,
+      "end": 52.86,
+      "match": "exact",
+      "source_word_ids": [
+        108
+      ]
+    },
+    {
+      "id": "w109",
+      "start": 52.86,
+      "end": 53.38,
+      "match": "exact",
+      "source_word_ids": [
+        109
+      ]
+    },
+    {
+      "id": "w110",
+      "start": 53.38,
+      "end": 53.875,
+      "match": "exact",
+      "source_word_ids": [
+        110
+      ]
+    },
+    {
+      "id": "w111",
+      "start": 53.875,
+      "end": 54.115,
+      "match": "exact",
+      "source_word_ids": [
+        111
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w112",
+      "start": 54.115,
+      "end": 54.34,
+      "match": "exact",
+      "source_word_ids": [
+        112
+      ]
+    },
+    {
+      "id": "w113",
+      "start": 54.34,
+      "end": 54.64,
+      "match": "exact",
+      "source_word_ids": [
+        113
+      ]
+    },
+    {
+      "id": "w114",
+      "start": 54.64,
+      "end": 55.02,
+      "match": "exact",
+      "source_word_ids": [
+        114
+      ]
+    },
+    {
+      "id": "w115",
+      "start": 55.02,
+      "end": 55.3,
+      "match": "exact",
+      "source_word_ids": [
+        115
+      ]
+    },
+    {
+      "id": "w116",
+      "start": 55.78,
+      "end": 56.28,
+      "match": "exact",
+      "source_word_ids": [
+        116
+      ]
+    },
+    {
+      "id": "w117",
+      "start": 56.28,
+      "end": 56.62,
+      "match": "exact",
+      "source_word_ids": [
+        117
+      ]
+    },
+    {
+      "id": "w118",
+      "start": 56.62,
+      "end": 56.94,
+      "match": "exact",
+      "source_word_ids": [
+        118
+      ]
+    },
+    {
+      "id": "w119",
+      "start": 56.94,
+      "end": 58,
+      "match": "exact",
+      "source_word_ids": [
+        119,
+        120
+      ]
+    },
+    {
+      "id": "w120",
+      "start": 58.135,
+      "end": 58.89,
+      "match": "exact",
+      "source_word_ids": [
+        121
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w121",
+      "start": 58.89,
+      "end": 59.16,
+      "match": "exact",
+      "source_word_ids": [
+        122
+      ]
+    },
+    {
+      "id": "w122",
+      "start": 59.16,
+      "end": 59.44,
+      "match": "exact",
+      "source_word_ids": [
+        123
+      ]
+    },
+    {
+      "id": "w123",
+      "start": 59.44,
+      "end": 60.1,
+      "match": "exact",
+      "source_word_ids": [
+        124
+      ]
+    },
+    {
+      "id": "w124",
+      "start": 60.585,
+      "end": 61.445,
+      "match": "exact",
+      "source_word_ids": [
+        125
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w125",
+      "start": 61.445,
+      "end": 61.58,
+      "match": "exact",
+      "source_word_ids": [
+        126
+      ]
+    },
+    {
+      "id": "w126",
+      "start": 61.58,
+      "end": 62.015,
+      "match": "exact",
+      "source_word_ids": [
+        127
+      ]
+    },
+    {
+      "id": "w127",
+      "start": 62.015,
+      "end": 62.565,
+      "match": "exact",
+      "source_word_ids": [
+        128
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w128",
+      "start": 62.96,
+      "end": 62.98,
+      "match": "exact",
+      "source_word_ids": [
+        129
+      ]
+    },
+    {
+      "id": "w129",
+      "start": 62.98,
+      "end": 63.2,
+      "match": "exact",
+      "source_word_ids": [
+        130
+      ]
+    },
+    {
+      "id": "w130",
+      "start": 63.2,
+      "end": 63.38,
+      "match": "exact",
+      "source_word_ids": [
+        131
+      ]
+    },
+    {
+      "id": "w131",
+      "start": 63.38,
+      "end": 63.62,
+      "match": "exact",
+      "source_word_ids": [
+        132
+      ]
+    },
+    {
+      "id": "w132",
+      "start": 63.62,
+      "end": 63.74,
+      "match": "exact",
+      "source_word_ids": [
+        133
+      ]
+    },
+    {
+      "id": "w133",
+      "start": 63.74,
+      "end": 64.18,
+      "match": "exact",
+      "source_word_ids": [
+        134
+      ]
+    },
+    {
+      "id": "w134",
+      "start": 64.18,
+      "end": 64.54,
+      "match": "exact",
+      "source_word_ids": [
+        135
+      ]
+    },
+    {
+      "id": "w135",
+      "start": 64.54,
+      "end": 64.98,
+      "match": "exact",
+      "source_word_ids": [
+        136
+      ]
+    },
+    {
+      "id": "w136",
+      "start": 65.18,
+      "end": 65.74,
+      "match": "exact",
+      "source_word_ids": [
+        137
+      ]
+    },
+    {
+      "id": "w137",
+      "start": 65.74,
+      "end": 65.9,
+      "match": "exact",
+      "source_word_ids": [
+        138
+      ]
+    },
+    {
+      "id": "w138",
+      "start": 65.9,
+      "end": 66.32,
+      "match": "exact",
+      "source_word_ids": [
+        139
+      ]
+    },
+    {
+      "id": "w139",
+      "start": 66.32,
+      "end": 66.74,
+      "match": "exact",
+      "source_word_ids": [
+        140
+      ]
+    },
+    {
+      "id": "w140",
+      "start": 66.74,
+      "end": 67.18,
+      "match": "exact",
+      "source_word_ids": [
+        141
+      ]
+    },
+    {
+      "id": "w141",
+      "start": 67.18,
+      "end": 67.7,
+      "match": "exact",
+      "source_word_ids": [
+        142
+      ]
+    },
+    {
+      "id": "w142",
+      "start": 68.02,
+      "end": 68.675,
+      "match": "exact",
+      "source_word_ids": [
+        143
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w143",
+      "start": 68.675,
+      "end": 68.9,
+      "match": "exact",
+      "source_word_ids": [
+        144
+      ]
+    },
+    {
+      "id": "w144",
+      "start": 68.9,
+      "end": 69.62,
+      "match": "exact",
+      "source_word_ids": [
+        145
+      ]
+    },
+    {
+      "id": "w145",
+      "start": 70.28,
+      "end": 70.42,
+      "match": "exact",
+      "source_word_ids": [
+        146
+      ]
+    },
+    {
+      "id": "w146",
+      "start": 70.42,
+      "end": 70.74,
+      "match": "exact",
+      "source_word_ids": [
+        147
+      ]
+    },
+    {
+      "id": "w147",
+      "start": 71.14,
+      "end": 71.36,
+      "match": "exact",
+      "source_word_ids": [
+        148
+      ]
+    },
+    {
+      "id": "w148",
+      "start": 71.36,
+      "end": 71.68,
+      "match": "exact",
+      "source_word_ids": [
+        149
+      ]
+    },
+    {
+      "id": "w149",
+      "start": 71.68,
+      "end": 72.2,
+      "match": "exact",
+      "source_word_ids": [
+        150
+      ]
+    },
+    {
+      "id": "w150",
+      "start": 72.2,
+      "end": 72.58,
+      "match": "exact",
+      "source_word_ids": [
+        151
+      ]
+    },
+    {
+      "id": "w151",
+      "start": 72.58,
+      "end": 72.9,
+      "match": "exact",
+      "source_word_ids": [
+        152
+      ]
+    },
+    {
+      "id": "w152",
+      "start": 72.9,
+      "end": 73.24,
+      "match": "exact",
+      "source_word_ids": [
+        153
+      ]
+    },
+    {
+      "id": "w153",
+      "start": 73.24,
+      "end": 73.52,
+      "match": "exact",
+      "source_word_ids": [
+        154
+      ]
+    },
+    {
+      "id": "w154",
+      "start": 74.22,
+      "end": 74.38,
+      "match": "exact",
+      "source_word_ids": [
+        155
+      ]
+    },
+    {
+      "id": "w155",
+      "start": 74.38,
+      "end": 74.68,
+      "match": "exact",
+      "source_word_ids": [
+        156
+      ]
+    },
+    {
+      "id": "w156",
+      "start": 74.68,
+      "end": 74.96,
+      "match": "exact",
+      "source_word_ids": [
+        157
+      ]
+    },
+    {
+      "id": "w157",
+      "start": 75.82,
+      "end": 76.02,
+      "match": "exact",
+      "source_word_ids": [
+        158
+      ]
+    },
+    {
+      "id": "w158",
+      "start": 76.02,
+      "end": 76.34,
+      "match": "exact",
+      "source_word_ids": [
+        159
+      ]
+    },
+    {
+      "id": "w159",
+      "start": 76.34,
+      "end": 77.12,
+      "match": "exact",
+      "source_word_ids": [
+        160
+      ]
+    },
+    {
+      "id": "w160",
+      "start": 77.12,
+      "end": 77.4,
+      "match": "exact",
+      "source_word_ids": [
+        161
+      ]
+    },
+    {
+      "id": "w161",
+      "start": 77.4,
+      "end": 77.76,
+      "match": "exact",
+      "source_word_ids": [
+        162
+      ]
+    },
+    {
+      "id": "w162",
+      "start": 77.76,
+      "end": 78.44,
+      "match": "exact",
+      "source_word_ids": [
+        163
+      ]
+    },
+    {
+      "id": "w163",
+      "start": 78.44,
+      "end": 79.18,
+      "match": "exact",
+      "source_word_ids": [
+        164
+      ]
+    },
+    {
+      "id": "w164",
+      "start": 79.8,
+      "end": 80.14,
+      "match": "exact",
+      "source_word_ids": [
+        165
+      ]
+    },
+    {
+      "id": "w165",
+      "start": 80.14,
+      "end": 80.54,
+      "match": "exact",
+      "source_word_ids": [
+        166
+      ]
+    },
+    {
+      "id": "w166",
+      "start": 80.54,
+      "end": 80.9,
+      "match": "exact",
+      "source_word_ids": [
+        167
+      ]
+    },
+    {
+      "id": "w167",
+      "start": 81.3,
+      "end": 81.6,
+      "match": "exact",
+      "source_word_ids": [
+        168
+      ]
+    },
+    {
+      "id": "w168",
+      "start": 81.6,
+      "end": 81.84,
+      "match": "exact",
+      "source_word_ids": [
+        169
+      ]
+    },
+    {
+      "id": "w169",
+      "start": 81.84,
+      "end": 82.26,
+      "match": "exact",
+      "source_word_ids": [
+        170
+      ]
+    },
+    {
+      "id": "w170",
+      "start": 82.26,
+      "end": 82.91,
+      "match": "exact",
+      "source_word_ids": [
+        171
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w171",
+      "start": 83.22,
+      "end": 83.62,
+      "match": "exact",
+      "source_word_ids": [
+        172
+      ]
+    },
+    {
+      "id": "w172",
+      "start": 83.62,
+      "end": 84.04,
+      "match": "exact",
+      "source_word_ids": [
+        173
+      ]
+    },
+    {
+      "id": "w173",
+      "start": 84.04,
+      "end": 84.2,
+      "match": "exact",
+      "source_word_ids": [
+        174
+      ]
+    },
+    {
+      "id": "w174",
+      "start": 84.2,
+      "end": 84.47,
+      "match": "exact",
+      "source_word_ids": [
+        175
+      ]
+    },
+    {
+      "id": "w175",
+      "start": 84.47,
+      "end": 84.635,
+      "match": "exact",
+      "source_word_ids": [
+        176
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w176",
+      "start": 84.635,
+      "end": 84.86,
+      "match": "exact",
+      "source_word_ids": [
+        177
+      ]
+    },
+    {
+      "id": "w177",
+      "start": 84.86,
+      "end": 85.08,
+      "match": "exact",
+      "source_word_ids": [
+        178
+      ]
+    },
+    {
+      "id": "w178",
+      "start": 85.08,
+      "end": 85.36,
+      "match": "exact",
+      "source_word_ids": [
+        179
+      ]
+    },
+    {
+      "id": "w179",
+      "start": 85.36,
+      "end": 85.66,
+      "match": "exact",
+      "source_word_ids": [
+        180
+      ]
+    },
+    {
+      "id": "w180",
+      "start": 85.66,
+      "end": 86.1,
+      "match": "exact",
+      "source_word_ids": [
+        181
+      ]
+    },
+    {
+      "id": "w181",
+      "start": 86.88,
+      "end": 87.1,
+      "match": "exact",
+      "source_word_ids": [
+        182
+      ]
+    },
+    {
+      "id": "w182",
+      "start": 87.1,
+      "end": 87.5,
+      "match": "exact",
+      "source_word_ids": [
+        183
+      ]
+    },
+    {
+      "id": "w183",
+      "start": 87.5,
+      "end": 87.8,
+      "match": "exact",
+      "source_word_ids": [
+        184
+      ]
+    },
+    {
+      "id": "w184",
+      "start": 87.8,
+      "end": 88.3,
+      "match": "exact",
+      "source_word_ids": [
+        185
+      ]
+    },
+    {
+      "id": "w185",
+      "start": 89,
+      "end": 89.12,
+      "match": "exact",
+      "source_word_ids": [
+        186
+      ]
+    },
+    {
+      "id": "w186",
+      "start": 89.12,
+      "end": 89.36,
+      "match": "exact",
+      "source_word_ids": [
+        187
+      ]
+    },
+    {
+      "id": "w187",
+      "start": 89.36,
+      "end": 89.68,
+      "match": "exact",
+      "source_word_ids": [
+        188
+      ]
+    },
+    {
+      "id": "w188",
+      "start": 89.68,
+      "end": 90.28,
+      "match": "exact",
+      "source_word_ids": [
+        189
+      ]
+    },
+    {
+      "id": "w189",
+      "start": 90.28,
+      "end": 90.52,
+      "match": "exact",
+      "source_word_ids": [
+        190
+      ]
+    },
+    {
+      "id": "w190",
+      "start": 90.98,
+      "end": 91.16,
+      "match": "exact",
+      "source_word_ids": [
+        191
+      ]
+    },
+    {
+      "id": "w191",
+      "start": 91.16,
+      "end": 91.46,
+      "match": "exact",
+      "source_word_ids": [
+        192
+      ]
+    },
+    {
+      "id": "w192",
+      "start": 91.46,
+      "end": 92.04,
+      "match": "exact",
+      "source_word_ids": [
+        193
+      ]
+    },
+    {
+      "id": "w193",
+      "start": 92.04,
+      "end": 92.38,
+      "match": "exact",
+      "source_word_ids": [
+        194
+      ]
+    },
+    {
+      "id": "w194",
+      "start": 92.38,
+      "end": 92.9,
+      "match": "exact",
+      "source_word_ids": [
+        195
+      ]
+    },
+    {
+      "id": "w195",
+      "start": 92.9,
+      "end": 93.46,
+      "match": "exact",
+      "source_word_ids": [
+        196
+      ]
+    },
+    {
+      "id": "w196",
+      "start": 94.2,
+      "end": 94.84,
+      "match": "exact",
+      "source_word_ids": [
+        197
+      ]
+    },
+    {
+      "id": "w197",
+      "start": 95.18,
+      "end": 95.42,
+      "match": "exact",
+      "source_word_ids": [
+        198
+      ]
+    },
+    {
+      "id": "w198",
+      "start": 95.42,
+      "end": 95.78,
+      "match": "exact",
+      "source_word_ids": [
+        199
+      ]
+    },
+    {
+      "id": "w199",
+      "start": 95.78,
+      "end": 95.98,
+      "match": "exact",
+      "source_word_ids": [
+        200
+      ]
+    },
+    {
+      "id": "w200",
+      "start": 95.98,
+      "end": 96.32,
+      "match": "exact",
+      "source_word_ids": [
+        201
+      ]
+    },
+    {
+      "id": "w201",
+      "start": 96.32,
+      "end": 96.54,
+      "match": "exact",
+      "source_word_ids": [
+        202
+      ]
+    },
+    {
+      "id": "w202",
+      "start": 96.54,
+      "end": 96.84,
+      "match": "exact",
+      "source_word_ids": [
+        203
+      ]
+    },
+    {
+      "id": "w203",
+      "start": 96.84,
+      "end": 97.18,
+      "match": "exact",
+      "source_word_ids": [
+        204
+      ]
+    },
+    {
+      "id": "w204",
+      "start": 97.36,
+      "end": 98,
+      "match": "exact",
+      "source_word_ids": [
+        205
+      ]
+    },
+    {
+      "id": "w205",
+      "start": 98,
+      "end": 98.3,
+      "match": "exact",
+      "source_word_ids": [
+        206
+      ]
+    },
+    {
+      "id": "w206",
+      "start": 98.3,
+      "end": 98.475,
+      "match": "exact",
+      "source_word_ids": [
+        207
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w207",
+      "start": 98.475,
+      "end": 98.7,
+      "match": "exact",
+      "source_word_ids": [
+        208
+      ]
+    },
+    {
+      "id": "w208",
+      "start": 98.7,
+      "end": 98.8,
+      "match": "exact",
+      "source_word_ids": [
+        209
+      ]
+    },
+    {
+      "id": "w209",
+      "start": 98.8,
+      "end": 99.16,
+      "match": "exact",
+      "source_word_ids": [
+        210
+      ]
+    },
+    {
+      "id": "w210",
+      "start": 99.16,
+      "end": 99.36,
+      "match": "exact",
+      "source_word_ids": [
+        211
+      ]
+    },
+    {
+      "id": "w211",
+      "start": 99.36,
+      "end": 99.66,
+      "match": "exact",
+      "source_word_ids": [
+        212
+      ]
+    },
+    {
+      "id": "w212",
+      "start": 99.66,
+      "end": 99.9,
+      "match": "exact",
+      "source_word_ids": [
+        213
+      ]
+    },
+    {
+      "id": "w213",
+      "start": 100.66,
+      "end": 100.76,
+      "match": "exact",
+      "source_word_ids": [
+        214
+      ]
+    },
+    {
+      "id": "w214",
+      "start": 100.76,
+      "end": 101.08,
+      "match": "exact",
+      "source_word_ids": [
+        215
+      ]
+    },
+    {
+      "id": "w215",
+      "start": 101.08,
+      "end": 101.54,
+      "match": "exact",
+      "source_word_ids": [
+        216
+      ]
+    },
+    {
+      "id": "w216",
+      "start": 101.54,
+      "end": 101.94,
+      "match": "exact",
+      "source_word_ids": [
+        217
+      ]
+    },
+    {
+      "id": "w217",
+      "start": 101.94,
+      "end": 102.32,
+      "match": "exact",
+      "source_word_ids": [
+        218
+      ]
+    },
+    {
+      "id": "w218",
+      "start": 102.94,
+      "end": 103.36,
+      "match": "exact",
+      "source_word_ids": [
+        219
+      ]
+    },
+    {
+      "id": "w219",
+      "start": 103.36,
+      "end": 103.6,
+      "match": "exact",
+      "source_word_ids": [
+        220
+      ]
+    },
+    {
+      "id": "w220",
+      "start": 104.5,
+      "end": 104.6,
+      "match": "exact",
+      "source_word_ids": [
+        221
+      ]
+    },
+    {
+      "id": "w221",
+      "start": 104.6,
+      "end": 104.74,
+      "match": "exact",
+      "source_word_ids": [
+        222
+      ]
+    },
+    {
+      "id": "w222",
+      "start": 104.74,
+      "end": 104.96,
+      "match": "exact",
+      "source_word_ids": [
+        223
+      ]
+    },
+    {
+      "id": "w223",
+      "start": 104.96,
+      "end": 105.22,
+      "match": "exact",
+      "source_word_ids": [
+        224
+      ]
+    },
+    {
+      "id": "w224",
+      "start": 106.12,
+      "end": 106.58,
+      "match": "exact",
+      "source_word_ids": [
+        225
+      ]
+    },
+    {
+      "id": "w225",
+      "start": 106.58,
+      "end": 106.94,
+      "match": "exact",
+      "source_word_ids": [
+        226
+      ]
+    },
+    {
+      "id": "w226",
+      "start": 106.94,
+      "end": 107.46,
+      "match": "exact",
+      "source_word_ids": [
+        227
+      ]
+    },
+    {
+      "id": "w227",
+      "start": 107.46,
+      "end": 107.68,
+      "match": "exact",
+      "source_word_ids": [
+        228
+      ]
+    },
+    {
+      "id": "w228",
+      "start": 107.68,
+      "end": 107.8,
+      "match": "exact",
+      "source_word_ids": [
+        229
+      ]
+    },
+    {
+      "id": "w229",
+      "start": 107.8,
+      "end": 108.12,
+      "match": "exact",
+      "source_word_ids": [
+        230
+      ]
+    },
+    {
+      "id": "w230",
+      "start": 108.12,
+      "end": 108.3,
+      "match": "exact",
+      "source_word_ids": [
+        231
+      ]
+    },
+    {
+      "id": "w231",
+      "start": 108.3,
+      "end": 108.7,
+      "match": "exact",
+      "source_word_ids": [
+        232
+      ]
+    },
+    {
+      "id": "w232",
+      "start": 109.26,
+      "end": 109.9,
+      "match": "exact",
+      "source_word_ids": [
+        233
+      ]
+    },
+    {
+      "id": "w233",
+      "start": 109.9,
+      "end": 110.14,
+      "match": "exact",
+      "source_word_ids": [
+        234
+      ]
+    },
+    {
+      "id": "w234",
+      "start": 110.14,
+      "end": 110.28,
+      "match": "exact",
+      "source_word_ids": [
+        235
+      ]
+    },
+    {
+      "id": "w235",
+      "start": 110.28,
+      "end": 110.54,
+      "match": "exact",
+      "source_word_ids": [
+        236
+      ]
+    },
+    {
+      "id": "w236",
+      "start": 110.54,
+      "end": 110.82,
+      "match": "exact",
+      "source_word_ids": [
+        237
+      ]
+    },
+    {
+      "id": "w237",
+      "start": 110.82,
+      "end": 111.18,
+      "match": "exact",
+      "source_word_ids": [
+        238
+      ]
+    },
+    {
+      "id": "w238",
+      "start": 111.18,
+      "end": 111.46,
+      "match": "exact",
+      "source_word_ids": [
+        239
+      ]
+    },
+    {
+      "id": "w239",
+      "start": 111.46,
+      "end": 111.68,
+      "match": "exact",
+      "source_word_ids": [
+        240
+      ]
+    },
+    {
+      "id": "w240",
+      "start": 111.68,
+      "end": 112.02,
+      "match": "exact",
+      "source_word_ids": [
+        241
+      ]
+    },
+    {
+      "id": "w241",
+      "start": 112.02,
+      "end": 112.88,
+      "match": "exact",
+      "source_word_ids": [
+        242
+      ]
+    },
+    {
+      "id": "w242",
+      "start": 112.88,
+      "end": 113.4,
+      "match": "exact",
+      "source_word_ids": [
+        243
+      ]
+    },
+    {
+      "id": "w243",
+      "start": 113.4,
+      "end": 113.76,
+      "match": "exact",
+      "source_word_ids": [
+        244
+      ]
+    },
+    {
+      "id": "w244",
+      "start": 113.76,
+      "end": 114,
+      "match": "exact",
+      "source_word_ids": [
+        245
+      ]
+    },
+    {
+      "id": "w245",
+      "start": 114,
+      "end": 114.54,
+      "match": "exact",
+      "source_word_ids": [
+        246
+      ]
+    },
+    {
+      "id": "w246",
+      "start": 114.785,
+      "end": 115.43,
+      "match": "exact",
+      "source_word_ids": [
+        247
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w247",
+      "start": 115.43,
+      "end": 115.82,
+      "match": "exact",
+      "source_word_ids": [
+        248
+      ]
+    },
+    {
+      "id": "w248",
+      "start": 115.98,
+      "end": 116.48,
+      "match": "exact",
+      "source_word_ids": [
+        249
+      ]
+    },
+    {
+      "id": "w249",
+      "start": 116.48,
+      "end": 116.94,
+      "match": "exact",
+      "source_word_ids": [
+        250
+      ]
+    },
+    {
+      "id": "w250",
+      "start": 116.94,
+      "end": 117.5,
+      "match": "exact",
+      "source_word_ids": [
+        251
+      ]
+    },
+    {
+      "id": "w251",
+      "start": 117.5,
+      "end": 117.86,
+      "match": "exact",
+      "source_word_ids": [
+        252
+      ]
+    },
+    {
+      "id": "w252",
+      "start": 117.86,
+      "end": 118.32,
+      "match": "exact",
+      "source_word_ids": [
+        253
+      ]
+    },
+    {
+      "id": "w253",
+      "start": 119.18,
+      "end": 119.28,
+      "match": "exact",
+      "source_word_ids": [
+        254
+      ]
+    },
+    {
+      "id": "w254",
+      "start": 119.28,
+      "end": 119.72,
+      "match": "exact",
+      "source_word_ids": [
+        255
+      ]
+    },
+    {
+      "id": "w255",
+      "start": 120.46,
+      "end": 120.48,
+      "match": "exact",
+      "source_word_ids": [
+        256
+      ]
+    },
+    {
+      "id": "w256",
+      "start": 120.48,
+      "end": 120.8,
+      "match": "exact",
+      "source_word_ids": [
+        257
+      ]
+    },
+    {
+      "id": "w257",
+      "start": 120.8,
+      "end": 121.02,
+      "match": "exact",
+      "source_word_ids": [
+        258
+      ]
+    },
+    {
+      "id": "w258",
+      "start": 121.02,
+      "end": 121.26,
+      "match": "exact",
+      "source_word_ids": [
+        259
+      ]
+    },
+    {
+      "id": "w259",
+      "start": 121.26,
+      "end": 121.78,
+      "match": "exact",
+      "source_word_ids": [
+        260
+      ]
+    },
+    {
+      "id": "w260",
+      "start": 121.78,
+      "end": 122.2,
+      "match": "exact",
+      "source_word_ids": [
+        261
+      ]
+    },
+    {
+      "id": "w261",
+      "start": 122.84,
+      "end": 122.96,
+      "match": "exact",
+      "source_word_ids": [
+        262
+      ]
+    },
+    {
+      "id": "w262",
+      "start": 122.96,
+      "end": 123.56,
+      "match": "exact",
+      "source_word_ids": [
+        263
+      ]
+    },
+    {
+      "id": "w263",
+      "start": 123.56,
+      "end": 124.2,
+      "match": "exact",
+      "source_word_ids": [
+        264
+      ]
+    },
+    {
+      "id": "w264",
+      "start": 124.2,
+      "end": 124.5,
+      "match": "exact",
+      "source_word_ids": [
+        265
+      ]
+    },
+    {
+      "id": "w265",
+      "start": 124.5,
+      "end": 124.98,
+      "match": "exact",
+      "source_word_ids": [
+        266
+      ]
+    },
+    {
+      "id": "w266",
+      "start": 124.98,
+      "end": 125.38,
+      "match": "exact",
+      "source_word_ids": [
+        267
+      ]
+    },
+    {
+      "id": "w267",
+      "start": 125.38,
+      "end": 125.92,
+      "match": "exact",
+      "source_word_ids": [
+        268
+      ]
+    },
+    {
+      "id": "w268",
+      "start": 125.92,
+      "end": 126,
+      "match": "exact",
+      "source_word_ids": [
+        269
+      ]
+    },
+    {
+      "id": "w269",
+      "start": 126,
+      "end": 126.14,
+      "match": "exact",
+      "source_word_ids": [
+        270
+      ]
+    },
+    {
+      "id": "w270",
+      "start": 126.14,
+      "end": 126.4,
+      "match": "exact",
+      "source_word_ids": [
+        271
+      ]
+    },
+    {
+      "id": "w271",
+      "start": 126.4,
+      "end": 127.14,
+      "match": "exact",
+      "source_word_ids": [
+        272
+      ]
+    },
+    {
+      "id": "w272",
+      "start": 127.14,
+      "end": 127.66,
+      "match": "exact",
+      "source_word_ids": [
+        273
+      ]
+    },
+    {
+      "id": "w273",
+      "start": 128,
+      "end": 129.06,
+      "match": "exact",
+      "source_word_ids": [
+        274
+      ]
+    },
+    {
+      "id": "w274",
+      "start": 129.62,
+      "end": 129.72,
+      "match": "exact",
+      "source_word_ids": [
+        275
+      ]
+    },
+    {
+      "id": "w275",
+      "start": 129.72,
+      "end": 129.94,
+      "match": "exact",
+      "source_word_ids": [
+        276
+      ]
+    },
+    {
+      "id": "w276",
+      "start": 129.94,
+      "end": 130.04,
+      "match": "exact",
+      "source_word_ids": [
+        277
+      ]
+    },
+    {
+      "id": "w277",
+      "start": 130.04,
+      "end": 130.85,
+      "match": "exact",
+      "source_word_ids": [
+        278
+      ]
+    },
+    {
+      "id": "w278",
+      "start": 130.85,
+      "end": 131.38,
+      "match": "exact",
+      "source_word_ids": [
+        279
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w279",
+      "start": 131.46,
+      "end": 131.82,
+      "match": "exact",
+      "source_word_ids": [
+        280
+      ]
+    },
+    {
+      "id": "w280",
+      "start": 131.82,
+      "end": 132.32,
+      "match": "exact",
+      "source_word_ids": [
+        281
+      ]
+    },
+    {
+      "id": "w281",
+      "start": 132.88,
+      "end": 133.315,
+      "match": "exact",
+      "source_word_ids": [
+        282
+      ]
+    },
+    {
+      "id": "w282",
+      "start": 133.315,
+      "end": 133.945,
+      "match": "exact",
+      "source_word_ids": [
+        283
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w283",
+      "start": 134.38,
+      "end": 134.48,
+      "match": "exact",
+      "source_word_ids": [
+        284
+      ]
+    },
+    {
+      "id": "w284",
+      "start": 134.48,
+      "end": 134.66,
+      "match": "exact",
+      "source_word_ids": [
+        285
+      ]
+    },
+    {
+      "id": "w285",
+      "start": 134.66,
+      "end": 134.86,
+      "match": "exact",
+      "source_word_ids": [
+        286
+      ]
+    },
+    {
+      "id": "w286",
+      "start": 134.86,
+      "end": 135.18,
+      "match": "exact",
+      "source_word_ids": [
+        287
+      ]
+    },
+    {
+      "id": "w287",
+      "start": 135.18,
+      "end": 135.4,
+      "match": "exact",
+      "source_word_ids": [
+        288
+      ]
+    },
+    {
+      "id": "w288",
+      "start": 135.62,
+      "end": 135.8,
+      "match": "exact",
+      "source_word_ids": [
+        289
+      ]
+    },
+    {
+      "id": "w289",
+      "start": 135.8,
+      "end": 136.08,
+      "match": "exact",
+      "source_word_ids": [
+        290
+      ]
+    },
+    {
+      "id": "w290",
+      "start": 136.08,
+      "end": 136.38,
+      "match": "exact",
+      "source_word_ids": [
+        291
+      ]
+    },
+    {
+      "id": "w291",
+      "start": 136.38,
+      "end": 136.72,
+      "match": "exact",
+      "source_word_ids": [
+        292
+      ]
+    },
+    {
+      "id": "w292",
+      "start": 136.72,
+      "end": 137.1,
+      "match": "exact",
+      "source_word_ids": [
+        293
+      ]
+    },
+    {
+      "id": "w293",
+      "start": 138.18,
+      "end": 138.28,
+      "match": "exact",
+      "source_word_ids": [
+        294
+      ]
+    },
+    {
+      "id": "w294",
+      "start": 138.28,
+      "end": 138.52,
+      "match": "exact",
+      "source_word_ids": [
+        295
+      ]
+    },
+    {
+      "id": "w295",
+      "start": 138.52,
+      "end": 138.86,
+      "match": "exact",
+      "source_word_ids": [
+        296
+      ]
+    },
+    {
+      "id": "w296",
+      "start": 138.86,
+      "end": 139.28,
+      "match": "exact",
+      "source_word_ids": [
+        297
+      ]
+    },
+    {
+      "id": "w297",
+      "start": 139.28,
+      "end": 139.58,
+      "match": "exact",
+      "source_word_ids": [
+        298
+      ]
+    },
+    {
+      "id": "w298",
+      "start": 139.58,
+      "end": 139.86,
+      "match": "exact",
+      "source_word_ids": [
+        299
+      ]
+    },
+    {
+      "id": "w299",
+      "start": 140.84,
+      "end": 141.22,
+      "match": "exact",
+      "source_word_ids": [
+        300
+      ]
+    },
+    {
+      "id": "w300",
+      "start": 141.22,
+      "end": 141.6,
+      "match": "exact",
+      "source_word_ids": [
+        301
+      ]
+    },
+    {
+      "id": "w301",
+      "start": 141.6,
+      "end": 142.28,
+      "match": "exact",
+      "source_word_ids": [
+        302
+      ]
+    },
+    {
+      "id": "w302",
+      "start": 142.28,
+      "end": 142.54,
+      "match": "exact",
+      "source_word_ids": [
+        303
+      ]
+    },
+    {
+      "id": "w303",
+      "start": 142.54,
+      "end": 142.88,
+      "match": "exact",
+      "source_word_ids": [
+        304
+      ]
+    },
+    {
+      "id": "w304",
+      "start": 142.88,
+      "end": 143.14,
+      "match": "exact",
+      "source_word_ids": [
+        305
+      ]
+    },
+    {
+      "id": "w305",
+      "start": 143.14,
+      "end": 143.44,
+      "match": "exact",
+      "source_word_ids": [
+        306
+      ]
+    },
+    {
+      "id": "w306",
+      "start": 144.38,
+      "end": 144.68,
+      "match": "exact",
+      "source_word_ids": [
+        307
+      ]
+    },
+    {
+      "id": "w307",
+      "start": 144.68,
+      "end": 145.16,
+      "match": "exact",
+      "source_word_ids": [
+        308
+      ]
+    },
+    {
+      "id": "w308",
+      "start": 145.16,
+      "end": 145.44,
+      "match": "exact",
+      "source_word_ids": [
+        309
+      ]
+    },
+    {
+      "id": "w309",
+      "start": 145.44,
+      "end": 145.96,
+      "match": "exact",
+      "source_word_ids": [
+        310
+      ]
+    },
+    {
+      "id": "w310",
+      "start": 146.14,
+      "end": 146.36,
+      "match": "exact",
+      "source_word_ids": [
+        311
+      ]
+    },
+    {
+      "id": "w311",
+      "start": 146.36,
+      "end": 146.46,
+      "match": "exact",
+      "source_word_ids": [
+        312
+      ]
+    },
+    {
+      "id": "w312",
+      "start": 146.46,
+      "end": 146.72,
+      "match": "exact",
+      "source_word_ids": [
+        313
+      ]
+    },
+    {
+      "id": "w313",
+      "start": 146.72,
+      "end": 146.86,
+      "match": "exact",
+      "source_word_ids": [
+        314
+      ]
+    },
+    {
+      "id": "w314",
+      "start": 146.86,
+      "end": 147.24,
+      "match": "exact",
+      "source_word_ids": [
+        315
+      ]
+    },
+    {
+      "id": "w315",
+      "start": 148.44,
+      "end": 148.52,
+      "match": "exact",
+      "source_word_ids": [
+        316
+      ]
+    },
+    {
+      "id": "w316",
+      "start": 148.52,
+      "end": 148.86,
+      "match": "exact",
+      "source_word_ids": [
+        317
+      ]
+    },
+    {
+      "id": "w317",
+      "start": 148.86,
+      "end": 149.1,
+      "match": "exact",
+      "source_word_ids": [
+        318
+      ]
+    },
+    {
+      "id": "w318",
+      "start": 149.1,
+      "end": 149.44,
+      "match": "exact",
+      "source_word_ids": [
+        319
+      ]
+    },
+    {
+      "id": "w319",
+      "start": 149.44,
+      "end": 149.8,
+      "match": "exact",
+      "source_word_ids": [
+        320
+      ]
+    },
+    {
+      "id": "w320",
+      "start": 150.36,
+      "end": 150.6,
+      "match": "exact",
+      "source_word_ids": [
+        321
+      ]
+    },
+    {
+      "id": "w321",
+      "start": 150.6,
+      "end": 151.08,
+      "match": "exact",
+      "source_word_ids": [
+        322
+      ]
+    },
+    {
+      "id": "w322",
+      "start": 151.08,
+      "end": 151.6,
+      "match": "exact",
+      "source_word_ids": [
+        323
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w323",
+      "start": 151.84,
+      "end": 152.08,
+      "match": "exact",
+      "source_word_ids": [
+        324
+      ]
+    },
+    {
+      "id": "w324",
+      "start": 152.08,
+      "end": 152.46,
+      "match": "exact",
+      "source_word_ids": [
+        325
+      ]
+    },
+    {
+      "id": "w325",
+      "start": 152.46,
+      "end": 152.8,
+      "match": "exact",
+      "source_word_ids": [
+        326
+      ]
+    },
+    {
+      "id": "w326",
+      "start": 153.68,
+      "end": 154.02,
+      "match": "exact",
+      "source_word_ids": [
+        327
+      ]
+    },
+    {
+      "id": "w327",
+      "start": 154.02,
+      "end": 154.12,
+      "match": "exact",
+      "source_word_ids": [
+        328
+      ]
+    },
+    {
+      "id": "w328",
+      "start": 154.12,
+      "end": 154.24,
+      "match": "exact",
+      "source_word_ids": [
+        329
+      ]
+    },
+    {
+      "id": "w329",
+      "start": 154.24,
+      "end": 154.44,
+      "match": "exact",
+      "source_word_ids": [
+        330
+      ]
+    },
+    {
+      "id": "w330",
+      "start": 155,
+      "end": 155.4,
+      "match": "exact",
+      "source_word_ids": [
+        331
+      ]
+    },
+    {
+      "id": "w331",
+      "start": 155.4,
+      "end": 155.66,
+      "match": "exact",
+      "source_word_ids": [
+        332
+      ]
+    },
+    {
+      "id": "w332",
+      "start": 155.66,
+      "end": 155.94,
+      "match": "exact",
+      "source_word_ids": [
+        333
+      ]
+    },
+    {
+      "id": "w333",
+      "start": 155.94,
+      "end": 156.46,
+      "match": "exact",
+      "source_word_ids": [
+        334
+      ]
+    },
+    {
+      "id": "w334",
+      "start": 157.24,
+      "end": 157.52,
+      "match": "exact",
+      "source_word_ids": [
+        335
+      ]
+    },
+    {
+      "id": "w335",
+      "start": 157.52,
+      "end": 157.92,
+      "match": "exact",
+      "source_word_ids": [
+        336
+      ]
+    },
+    {
+      "id": "w336",
+      "start": 158.58,
+      "end": 158.72,
+      "match": "exact",
+      "source_word_ids": [
+        337
+      ]
+    },
+    {
+      "id": "w337",
+      "start": 158.72,
+      "end": 159,
+      "match": "exact",
+      "source_word_ids": [
+        338
+      ]
+    },
+    {
+      "id": "w338",
+      "start": 159,
+      "end": 159.44,
+      "match": "exact",
+      "source_word_ids": [
+        339
+      ]
+    },
+    {
+      "id": "w339",
+      "start": 159.44,
+      "end": 159.98,
+      "match": "exact",
+      "source_word_ids": [
+        340
+      ]
+    },
+    {
+      "id": "w340",
+      "start": 159.98,
+      "end": 160.38,
+      "match": "exact",
+      "source_word_ids": [
+        341
+      ]
+    },
+    {
+      "id": "w341",
+      "start": 160.38,
+      "end": 160.62,
+      "match": "exact",
+      "source_word_ids": [
+        342
+      ]
+    },
+    {
+      "id": "w342",
+      "start": 160.62,
+      "end": 160.8,
+      "match": "exact",
+      "source_word_ids": [
+        343
+      ]
+    },
+    {
+      "id": "w343",
+      "start": 160.8,
+      "end": 161.04,
+      "match": "exact",
+      "source_word_ids": [
+        344
+      ]
+    },
+    {
+      "id": "w344",
+      "start": 161.04,
+      "end": 161.64,
+      "match": "exact",
+      "source_word_ids": [
+        345
+      ]
+    },
+    {
+      "id": "w345",
+      "start": 161.94,
+      "end": 162.63,
+      "match": "exact",
+      "source_word_ids": [
+        346
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w346",
+      "start": 162.63,
+      "end": 162.9,
+      "match": "exact",
+      "source_word_ids": [
+        347
+      ]
+    },
+    {
+      "id": "w347",
+      "start": 163.74,
+      "end": 164.14,
+      "match": "exact",
+      "source_word_ids": [
+        348
+      ]
+    },
+    {
+      "id": "w348",
+      "start": 164.14,
+      "end": 164.32,
+      "match": "exact",
+      "source_word_ids": [
+        349
+      ]
+    },
+    {
+      "id": "w349",
+      "start": 164.32,
+      "end": 164.605,
+      "match": "exact",
+      "source_word_ids": [
+        350
+      ]
+    },
+    {
+      "id": "w350",
+      "start": 164.605,
+      "end": 164.865,
+      "match": "exact",
+      "source_word_ids": [
+        351
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w351",
+      "start": 164.865,
+      "end": 165.236,
+      "match": "exact",
+      "source_word_ids": [
+        352
+      ]
+    },
+    {
+      "id": "w352",
+      "start": 165.236,
+      "end": 165.49,
+      "match": "exact",
+      "source_word_ids": [
+        353
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w353",
+      "start": 165.49,
+      "end": 165.783,
+      "match": "exact",
+      "source_word_ids": [
+        354
+      ]
+    },
+    {
+      "id": "w354",
+      "start": 165.783,
+      "end": 165.94,
+      "match": "exact",
+      "source_word_ids": [
+        355
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w355",
+      "start": 165.94,
+      "end": 166.12,
+      "match": "exact",
+      "source_word_ids": [
+        356
+      ]
+    },
+    {
+      "id": "w356",
+      "start": 166.12,
+      "end": 166.52,
+      "match": "exact",
+      "source_word_ids": [
+        357
+      ]
+    },
+    {
+      "id": "w357",
+      "start": 167.58,
+      "end": 167.66,
+      "match": "exact",
+      "source_word_ids": [
+        358
+      ]
+    },
+    {
+      "id": "w358",
+      "start": 167.66,
+      "end": 168.1,
+      "match": "exact",
+      "source_word_ids": [
+        359
+      ]
+    },
+    {
+      "id": "w359",
+      "start": 168.1,
+      "end": 168.28,
+      "match": "exact",
+      "source_word_ids": [
+        360
+      ]
+    },
+    {
+      "id": "w360",
+      "start": 168.28,
+      "end": 168.655,
+      "match": "exact",
+      "source_word_ids": [
+        361
+      ]
+    },
+    {
+      "id": "w361",
+      "start": 168.655,
+      "end": 169.235,
+      "match": "exact",
+      "source_word_ids": [
+        362
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w362",
+      "start": 169.62,
+      "end": 169.76,
+      "match": "exact",
+      "source_word_ids": [
+        363
+      ]
+    },
+    {
+      "id": "w363",
+      "start": 169.76,
+      "end": 170.1,
+      "match": "exact",
+      "source_word_ids": [
+        364
+      ]
+    },
+    {
+      "id": "w364",
+      "start": 170.1,
+      "end": 170.5,
+      "match": "exact",
+      "source_word_ids": [
+        365
+      ]
+    },
+    {
+      "id": "w365",
+      "start": 170.5,
+      "end": 170.965,
+      "match": "exact",
+      "source_word_ids": [
+        366
+      ]
+    },
+    {
+      "id": "w366",
+      "start": 170.965,
+      "end": 171.56,
+      "match": "exact",
+      "source_word_ids": [
+        367
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w367",
+      "start": 171.6,
+      "end": 172.2,
+      "match": "exact",
+      "source_word_ids": [
+        368
+      ]
+    },
+    {
+      "id": "w368",
+      "start": 172.2,
+      "end": 172.585,
+      "match": "exact",
+      "source_word_ids": [
+        369
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w369",
+      "start": 172.585,
+      "end": 173.06,
+      "match": "exact",
+      "source_word_ids": [
+        370
+      ]
+    },
+    {
+      "id": "w370",
+      "start": 173.06,
+      "end": 173.54,
+      "match": "exact",
+      "source_word_ids": [
+        371
+      ]
+    },
+    {
+      "id": "w371",
+      "start": 173.54,
+      "end": 174.37,
+      "match": "exact",
+      "source_word_ids": [
+        372
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w372",
+      "start": 174.84,
+      "end": 175.24,
+      "match": "exact",
+      "source_word_ids": [
+        373
+      ]
+    },
+    {
+      "id": "w373",
+      "start": 175.24,
+      "end": 175.54,
+      "match": "exact",
+      "source_word_ids": [
+        374
+      ]
+    },
+    {
+      "id": "w374",
+      "start": 175.54,
+      "end": 175.8,
+      "match": "exact",
+      "source_word_ids": [
+        375
+      ]
+    },
+    {
+      "id": "w375",
+      "start": 175.8,
+      "end": 176.085,
+      "match": "exact",
+      "source_word_ids": [
+        376
+      ]
+    },
+    {
+      "id": "w376",
+      "start": 176.085,
+      "end": 176.45,
+      "match": "exact",
+      "source_word_ids": [
+        377
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w377",
+      "start": 176.45,
+      "end": 177.04,
+      "match": "exact",
+      "source_word_ids": [
+        378
+      ]
+    },
+    {
+      "id": "w378",
+      "start": 177.04,
+      "end": 177.6,
+      "match": "exact",
+      "source_word_ids": [
+        379
+      ]
+    },
+    {
+      "id": "w379",
+      "start": 177.6,
+      "end": 177.64,
+      "match": "exact",
+      "source_word_ids": [
+        380
+      ]
+    },
+    {
+      "id": "w380",
+      "start": 177.64,
+      "end": 178.26,
+      "match": "exact",
+      "source_word_ids": [
+        381
+      ]
+    },
+    {
+      "id": "w381",
+      "start": 178.26,
+      "end": 178.78,
+      "match": "exact",
+      "source_word_ids": [
+        382
+      ]
+    },
+    {
+      "id": "w382",
+      "start": 178.78,
+      "end": 179.2,
+      "match": "exact",
+      "source_word_ids": [
+        383
+      ]
+    },
+    {
+      "id": "w383",
+      "start": 179.32,
+      "end": 179.58,
+      "match": "exact",
+      "source_word_ids": [
+        384
+      ]
+    },
+    {
+      "id": "w384",
+      "start": 179.58,
+      "end": 179.98,
+      "match": "exact",
+      "source_word_ids": [
+        385
+      ]
+    },
+    {
+      "id": "w385",
+      "start": 180.44,
+      "end": 180.88,
+      "match": "exact",
+      "source_word_ids": [
+        386
+      ]
+    },
+    {
+      "id": "w386",
+      "start": 180.88,
+      "end": 181.42,
+      "match": "exact",
+      "source_word_ids": [
+        387
+      ]
+    },
+    {
+      "id": "w387",
+      "start": 181.42,
+      "end": 181.72,
+      "match": "exact",
+      "source_word_ids": [
+        388
+      ]
+    },
+    {
+      "id": "w388",
+      "start": 181.96,
+      "end": 182.22,
+      "match": "exact",
+      "source_word_ids": [
+        389
+      ]
+    },
+    {
+      "id": "w389",
+      "start": 182.22,
+      "end": 182.46,
+      "match": "exact",
+      "source_word_ids": [
+        390
+      ]
+    },
+    {
+      "id": "w390",
+      "start": 182.46,
+      "end": 182.9,
+      "match": "exact",
+      "source_word_ids": [
+        391
+      ]
+    },
+    {
+      "id": "w391",
+      "start": 182.9,
+      "end": 183.22,
+      "match": "exact",
+      "source_word_ids": [
+        392
+      ]
+    },
+    {
+      "id": "w392",
+      "start": 183.22,
+      "end": 183.58,
+      "match": "exact",
+      "source_word_ids": [
+        393
+      ]
+    },
+    {
+      "id": "w393",
+      "start": 183.58,
+      "end": 184.08,
+      "match": "exact",
+      "source_word_ids": [
+        394
+      ]
+    },
+    {
+      "id": "w394",
+      "start": 184.08,
+      "end": 184.62,
+      "match": "exact",
+      "source_word_ids": [
+        395
+      ]
+    },
+    {
+      "id": "w395",
+      "start": 184.62,
+      "end": 185.36,
+      "match": "exact",
+      "source_word_ids": [
+        396
+      ]
+    },
+    {
+      "id": "w396",
+      "start": 185.36,
+      "end": 185.56,
+      "match": "exact",
+      "source_word_ids": [
+        397
+      ]
+    },
+    {
+      "id": "w397",
+      "start": 185.56,
+      "end": 185.9,
+      "match": "exact",
+      "source_word_ids": [
+        398
+      ]
+    },
+    {
+      "id": "w398",
+      "start": 185.9,
+      "end": 186.62,
+      "match": "exact",
+      "source_word_ids": [
+        399
+      ]
+    },
+    {
+      "id": "w399",
+      "start": 186.62,
+      "end": 186.945,
+      "match": "exact",
+      "source_word_ids": [
+        400
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w400",
+      "start": 186.945,
+      "end": 187.2,
+      "match": "exact",
+      "source_word_ids": [
+        401
+      ]
+    },
+    {
+      "id": "w401",
+      "start": 188.1,
+      "end": 188.16,
+      "match": "exact",
+      "source_word_ids": [
+        402
+      ]
+    },
+    {
+      "id": "w402",
+      "start": 188.16,
+      "end": 188.34,
+      "match": "exact",
+      "source_word_ids": [
+        403
+      ]
+    },
+    {
+      "id": "w403",
+      "start": 188.34,
+      "end": 188.86,
+      "match": "exact",
+      "source_word_ids": [
+        404
+      ]
+    },
+    {
+      "id": "w404",
+      "start": 188.86,
+      "end": 189.2,
+      "match": "exact",
+      "source_word_ids": [
+        405
+      ]
+    },
+    {
+      "id": "w405",
+      "start": 189.2,
+      "end": 189.44,
+      "match": "exact",
+      "source_word_ids": [
+        406
+      ]
+    },
+    {
+      "id": "w406",
+      "start": 189.44,
+      "end": 189.8,
+      "match": "exact",
+      "source_word_ids": [
+        407
+      ]
+    },
+    {
+      "id": "w407",
+      "start": 189.8,
+      "end": 190.36,
+      "match": "exact",
+      "source_word_ids": [
+        408
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w408",
+      "start": 190.66,
+      "end": 190.94,
+      "match": "exact",
+      "source_word_ids": [
+        409
+      ]
+    },
+    {
+      "id": "w409",
+      "start": 190.94,
+      "end": 191.08,
+      "match": "exact",
+      "source_word_ids": [
+        410
+      ]
+    },
+    {
+      "id": "w410",
+      "start": 191.08,
+      "end": 191.42,
+      "match": "exact",
+      "source_word_ids": [
+        411
+      ]
+    },
+    {
+      "id": "w411",
+      "start": 191.42,
+      "end": 191.72,
+      "match": "exact",
+      "source_word_ids": [
+        412
+      ]
+    },
+    {
+      "id": "w412",
+      "start": 192.2,
+      "end": 192.34,
+      "match": "exact",
+      "source_word_ids": [
+        413
+      ]
+    },
+    {
+      "id": "w413",
+      "start": 192.34,
+      "end": 192.64,
+      "match": "exact",
+      "source_word_ids": [
+        414
+      ]
+    },
+    {
+      "id": "w414",
+      "start": 192.64,
+      "end": 192.94,
+      "match": "exact",
+      "source_word_ids": [
+        415
+      ]
+    },
+    {
+      "id": "w415",
+      "start": 192.94,
+      "end": 193.51,
+      "match": "exact",
+      "source_word_ids": [
+        416
+      ]
+    },
+    {
+      "id": "w416",
+      "start": 193.51,
+      "end": 194.035,
+      "match": "exact",
+      "source_word_ids": [
+        417
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w417",
+      "start": 194.3,
+      "end": 194.44,
+      "match": "exact",
+      "source_word_ids": [
+        418
+      ]
+    },
+    {
+      "id": "w418",
+      "start": 194.44,
+      "end": 194.66,
+      "match": "exact",
+      "source_word_ids": [
+        419
+      ]
+    },
+    {
+      "id": "w419",
+      "start": 194.66,
+      "end": 195,
+      "match": "exact",
+      "source_word_ids": [
+        420
+      ]
+    },
+    {
+      "id": "w420",
+      "start": 195,
+      "end": 195.26,
+      "match": "exact",
+      "source_word_ids": [
+        421
+      ]
+    },
+    {
+      "id": "w421",
+      "start": 195.26,
+      "end": 195.5,
+      "match": "fuzzy",
+      "source_word_ids": [
+        422
+      ]
+    },
+    {
+      "id": "w422",
+      "start": 195.5,
+      "end": 195.8,
+      "match": "exact",
+      "source_word_ids": [
+        423
+      ]
+    },
+    {
+      "id": "w423",
+      "start": 196.36,
+      "end": 197.04,
+      "match": "exact",
+      "source_word_ids": [
+        424
+      ]
+    },
+    {
+      "id": "w424",
+      "start": 197.04,
+      "end": 197.72,
+      "match": "exact",
+      "source_word_ids": [
+        425
+      ]
+    },
+    {
+      "id": "w425",
+      "start": 197.76,
+      "end": 198.24,
+      "match": "exact",
+      "source_word_ids": [
+        427
+      ]
+    },
+    {
+      "id": "w426",
+      "start": 199.16,
+      "end": 199.42,
+      "match": "exact",
+      "source_word_ids": [
+        428
+      ]
+    },
+    {
+      "id": "w427",
+      "start": 199.42,
+      "end": 199.58,
+      "match": "exact",
+      "source_word_ids": [
+        429
+      ]
+    },
+    {
+      "id": "w428",
+      "start": 199.58,
+      "end": 199.76,
+      "match": "exact",
+      "source_word_ids": [
+        430
+      ]
+    },
+    {
+      "id": "w429",
+      "start": 199.76,
+      "end": 200,
+      "match": "exact",
+      "source_word_ids": [
+        431
+      ]
+    },
+    {
+      "id": "w430",
+      "start": 200,
+      "end": 200.34,
+      "match": "exact",
+      "source_word_ids": [
+        432
+      ]
+    },
+    {
+      "id": "w431",
+      "start": 200.34,
+      "end": 200.48,
+      "match": "exact",
+      "source_word_ids": [
+        433
+      ]
+    },
+    {
+      "id": "w432",
+      "start": 200.48,
+      "end": 201.02,
+      "match": "exact",
+      "source_word_ids": [
+        434
+      ]
+    },
+    {
+      "id": "w433",
+      "start": 201.82,
+      "end": 202.08,
+      "match": "exact",
+      "source_word_ids": [
+        435
+      ]
+    },
+    {
+      "id": "w434",
+      "start": 202.08,
+      "end": 202.5,
+      "match": "exact",
+      "source_word_ids": [
+        436
+      ]
+    },
+    {
+      "id": "w435",
+      "start": 202.5,
+      "end": 203.34,
+      "match": "exact",
+      "source_word_ids": [
+        437
+      ]
+    },
+    {
+      "id": "w436",
+      "start": 203.4,
+      "end": 203.56,
+      "match": "exact",
+      "source_word_ids": [
+        438
+      ]
+    },
+    {
+      "id": "w437",
+      "start": 203.56,
+      "end": 203.86,
+      "match": "exact",
+      "source_word_ids": [
+        439
+      ]
+    },
+    {
+      "id": "w438",
+      "start": 203.86,
+      "end": 204.16,
+      "match": "exact",
+      "source_word_ids": [
+        440
+      ]
+    },
+    {
+      "id": "w439",
+      "start": 204.28,
+      "end": 204.96,
+      "match": "exact",
+      "source_word_ids": [
+        441
+      ]
+    },
+    {
+      "id": "w440",
+      "start": 204.96,
+      "end": 205.64,
+      "match": "exact",
+      "source_word_ids": [
+        442
+      ]
+    },
+    {
+      "id": "w441",
+      "start": 205.64,
+      "end": 206.14,
+      "match": "exact",
+      "source_word_ids": [
+        443
+      ]
+    },
+    {
+      "id": "w442",
+      "start": 206.14,
+      "end": 206.58,
+      "match": "exact",
+      "source_word_ids": [
+        444
+      ]
+    },
+    {
+      "id": "w443",
+      "start": 206.58,
+      "end": 206.64,
+      "match": "exact",
+      "source_word_ids": [
+        445
+      ]
+    },
+    {
+      "id": "w444",
+      "start": 206.64,
+      "end": 207.02,
+      "match": "exact",
+      "source_word_ids": [
+        446
+      ]
+    },
+    {
+      "id": "w445",
+      "start": 207.02,
+      "end": 207.46,
+      "match": "exact",
+      "source_word_ids": [
+        447
+      ]
+    },
+    {
+      "id": "w446",
+      "start": 208.2,
+      "end": 208.44,
+      "match": "exact",
+      "source_word_ids": [
+        448
+      ]
+    },
+    {
+      "id": "w447",
+      "start": 208.44,
+      "end": 208.72,
+      "match": "exact",
+      "source_word_ids": [
+        449
+      ]
+    },
+    {
+      "id": "w448",
+      "start": 208.72,
+      "end": 209.06,
+      "match": "exact",
+      "source_word_ids": [
+        450
+      ]
+    },
+    {
+      "id": "w449",
+      "start": 209.06,
+      "end": 209.46,
+      "match": "exact",
+      "source_word_ids": [
+        451
+      ]
+    },
+    {
+      "id": "w450",
+      "start": 209.46,
+      "end": 210.06,
+      "match": "exact",
+      "source_word_ids": [
+        452
+      ]
+    },
+    {
+      "id": "w451",
+      "start": 210.06,
+      "end": 210.46,
+      "match": "exact",
+      "source_word_ids": [
+        453
+      ]
+    },
+    {
+      "id": "w452",
+      "start": 210.88,
+      "end": 211.26,
+      "match": "exact",
+      "source_word_ids": [
+        454
+      ]
+    },
+    {
+      "id": "w453",
+      "start": 211.26,
+      "end": 211.42,
+      "match": "exact",
+      "source_word_ids": [
+        455
+      ]
+    },
+    {
+      "id": "w454",
+      "start": 211.42,
+      "end": 212.11,
+      "match": "exact",
+      "source_word_ids": [
+        456
+      ]
+    },
+    {
+      "id": "w455",
+      "start": 212.11,
+      "end": 212.525,
+      "match": "exact",
+      "source_word_ids": [
+        457
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w456",
+      "start": 212.525,
+      "end": 213.08,
+      "match": "exact",
+      "source_word_ids": [
+        458
+      ]
+    },
+    {
+      "id": "w457",
+      "start": 214.12,
+      "end": 214.16,
+      "match": "exact",
+      "source_word_ids": [
+        459
+      ]
+    },
+    {
+      "id": "w458",
+      "start": 214.16,
+      "end": 214.36,
+      "match": "exact",
+      "source_word_ids": [
+        460
+      ]
+    },
+    {
+      "id": "w459",
+      "start": 214.36,
+      "end": 214.7,
+      "match": "exact",
+      "source_word_ids": [
+        461
+      ]
+    },
+    {
+      "id": "w460",
+      "start": 214.7,
+      "end": 215.135,
+      "match": "exact",
+      "source_word_ids": [
+        462
+      ]
+    },
+    {
+      "id": "w461",
+      "start": 215.135,
+      "end": 215.345,
+      "match": "exact",
+      "source_word_ids": [
+        463
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w462",
+      "start": 215.345,
+      "end": 215.54,
+      "match": "exact",
+      "source_word_ids": [
+        464
+      ]
+    },
+    {
+      "id": "w463",
+      "start": 215.54,
+      "end": 215.94,
+      "match": "exact",
+      "source_word_ids": [
+        465
+      ]
+    },
+    {
+      "id": "w464",
+      "start": 215.94,
+      "end": 216.06,
+      "match": "exact",
+      "source_word_ids": [
+        466
+      ]
+    },
+    {
+      "id": "w465",
+      "start": 216.06,
+      "end": 217.02,
+      "match": "exact",
+      "source_word_ids": [
+        467
+      ]
+    },
+    {
+      "id": "w466",
+      "start": 217.02,
+      "end": 217.36,
+      "match": "exact",
+      "source_word_ids": [
+        468
+      ]
+    },
+    {
+      "id": "w467",
+      "start": 217.36,
+      "end": 217.84,
+      "match": "exact",
+      "source_word_ids": [
+        469
+      ]
+    },
+    {
+      "id": "w468",
+      "start": 217.84,
+      "end": 218.12,
+      "match": "exact",
+      "source_word_ids": [
+        470
+      ]
+    },
+    {
+      "id": "w469",
+      "start": 218.12,
+      "end": 218.42,
+      "match": "exact",
+      "source_word_ids": [
+        471
+      ]
+    },
+    {
+      "id": "w470",
+      "start": 219.22,
+      "end": 219.32,
+      "match": "exact",
+      "source_word_ids": [
+        472
+      ]
+    },
+    {
+      "id": "w471",
+      "start": 219.32,
+      "end": 219.66,
+      "match": "exact",
+      "source_word_ids": [
+        473
+      ]
+    },
+    {
+      "id": "w472",
+      "start": 219.66,
+      "end": 220.12,
+      "match": "exact",
+      "source_word_ids": [
+        474
+      ]
+    },
+    {
+      "id": "w473",
+      "start": 220.12,
+      "end": 220.5,
+      "match": "exact",
+      "source_word_ids": [
+        475
+      ]
+    },
+    {
+      "id": "w474",
+      "start": 220.5,
+      "end": 221.1,
+      "match": "exact",
+      "source_word_ids": [
+        476
+      ]
+    },
+    {
+      "id": "w475",
+      "start": 221.1,
+      "end": 221.54,
+      "match": "exact",
+      "source_word_ids": [
+        477
+      ]
+    },
+    {
+      "id": "w476",
+      "start": 221.54,
+      "end": 221.98,
+      "match": "exact",
+      "source_word_ids": [
+        478
+      ]
+    },
+    {
+      "id": "w477",
+      "start": 222.52,
+      "end": 222.88,
+      "match": "exact",
+      "source_word_ids": [
+        479
+      ]
+    },
+    {
+      "id": "w478",
+      "start": 222.88,
+      "end": 223.18,
+      "match": "exact",
+      "source_word_ids": [
+        480
+      ]
+    },
+    {
+      "id": "w479",
+      "start": 223.52,
+      "end": 223.92,
+      "match": "exact",
+      "source_word_ids": [
+        481
+      ]
+    },
+    {
+      "id": "w480",
+      "start": 223.92,
+      "end": 224.16,
+      "match": "exact",
+      "source_word_ids": [
+        482
+      ]
+    },
+    {
+      "id": "w481",
+      "start": 224.16,
+      "end": 224.42,
+      "match": "exact",
+      "source_word_ids": [
+        483
+      ]
+    },
+    {
+      "id": "w482",
+      "start": 224.42,
+      "end": 224.76,
+      "match": "exact",
+      "source_word_ids": [
+        484
+      ]
+    },
+    {
+      "id": "w483",
+      "start": 224.76,
+      "end": 224.96,
+      "match": "exact",
+      "source_word_ids": [
+        485
+      ]
+    },
+    {
+      "id": "w484",
+      "start": 225.8,
+      "end": 226,
+      "match": "exact",
+      "source_word_ids": [
+        486
+      ]
+    },
+    {
+      "id": "w485",
+      "start": 226,
+      "end": 226.22,
+      "match": "exact",
+      "source_word_ids": [
+        487
+      ]
+    },
+    {
+      "id": "w486",
+      "start": 226.22,
+      "end": 226.56,
+      "match": "exact",
+      "source_word_ids": [
+        488
+      ]
+    },
+    {
+      "id": "w487",
+      "start": 226.56,
+      "end": 227.04,
+      "match": "exact",
+      "source_word_ids": [
+        489
+      ]
+    },
+    {
+      "id": "w488",
+      "start": 227.04,
+      "end": 227.52,
+      "match": "exact",
+      "source_word_ids": [
+        490
+      ]
+    },
+    {
+      "id": "w489",
+      "start": 227.52,
+      "end": 227.8,
+      "match": "exact",
+      "source_word_ids": [
+        491
+      ]
+    },
+    {
+      "id": "w490",
+      "start": 228.36,
+      "end": 228.88,
+      "match": "exact",
+      "source_word_ids": [
+        492
+      ]
+    },
+    {
+      "id": "w491",
+      "start": 228.88,
+      "end": 229.22,
+      "match": "exact",
+      "source_word_ids": [
+        493
+      ]
+    },
+    {
+      "id": "w492",
+      "start": 229.22,
+      "end": 229.7,
+      "match": "exact",
+      "source_word_ids": [
+        494
+      ]
+    },
+    {
+      "id": "w493",
+      "start": 229.7,
+      "end": 230.08,
+      "match": "exact",
+      "source_word_ids": [
+        495
+      ]
+    },
+    {
+      "id": "w494",
+      "start": 230.08,
+      "end": 230.52,
+      "match": "exact",
+      "source_word_ids": [
+        496
+      ]
+    },
+    {
+      "id": "w495",
+      "start": 230.52,
+      "end": 230.86,
+      "match": "exact",
+      "source_word_ids": [
+        497
+      ]
+    },
+    {
+      "id": "w496",
+      "start": 230.86,
+      "end": 231.28,
+      "match": "exact",
+      "source_word_ids": [
+        498
+      ]
+    },
+    {
+      "id": "w497",
+      "start": 231.88,
+      "end": 232.24,
+      "match": "exact",
+      "source_word_ids": [
+        499
+      ]
+    },
+    {
+      "id": "w498",
+      "start": 232.24,
+      "end": 232.74,
+      "match": "exact",
+      "source_word_ids": [
+        500
+      ]
+    },
+    {
+      "id": "w499",
+      "start": 232.74,
+      "end": 233.385,
+      "match": "exact",
+      "source_word_ids": [
+        501
+      ]
+    },
+    {
+      "id": "w500",
+      "start": 233.385,
+      "end": 233.91,
+      "match": "exact",
+      "source_word_ids": [
+        502
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w501",
+      "start": 234,
+      "end": 234.44,
+      "match": "exact",
+      "source_word_ids": [
+        503
+      ]
+    },
+    {
+      "id": "w502",
+      "start": 234.44,
+      "end": 235.08,
+      "match": "exact",
+      "source_word_ids": [
+        504
+      ]
+    },
+    {
+      "id": "w503",
+      "start": 235.66,
+      "end": 236.42,
+      "match": "exact",
+      "source_word_ids": [
+        505
+      ]
+    },
+    {
+      "id": "w504",
+      "start": 236.42,
+      "end": 236.66,
+      "match": "exact",
+      "source_word_ids": [
+        506
+      ]
+    },
+    {
+      "id": "w505",
+      "start": 236.66,
+      "end": 237.08,
+      "match": "exact",
+      "source_word_ids": [
+        507
+      ]
+    },
+    {
+      "id": "w506",
+      "start": 237.08,
+      "end": 237.32,
+      "match": "exact",
+      "source_word_ids": [
+        508
+      ]
+    },
+    {
+      "id": "w507",
+      "start": 237.32,
+      "end": 237.76,
+      "match": "exact",
+      "source_word_ids": [
+        509
+      ]
+    },
+    {
+      "id": "w508",
+      "start": 237.76,
+      "end": 238.08,
+      "match": "exact",
+      "source_word_ids": [
+        510
+      ]
+    },
+    {
+      "id": "w509",
+      "start": 238.08,
+      "end": 238.44,
+      "match": "exact",
+      "source_word_ids": [
+        511
+      ]
+    },
+    {
+      "id": "w510",
+      "start": 238.44,
+      "end": 238.76,
+      "match": "exact",
+      "source_word_ids": [
+        512
+      ]
+    },
+    {
+      "id": "w511",
+      "start": 238.76,
+      "end": 239.36,
+      "match": "exact",
+      "source_word_ids": [
+        513
+      ]
+    },
+    {
+      "id": "w512",
+      "start": 239.36,
+      "end": 239.76,
+      "match": "exact",
+      "source_word_ids": [
+        514
+      ]
+    },
+    {
+      "id": "w513",
+      "start": 240.3,
+      "end": 240.52,
+      "match": "exact",
+      "source_word_ids": [
+        515
+      ]
+    },
+    {
+      "id": "w514",
+      "start": 240.52,
+      "end": 240.62,
+      "match": "exact",
+      "source_word_ids": [
+        516
+      ]
+    },
+    {
+      "id": "w515",
+      "start": 240.62,
+      "end": 240.78,
+      "match": "exact",
+      "source_word_ids": [
+        517
+      ]
+    },
+    {
+      "id": "w516",
+      "start": 240.78,
+      "end": 241.08,
+      "match": "exact",
+      "source_word_ids": [
+        518
+      ]
+    },
+    {
+      "id": "w517",
+      "start": 241.08,
+      "end": 241.5,
+      "match": "exact",
+      "source_word_ids": [
+        519
+      ]
+    },
+    {
+      "id": "w518",
+      "start": 242.22,
+      "end": 242.44,
+      "match": "exact",
+      "source_word_ids": [
+        520
+      ]
+    },
+    {
+      "id": "w519",
+      "start": 242.44,
+      "end": 242.74,
+      "match": "exact",
+      "source_word_ids": [
+        521
+      ]
+    },
+    {
+      "id": "w520",
+      "start": 242.74,
+      "end": 242.98,
+      "match": "exact",
+      "source_word_ids": [
+        522
+      ]
+    },
+    {
+      "id": "w521",
+      "start": 242.98,
+      "end": 243.36,
+      "match": "exact",
+      "source_word_ids": [
+        523
+      ]
+    },
+    {
+      "id": "w522",
+      "start": 243.36,
+      "end": 244.14,
+      "match": "exact",
+      "source_word_ids": [
+        524
+      ]
+    },
+    {
+      "id": "w523",
+      "start": 244.14,
+      "end": 244.4,
+      "match": "exact",
+      "source_word_ids": [
+        525
+      ]
+    },
+    {
+      "id": "w524",
+      "start": 244.88,
+      "end": 245.52,
+      "match": "exact",
+      "source_word_ids": [
+        526
+      ]
+    },
+    {
+      "id": "w525",
+      "start": 245.52,
+      "end": 245.82,
+      "match": "exact",
+      "source_word_ids": [
+        527
+      ]
+    },
+    {
+      "id": "w526",
+      "start": 245.82,
+      "end": 246.26,
+      "match": "exact",
+      "source_word_ids": [
+        528
+      ]
+    },
+    {
+      "id": "w527",
+      "start": 247.18,
+      "end": 247.28,
+      "match": "exact",
+      "source_word_ids": [
+        529
+      ]
+    },
+    {
+      "id": "w528",
+      "start": 247.28,
+      "end": 247.54,
+      "match": "exact",
+      "source_word_ids": [
+        530
+      ]
+    },
+    {
+      "id": "w529",
+      "start": 247.54,
+      "end": 248.22,
+      "match": "exact",
+      "source_word_ids": [
+        531
+      ]
+    },
+    {
+      "id": "w530",
+      "start": 249.1,
+      "end": 249.24,
+      "match": "exact",
+      "source_word_ids": [
+        532
+      ]
+    },
+    {
+      "id": "w531",
+      "start": 249.24,
+      "end": 249.44,
+      "match": "exact",
+      "source_word_ids": [
+        533
+      ]
+    },
+    {
+      "id": "w532",
+      "start": 249.44,
+      "end": 249.76,
+      "match": "exact",
+      "source_word_ids": [
+        534
+      ]
+    },
+    {
+      "id": "w533",
+      "start": 249.76,
+      "end": 250.08,
+      "match": "exact",
+      "source_word_ids": [
+        535
+      ]
+    },
+    {
+      "id": "w534",
+      "start": 250.08,
+      "end": 250.48,
+      "match": "exact",
+      "source_word_ids": [
+        536
+      ]
+    },
+    {
+      "id": "w535",
+      "start": 250.48,
+      "end": 250.92,
+      "match": "exact",
+      "source_word_ids": [
+        537
+      ]
+    },
+    {
+      "id": "w536",
+      "start": 251.36,
+      "end": 251.8,
+      "match": "exact",
+      "source_word_ids": [
+        538
+      ]
+    },
+    {
+      "id": "w537",
+      "start": 251.8,
+      "end": 251.98,
+      "match": "exact",
+      "source_word_ids": [
+        539
+      ]
+    },
+    {
+      "id": "w538",
+      "start": 251.98,
+      "end": 252.24,
+      "match": "exact",
+      "source_word_ids": [
+        540
+      ]
+    },
+    {
+      "id": "w539",
+      "start": 252.24,
+      "end": 252.56,
+      "match": "exact",
+      "source_word_ids": [
+        541
+      ]
+    },
+    {
+      "id": "w540",
+      "start": 252.56,
+      "end": 252.86,
+      "match": "exact",
+      "source_word_ids": [
+        542
+      ]
+    },
+    {
+      "id": "w541",
+      "start": 252.86,
+      "end": 253.52,
+      "match": "exact",
+      "source_word_ids": [
+        543
+      ]
+    },
+    {
+      "id": "w542",
+      "start": 253.52,
+      "end": 254.235,
+      "match": "exact",
+      "source_word_ids": [
+        544
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w543",
+      "start": 254.62,
+      "end": 254.84,
+      "match": "exact",
+      "source_word_ids": [
+        545
+      ]
+    },
+    {
+      "id": "w544",
+      "start": 254.84,
+      "end": 255.08,
+      "match": "exact",
+      "source_word_ids": [
+        546
+      ]
+    },
+    {
+      "id": "w545",
+      "start": 255.08,
+      "end": 255.28,
+      "match": "exact",
+      "source_word_ids": [
+        547
+      ]
+    },
+    {
+      "id": "w546",
+      "start": 255.28,
+      "end": 255.54,
+      "match": "exact",
+      "source_word_ids": [
+        548
+      ]
+    },
+    {
+      "id": "w547",
+      "start": 255.54,
+      "end": 255.82,
+      "match": "exact",
+      "source_word_ids": [
+        549
+      ]
+    },
+    {
+      "id": "w548",
+      "start": 255.82,
+      "end": 256.22,
+      "match": "exact",
+      "source_word_ids": [
+        550
+      ]
+    },
+    {
+      "id": "w549",
+      "start": 256.22,
+      "end": 256.74,
+      "match": "exact",
+      "source_word_ids": [
+        551
+      ]
+    },
+    {
+      "id": "w550",
+      "start": 259.783,
+      "end": 260.583,
+      "match": "exact",
+      "source_word_ids": [
+        552
+      ]
+    },
+    {
+      "id": "w551",
+      "start": 260.583,
+      "end": 260.943,
+      "match": "exact",
+      "source_word_ids": [
+        553
+      ]
+    },
+    {
+      "id": "w552",
+      "start": 260.943,
+      "end": 261.383,
+      "match": "exact",
+      "source_word_ids": [
+        554
+      ]
+    },
+    {
+      "id": "w553",
+      "start": 261.383,
+      "end": 261.843,
+      "match": "exact",
+      "source_word_ids": [
+        555
+      ]
+    },
+    {
+      "id": "w554",
+      "start": 261.843,
+      "end": 262.143,
+      "match": "exact",
+      "source_word_ids": [
+        556
+      ]
+    },
+    {
+      "id": "w555",
+      "start": 262.143,
+      "end": 262.603,
+      "match": "exact",
+      "source_word_ids": [
+        557
+      ]
+    },
+    {
+      "id": "w556",
+      "start": 263.303,
+      "end": 263.523,
+      "match": "exact",
+      "source_word_ids": [
+        558
+      ]
+    },
+    {
+      "id": "w557",
+      "start": 263.523,
+      "end": 263.703,
+      "match": "exact",
+      "source_word_ids": [
+        559
+      ]
+    },
+    {
+      "id": "w558",
+      "start": 263.703,
+      "end": 264.123,
+      "match": "exact",
+      "source_word_ids": [
+        560
+      ]
+    },
+    {
+      "id": "w559",
+      "start": 264.123,
+      "end": 264.683,
+      "match": "exact",
+      "source_word_ids": [
+        561
+      ]
+    },
+    {
+      "id": "w560",
+      "start": 264.983,
+      "end": 265.928,
+      "match": "exact",
+      "source_word_ids": [
+        562
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w561",
+      "start": 265.928,
+      "end": 266.873,
+      "match": "exact",
+      "source_word_ids": [
+        563
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w562",
+      "start": 266.873,
+      "end": 267.323,
+      "match": "exact",
+      "source_word_ids": [
+        564
+      ]
+    },
+    {
+      "id": "w563",
+      "start": 268.023,
+      "end": 268.243,
+      "match": "exact",
+      "source_word_ids": [
+        565
+      ]
+    },
+    {
+      "id": "w564",
+      "start": 268.243,
+      "end": 268.963,
+      "match": "exact",
+      "source_word_ids": [
+        566
+      ]
+    },
+    {
+      "id": "w565",
+      "start": 268.963,
+      "end": 268.983,
+      "match": "exact",
+      "source_word_ids": [
+        567
+      ]
+    },
+    {
+      "id": "w566",
+      "start": 268.983,
+      "end": 269.343,
+      "match": "exact",
+      "source_word_ids": [
+        568
+      ]
+    },
+    {
+      "id": "w567",
+      "start": 269.803,
+      "end": 270.403,
+      "match": "exact",
+      "source_word_ids": [
+        569
+      ]
+    },
+    {
+      "id": "w568",
+      "start": 270.403,
+      "end": 270.863,
+      "match": "exact",
+      "source_word_ids": [
+        570
+      ]
+    },
+    {
+      "id": "w569",
+      "start": 270.863,
+      "end": 271.303,
+      "match": "exact",
+      "source_word_ids": [
+        571
+      ]
+    },
+    {
+      "id": "w570",
+      "start": 271.303,
+      "end": 271.963,
+      "match": "exact",
+      "source_word_ids": [
+        572
+      ]
+    },
+    {
+      "id": "w571",
+      "start": 271.963,
+      "end": 272.338,
+      "match": "exact",
+      "source_word_ids": [
+        573
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w572",
+      "start": 272.338,
+      "end": 272.803,
+      "match": "exact",
+      "source_word_ids": [
+        574
+      ]
+    },
+    {
+      "id": "w573",
+      "start": 272.803,
+      "end": 273.143,
+      "match": "exact",
+      "source_word_ids": [
+        575
+      ]
+    },
+    {
+      "id": "w574",
+      "start": 273.143,
+      "end": 273.543,
+      "match": "exact",
+      "source_word_ids": [
+        576
+      ]
+    },
+    {
+      "id": "w575",
+      "start": 273.543,
+      "end": 274.003,
+      "match": "exact",
+      "source_word_ids": [
+        577
+      ]
+    },
+    {
+      "id": "w576",
+      "start": 274.003,
+      "end": 274.528,
+      "match": "exact",
+      "source_word_ids": [
+        578
+      ]
+    },
+    {
+      "id": "w577",
+      "start": 274.528,
+      "end": 275.433,
+      "match": "exact",
+      "source_word_ids": [
+        579
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w578",
+      "start": 275.763,
+      "end": 276.563,
+      "match": "exact",
+      "source_word_ids": [
+        580
+      ]
+    },
+    {
+      "id": "w579",
+      "start": 276.563,
+      "end": 276.803,
+      "match": "exact",
+      "source_word_ids": [
+        581
+      ]
+    },
+    {
+      "id": "w580",
+      "start": 276.803,
+      "end": 277.183,
+      "match": "exact",
+      "source_word_ids": [
+        582
+      ]
+    },
+    {
+      "id": "w581",
+      "start": 277.183,
+      "end": 277.423,
+      "match": "exact",
+      "source_word_ids": [
+        583
+      ]
+    },
+    {
+      "id": "w582",
+      "start": 278.223,
+      "end": 278.403,
+      "match": "exact",
+      "source_word_ids": [
+        584
+      ]
+    },
+    {
+      "id": "w583",
+      "start": 278.403,
+      "end": 278.863,
+      "match": "exact",
+      "source_word_ids": [
+        585
+      ]
+    },
+    {
+      "id": "w584",
+      "start": 278.863,
+      "end": 279.163,
+      "match": "exact",
+      "source_word_ids": [
+        586
+      ]
+    },
+    {
+      "id": "w585",
+      "start": 279.163,
+      "end": 279.443,
+      "match": "exact",
+      "source_word_ids": [
+        587
+      ]
+    },
+    {
+      "id": "w586",
+      "start": 279.443,
+      "end": 279.803,
+      "match": "exact",
+      "source_word_ids": [
+        588
+      ]
+    },
+    {
+      "id": "w587",
+      "start": 280.683,
+      "end": 280.883,
+      "match": "exact",
+      "source_word_ids": [
+        589
+      ]
+    },
+    {
+      "id": "w588",
+      "start": 280.883,
+      "end": 281.143,
+      "match": "exact",
+      "source_word_ids": [
+        590
+      ]
+    },
+    {
+      "id": "w589",
+      "start": 281.143,
+      "end": 281.323,
+      "match": "exact",
+      "source_word_ids": [
+        591
+      ]
+    },
+    {
+      "id": "w590",
+      "start": 281.323,
+      "end": 281.663,
+      "match": "exact",
+      "source_word_ids": [
+        592
+      ]
+    },
+    {
+      "id": "w591",
+      "start": 281.663,
+      "end": 281.943,
+      "match": "exact",
+      "source_word_ids": [
+        593
+      ]
+    },
+    {
+      "id": "w592",
+      "start": 281.943,
+      "end": 282.323,
+      "match": "exact",
+      "source_word_ids": [
+        594
+      ]
+    },
+    {
+      "id": "w593",
+      "start": 282.323,
+      "end": 282.783,
+      "match": "exact",
+      "source_word_ids": [
+        595
+      ]
+    },
+    {
+      "id": "w594",
+      "start": 282.783,
+      "end": 283.183,
+      "match": "exact",
+      "source_word_ids": [
+        596
+      ]
+    },
+    {
+      "id": "w595",
+      "start": 283.723,
+      "end": 284.188,
+      "match": "exact",
+      "source_word_ids": [
+        597
+      ]
+    },
+    {
+      "id": "w596",
+      "start": 284.188,
+      "end": 284.633,
+      "match": "exact",
+      "source_word_ids": [
+        598
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w597",
+      "start": 284.723,
+      "end": 285.123,
+      "match": "exact",
+      "source_word_ids": [
+        599
+      ]
+    },
+    {
+      "id": "w598",
+      "start": 285.123,
+      "end": 285.523,
+      "match": "exact",
+      "source_word_ids": [
+        600
+      ]
+    },
+    {
+      "id": "w599",
+      "start": 285.523,
+      "end": 285.903,
+      "match": "exact",
+      "source_word_ids": [
+        601
+      ]
+    },
+    {
+      "id": "w600",
+      "start": 285.903,
+      "end": 286.123,
+      "match": "exact",
+      "source_word_ids": [
+        602
+      ]
+    },
+    {
+      "id": "w601",
+      "start": 286.123,
+      "end": 286.343,
+      "match": "exact",
+      "source_word_ids": [
+        603
+      ]
+    },
+    {
+      "id": "w602",
+      "start": 286.343,
+      "end": 286.783,
+      "match": "exact",
+      "source_word_ids": [
+        604
+      ]
+    },
+    {
+      "id": "w603",
+      "start": 287.163,
+      "end": 287.863,
+      "match": "exact",
+      "source_word_ids": [
+        605
+      ]
+    },
+    {
+      "id": "w604",
+      "start": 287.863,
+      "end": 288.183,
+      "match": "exact",
+      "source_word_ids": [
+        606
+      ]
+    },
+    {
+      "id": "w605",
+      "start": 288.183,
+      "end": 288.383,
+      "match": "exact",
+      "source_word_ids": [
+        607
+      ]
+    },
+    {
+      "id": "w606",
+      "start": 288.383,
+      "end": 288.703,
+      "match": "exact",
+      "source_word_ids": [
+        608
+      ]
+    },
+    {
+      "id": "w607",
+      "start": 288.703,
+      "end": 289.183,
+      "match": "exact",
+      "source_word_ids": [
+        609
+      ]
+    },
+    {
+      "id": "w608",
+      "start": 289.183,
+      "end": 289.523,
+      "match": "exact",
+      "source_word_ids": [
+        610
+      ]
+    },
+    {
+      "id": "w609",
+      "start": 289.523,
+      "end": 289.863,
+      "match": "exact",
+      "source_word_ids": [
+        611
+      ]
+    },
+    {
+      "id": "w610",
+      "start": 290.843,
+      "end": 290.963,
+      "match": "exact",
+      "source_word_ids": [
+        612
+      ]
+    },
+    {
+      "id": "w611",
+      "start": 290.963,
+      "end": 291.223,
+      "match": "exact",
+      "source_word_ids": [
+        613
+      ]
+    },
+    {
+      "id": "w612",
+      "start": 291.223,
+      "end": 291.563,
+      "match": "exact",
+      "source_word_ids": [
+        614
+      ]
+    },
+    {
+      "id": "w613",
+      "start": 291.563,
+      "end": 291.823,
+      "match": "exact",
+      "source_word_ids": [
+        615
+      ]
+    },
+    {
+      "id": "w614",
+      "start": 291.823,
+      "end": 291.983,
+      "match": "exact",
+      "source_word_ids": [
+        616
+      ]
+    },
+    {
+      "id": "w615",
+      "start": 291.983,
+      "end": 292.343,
+      "match": "exact",
+      "source_word_ids": [
+        617
+      ]
+    },
+    {
+      "id": "w616",
+      "start": 292.343,
+      "end": 292.513,
+      "match": "exact",
+      "source_word_ids": [
+        618
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w617",
+      "start": 292.513,
+      "end": 292.663,
+      "match": "exact",
+      "source_word_ids": [
+        619
+      ]
+    },
+    {
+      "id": "w618",
+      "start": 292.663,
+      "end": 292.903,
+      "match": "exact",
+      "source_word_ids": [
+        620
+      ]
+    },
+    {
+      "id": "w619",
+      "start": 293.883,
+      "end": 294.003,
+      "match": "exact",
+      "source_word_ids": [
+        621
+      ]
+    },
+    {
+      "id": "w620",
+      "start": 294.003,
+      "end": 294.203,
+      "match": "exact",
+      "source_word_ids": [
+        622
+      ]
+    },
+    {
+      "id": "w621",
+      "start": 294.203,
+      "end": 294.663,
+      "match": "exact",
+      "source_word_ids": [
+        623
+      ]
+    },
+    {
+      "id": "w622",
+      "start": 294.663,
+      "end": 295.103,
+      "match": "exact",
+      "source_word_ids": [
+        624
+      ]
+    },
+    {
+      "id": "w623",
+      "start": 295.643,
+      "end": 295.883,
+      "match": "exact",
+      "source_word_ids": [
+        625
+      ]
+    },
+    {
+      "id": "w624",
+      "start": 295.883,
+      "end": 296.343,
+      "match": "exact",
+      "source_word_ids": [
+        626
+      ]
+    },
+    {
+      "id": "w625",
+      "start": 296.343,
+      "end": 297.143,
+      "match": "exact",
+      "source_word_ids": [
+        627
+      ]
+    },
+    {
+      "id": "w626",
+      "start": 297.143,
+      "end": 297.603,
+      "match": "exact",
+      "source_word_ids": [
+        628
+      ]
+    },
+    {
+      "id": "w627",
+      "start": 298.323,
+      "end": 298.463,
+      "match": "exact",
+      "source_word_ids": [
+        629
+      ]
+    },
+    {
+      "id": "w628",
+      "start": 298.463,
+      "end": 298.803,
+      "match": "exact",
+      "source_word_ids": [
+        630
+      ]
+    },
+    {
+      "id": "w629",
+      "start": 298.803,
+      "end": 299.223,
+      "match": "exact",
+      "source_word_ids": [
+        631
+      ]
+    },
+    {
+      "id": "w630",
+      "start": 299.223,
+      "end": 299.733,
+      "match": "exact",
+      "source_word_ids": [
+        632
+      ]
+    },
+    {
+      "id": "w631",
+      "start": 299.733,
+      "end": 300.298,
+      "match": "exact",
+      "source_word_ids": [
+        633
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w632",
+      "start": 300.603,
+      "end": 300.783,
+      "match": "exact",
+      "source_word_ids": [
+        634
+      ]
+    },
+    {
+      "id": "w633",
+      "start": 300.903,
+      "end": 301.063,
+      "match": "exact",
+      "source_word_ids": [
+        635
+      ]
+    },
+    {
+      "id": "w634",
+      "start": 301.063,
+      "end": 301.843,
+      "match": "exact",
+      "source_word_ids": [
+        636
+      ]
+    },
+    {
+      "id": "w635",
+      "start": 301.843,
+      "end": 302.303,
+      "match": "exact",
+      "source_word_ids": [
+        637
+      ]
+    },
+    {
+      "id": "w636",
+      "start": 302.923,
+      "end": 302.983,
+      "match": "exact",
+      "source_word_ids": [
+        638
+      ]
+    },
+    {
+      "id": "w637",
+      "start": 303.063,
+      "end": 303.283,
+      "match": "exact",
+      "source_word_ids": [
+        639
+      ]
+    },
+    {
+      "id": "w638",
+      "start": 303.283,
+      "end": 303.703,
+      "match": "exact",
+      "source_word_ids": [
+        640
+      ]
+    },
+    {
+      "id": "w639",
+      "start": 303.703,
+      "end": 304.083,
+      "match": "exact",
+      "source_word_ids": [
+        641
+      ]
+    },
+    {
+      "id": "w640",
+      "start": 304.883,
+      "end": 304.983,
+      "match": "exact",
+      "source_word_ids": [
+        642
+      ]
+    },
+    {
+      "id": "w641",
+      "start": 305.063,
+      "end": 305.243,
+      "match": "exact",
+      "source_word_ids": [
+        643
+      ]
+    },
+    {
+      "id": "w642",
+      "start": 305.243,
+      "end": 305.403,
+      "match": "exact",
+      "source_word_ids": [
+        644
+      ]
+    },
+    {
+      "id": "w643",
+      "start": 305.403,
+      "end": 306.043,
+      "match": "exact",
+      "source_word_ids": [
+        645
+      ]
+    },
+    {
+      "id": "w644",
+      "start": 306.043,
+      "end": 306.223,
+      "match": "exact",
+      "source_word_ids": [
+        646
+      ]
+    },
+    {
+      "id": "w645",
+      "start": 306.223,
+      "end": 306.623,
+      "match": "exact",
+      "source_word_ids": [
+        647
+      ]
+    },
+    {
+      "id": "w646",
+      "start": 306.623,
+      "end": 306.883,
+      "match": "exact",
+      "source_word_ids": [
+        648
+      ]
+    },
+    {
+      "id": "w647",
+      "start": 306.883,
+      "end": 307.323,
+      "match": "exact",
+      "source_word_ids": [
+        649
+      ]
+    },
+    {
+      "id": "w648",
+      "start": 307.323,
+      "end": 307.883,
+      "match": "exact",
+      "source_word_ids": [
+        650
+      ]
+    },
+    {
+      "id": "w649",
+      "start": 307.883,
+      "end": 308.483,
+      "match": "exact",
+      "source_word_ids": [
+        651
+      ]
+    },
+    {
+      "id": "w650",
+      "start": 308.483,
+      "end": 308.803,
+      "match": "exact",
+      "source_word_ids": [
+        652
+      ]
+    },
+    {
+      "id": "w651",
+      "start": 308.803,
+      "end": 309.163,
+      "match": "exact",
+      "source_word_ids": [
+        653
+      ]
+    },
+    {
+      "id": "w652",
+      "start": 310.123,
+      "end": 310.683,
+      "match": "exact",
+      "source_word_ids": [
+        654
+      ]
+    },
+    {
+      "id": "w653",
+      "start": 310.683,
+      "end": 311.243,
+      "match": "exact",
+      "source_word_ids": [
+        655
+      ]
+    },
+    {
+      "id": "w654",
+      "start": 311.243,
+      "end": 311.583,
+      "match": "exact",
+      "source_word_ids": [
+        656
+      ]
+    },
+    {
+      "id": "w655",
+      "start": 311.583,
+      "end": 311.783,
+      "match": "exact",
+      "source_word_ids": [
+        657
+      ]
+    },
+    {
+      "id": "w656",
+      "start": 311.783,
+      "end": 312.143,
+      "match": "exact",
+      "source_word_ids": [
+        658
+      ]
+    },
+    {
+      "id": "w657",
+      "start": 312.303,
+      "end": 313.003,
+      "match": "exact",
+      "source_word_ids": [
+        659
+      ]
+    },
+    {
+      "id": "w658",
+      "start": 313.003,
+      "end": 313.243,
+      "match": "exact",
+      "source_word_ids": [
+        660
+      ]
+    },
+    {
+      "id": "w659",
+      "start": 313.243,
+      "end": 313.543,
+      "match": "exact",
+      "source_word_ids": [
+        661
+      ]
+    },
+    {
+      "id": "w660",
+      "start": 313.543,
+      "end": 313.943,
+      "match": "exact",
+      "source_word_ids": [
+        662
+      ]
+    },
+    {
+      "id": "w661",
+      "start": 314.623,
+      "end": 314.763,
+      "match": "exact",
+      "source_word_ids": [
+        663
+      ]
+    },
+    {
+      "id": "w662",
+      "start": 314.763,
+      "end": 315.063,
+      "match": "exact",
+      "source_word_ids": [
+        664
+      ]
+    },
+    {
+      "id": "w663",
+      "start": 315.063,
+      "end": 315.463,
+      "match": "exact",
+      "source_word_ids": [
+        665
+      ]
+    },
+    {
+      "id": "w664",
+      "start": 315.463,
+      "end": 315.783,
+      "match": "exact",
+      "source_word_ids": [
+        666
+      ]
+    },
+    {
+      "id": "w665",
+      "start": 315.783,
+      "end": 316.243,
+      "match": "exact",
+      "source_word_ids": [
+        667
+      ]
+    },
+    {
+      "id": "w666",
+      "start": 316.243,
+      "end": 316.783,
+      "match": "exact",
+      "source_word_ids": [
+        668
+      ]
+    },
+    {
+      "id": "w667",
+      "start": 316.783,
+      "end": 317.303,
+      "match": "exact",
+      "source_word_ids": [
+        669
+      ]
+    },
+    {
+      "id": "w668",
+      "start": 317.303,
+      "end": 317.723,
+      "match": "exact",
+      "source_word_ids": [
+        670
+      ]
+    },
+    {
+      "id": "w669",
+      "start": 318.363,
+      "end": 318.543,
+      "match": "exact",
+      "source_word_ids": [
+        671
+      ]
+    },
+    {
+      "id": "w670",
+      "start": 318.543,
+      "end": 318.783,
+      "match": "exact",
+      "source_word_ids": [
+        672
+      ]
+    },
+    {
+      "id": "w671",
+      "start": 318.783,
+      "end": 319.183,
+      "match": "exact",
+      "source_word_ids": [
+        673
+      ]
+    },
+    {
+      "id": "w672",
+      "start": 319.183,
+      "end": 319.683,
+      "match": "exact",
+      "source_word_ids": [
+        674
+      ]
+    },
+    {
+      "id": "w673",
+      "start": 320.403,
+      "end": 321.163,
+      "match": "exact",
+      "source_word_ids": [
+        675
+      ]
+    },
+    {
+      "id": "w674",
+      "start": 321.163,
+      "end": 321.823,
+      "match": "exact",
+      "source_word_ids": [
+        676
+      ]
+    },
+    {
+      "id": "w675",
+      "start": 321.823,
+      "end": 322.303,
+      "match": "exact",
+      "source_word_ids": [
+        677
+      ]
+    },
+    {
+      "id": "w676",
+      "start": 322.303,
+      "end": 322.738,
+      "match": "exact",
+      "source_word_ids": [
+        678
+      ]
+    },
+    {
+      "id": "w677",
+      "start": 322.738,
+      "end": 323.278,
+      "match": "exact",
+      "source_word_ids": [
+        679
+      ],
+      "timing_adjustment": "zero-duration-repair"
+    },
+    {
+      "id": "w678",
+      "start": 323.463,
+      "end": 323.883,
+      "match": "exact",
+      "source_word_ids": [
+        680
+      ]
+    },
+    {
+      "id": "w679",
+      "start": 323.883,
+      "end": 324.123,
+      "match": "exact",
+      "source_word_ids": [
+        681
+      ]
+    },
+    {
+      "id": "w680",
+      "start": 324.123,
+      "end": 324.343,
+      "match": "exact",
+      "source_word_ids": [
+        682
+      ]
+    },
+    {
+      "id": "w681",
+      "start": 324.343,
+      "end": 324.723,
+      "match": "exact",
+      "source_word_ids": [
+        683
+      ]
+    },
+    {
+      "id": "w682",
+      "start": 324.723,
+      "end": 325.083,
+      "match": "exact",
+      "source_word_ids": [
+        684
+      ]
+    },
+    {
+      "id": "w683",
+      "start": 325.083,
+      "end": 325.423,
+      "match": "exact",
+      "source_word_ids": [
+        685
+      ]
+    },
+    {
+      "id": "w684",
+      "start": 325.423,
+      "end": 325.823,
+      "match": "exact",
+      "source_word_ids": [
+        686
+      ]
+    },
+    {
+      "id": "w685",
+      "start": 325.823,
+      "end": 326.043,
+      "match": "exact",
+      "source_word_ids": [
+        687
+      ]
+    },
+    {
+      "id": "w686",
+      "start": 327.063,
+      "end": 327.343,
+      "match": "exact",
+      "source_word_ids": [
+        688
+      ]
+    },
+    {
+      "id": "w687",
+      "start": 327.343,
+      "end": 327.683,
+      "match": "exact",
+      "source_word_ids": [
+        689
+      ]
+    },
+    {
+      "id": "w688",
+      "start": 327.683,
+      "end": 328.103,
+      "match": "exact",
+      "source_word_ids": [
+        690
+      ]
+    },
+    {
+      "id": "w689",
+      "start": 328.103,
+      "end": 328.363,
+      "match": "exact",
+      "source_word_ids": [
+        691
+      ]
+    },
+    {
+      "id": "w690",
+      "start": 328.363,
+      "end": 328.963,
+      "match": "exact",
+      "source_word_ids": [
+        692
+      ]
+    },
+    {
+      "id": "w691",
+      "start": 328.963,
+      "end": 329.583,
+      "match": "exact",
+      "source_word_ids": [
+        693
+      ]
+    },
+    {
+      "id": "w692",
+      "start": 330.743,
+      "end": 331.123,
+      "match": "exact",
+      "source_word_ids": [
+        694
+      ]
+    },
+    {
+      "id": "w693",
+      "start": 331.123,
+      "end": 331.483,
+      "match": "exact",
+      "source_word_ids": [
+        695
+      ]
+    },
+    {
+      "id": "w694",
+      "start": 331.483,
+      "end": 331.683,
+      "match": "exact",
+      "source_word_ids": [
+        696
+      ]
+    },
+    {
+      "id": "w695",
+      "start": 331.683,
+      "end": 332.163,
+      "match": "exact",
+      "source_word_ids": [
+        697
+      ]
+    },
+    {
+      "id": "w696",
+      "start": 332.163,
+      "end": 332.443,
+      "match": "exact",
+      "source_word_ids": [
+        698
+      ]
+    },
+    {
+      "id": "w697",
+      "start": 332.443,
+      "end": 332.763,
+      "match": "exact",
+      "source_word_ids": [
+        699
+      ]
+    },
+    {
+      "id": "w698",
+      "start": 332.763,
+      "end": 333.023,
+      "match": "exact",
+      "source_word_ids": [
+        700
+      ]
+    },
+    {
+      "id": "w699",
+      "start": 333.023,
+      "end": 333.303,
+      "match": "exact",
+      "source_word_ids": [
+        701
+      ]
+    },
+    {
+      "id": "w700",
+      "start": 333.303,
+      "end": 333.503,
+      "match": "exact",
+      "source_word_ids": [
+        702
+      ]
+    },
+    {
+      "id": "w701",
+      "start": 333.503,
+      "end": 333.823,
+      "match": "exact",
+      "source_word_ids": [
+        703
+      ]
+    },
+    {
+      "id": "w702",
+      "start": 333.823,
+      "end": 334.463,
+      "match": "exact",
+      "source_word_ids": [
+        704
+      ]
+    },
+    {
+      "id": "w703",
+      "start": 334.463,
+      "end": 334.863,
+      "match": "exact",
+      "source_word_ids": [
+        705
+      ]
+    },
+    {
+      "id": "w704",
+      "start": 334.863,
+      "end": 335.423,
+      "match": "exact",
+      "source_word_ids": [
+        706
+      ]
+    },
+    {
+      "id": "w705",
+      "start": 335.423,
+      "end": 335.743,
+      "match": "exact",
+      "source_word_ids": [
+        707
+      ]
+    },
+    {
+      "id": "w706",
+      "start": 335.743,
+      "end": 336.023,
+      "match": "exact",
+      "source_word_ids": [
+        708
+      ]
+    },
+    {
+      "id": "w707",
+      "start": 336.023,
+      "end": 336.383,
+      "match": "exact",
+      "source_word_ids": [
+        709
+      ]
+    },
+    {
+      "id": "w708",
+      "start": 336.383,
+      "end": 336.623,
+      "match": "exact",
+      "source_word_ids": [
+        710
+      ]
+    },
+    {
+      "id": "w709",
+      "start": 338.183,
+      "end": 338.263,
+      "match": "exact",
+      "source_word_ids": [
+        711
+      ]
+    },
+    {
+      "id": "w710",
+      "start": 338.263,
+      "end": 338.663,
+      "match": "exact",
+      "source_word_ids": [
+        712
+      ]
+    },
+    {
+      "id": "w711",
+      "start": 338.663,
+      "end": 339.063,
+      "match": "exact",
+      "source_word_ids": [
+        713
+      ]
+    },
+    {
+      "id": "w712",
+      "start": 339.063,
+      "end": 339.403,
+      "match": "exact",
+      "source_word_ids": [
+        714
+      ]
+    },
+    {
+      "id": "w713",
+      "start": 339.403,
+      "end": 339.843,
+      "match": "exact",
+      "source_word_ids": [
+        715
+      ]
+    },
+    {
+      "id": "w714",
+      "start": 340.563,
+      "end": 340.783,
+      "match": "exact",
+      "source_word_ids": [
+        716
+      ]
+    },
+    {
+      "id": "w715",
+      "start": 340.783,
+      "end": 341.023,
+      "match": "exact",
+      "source_word_ids": [
+        717
+      ]
+    },
+    {
+      "id": "w716",
+      "start": 341.023,
+      "end": 341.443,
+      "match": "exact",
+      "source_word_ids": [
+        718
+      ]
+    },
+    {
+      "id": "w717",
+      "start": 341.443,
+      "end": 342.003,
+      "match": "exact",
+      "source_word_ids": [
+        719
+      ]
+    },
+    {
+      "id": "w718",
+      "start": 342.003,
+      "end": 342.203,
+      "match": "exact",
+      "source_word_ids": [
+        720
+      ]
+    },
+    {
+      "id": "w719",
+      "start": 342.203,
+      "end": 342.423,
+      "match": "exact",
+      "source_word_ids": [
+        721
+      ]
+    },
+    {
+      "id": "w720",
+      "start": 342.423,
+      "end": 342.803,
+      "match": "exact",
+      "source_word_ids": [
+        722
+      ]
+    },
+    {
+      "id": "w721",
+      "start": 343.323,
+      "end": 344.003,
+      "match": "exact",
+      "source_word_ids": [
+        723
+      ]
+    },
+    {
+      "id": "w722",
+      "start": 344.003,
+      "end": 344.263,
+      "match": "exact",
+      "source_word_ids": [
+        724
+      ]
+    },
+    {
+      "id": "w723",
+      "start": 344.263,
+      "end": 344.423,
+      "match": "exact",
+      "source_word_ids": [
+        725
+      ]
+    },
+    {
+      "id": "w724",
+      "start": 344.423,
+      "end": 344.643,
+      "match": "exact",
+      "source_word_ids": [
+        726
+      ]
+    },
+    {
+      "id": "w725",
+      "start": 344.643,
+      "end": 344.863,
+      "match": "exact",
+      "source_word_ids": [
+        727
+      ]
+    },
+    {
+      "id": "w726",
+      "start": 344.863,
+      "end": 345.083,
+      "match": "exact",
+      "source_word_ids": [
+        728
+      ]
+    },
+    {
+      "id": "w727",
+      "start": 345.083,
+      "end": 345.603,
+      "match": "exact",
+      "source_word_ids": [
+        729
+      ]
+    },
+    {
+      "id": "w728",
+      "start": 345.603,
+      "end": 345.923,
+      "match": "exact",
+      "source_word_ids": [
+        730
+      ]
+    },
+    {
+      "id": "w729",
+      "start": 346.503,
+      "end": 346.703,
+      "match": "exact",
+      "source_word_ids": [
+        731
+      ]
+    },
+    {
+      "id": "w730",
+      "start": 346.703,
+      "end": 346.943,
+      "match": "exact",
+      "source_word_ids": [
+        732
+      ]
+    },
+    {
+      "id": "w731",
+      "start": 346.943,
+      "end": 347.383,
+      "match": "exact",
+      "source_word_ids": [
+        733
+      ]
+    },
+    {
+      "id": "w732",
+      "start": 347.383,
+      "end": 347.743,
+      "match": "exact",
+      "source_word_ids": [
+        734
+      ]
+    },
+    {
+      "id": "w733",
+      "start": 347.743,
+      "end": 348.203,
+      "match": "exact",
+      "source_word_ids": [
+        735
+      ]
+    },
+    {
+      "id": "w734",
+      "start": 348.203,
+      "end": 348.723,
+      "match": "exact",
+      "source_word_ids": [
+        736
+      ]
+    },
+    {
+      "id": "w735",
+      "start": 348.723,
+      "end": 349.043,
+      "match": "exact",
+      "source_word_ids": [
+        737
+      ]
+    },
+    {
+      "id": "w736",
+      "start": 349.043,
+      "end": 349.303,
+      "match": "exact",
+      "source_word_ids": [
+        738
+      ]
+    },
+    {
+      "id": "w737",
+      "start": 350.143,
+      "end": 350.423,
+      "match": "exact",
+      "source_word_ids": [
+        739
+      ]
+    },
+    {
+      "id": "w738",
+      "start": 350.423,
+      "end": 350.783,
+      "match": "exact",
+      "source_word_ids": [
+        740
+      ]
+    },
+    {
+      "id": "w739",
+      "start": 350.783,
+      "end": 351.423,
+      "match": "exact",
+      "source_word_ids": [
+        741
+      ]
+    },
+    {
+      "id": "w740",
+      "start": 351.423,
+      "end": 351.763,
+      "match": "exact",
+      "source_word_ids": [
+        742
+      ]
+    },
+    {
+      "id": "w741",
+      "start": 351.763,
+      "end": 352.303,
+      "match": "exact",
+      "source_word_ids": [
+        743
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "s0",
+      "start": 0,
+      "end": 3.1,
+      "word_start": 0,
+      "word_end": 5,
+      "cue_start": 0,
+      "cue_end": 4.22
+    },
+    {
+      "id": "s1",
+      "start": 4.22,
+      "end": 6.96,
+      "word_start": 5,
+      "word_end": 14,
+      "cue_start": 4.22,
+      "cue_end": 8.16
+    },
+    {
+      "id": "s2",
+      "start": 8.16,
+      "end": 10,
+      "word_start": 14,
+      "word_end": 23,
+      "cue_start": 8.16,
+      "cue_end": 10.82
+    },
+    {
+      "id": "s3",
+      "start": 10.82,
+      "end": 11.62,
+      "word_start": 23,
+      "word_end": 26,
+      "cue_start": 10.82,
+      "cue_end": 12.3
+    },
+    {
+      "id": "s4",
+      "start": 12.3,
+      "end": 17.295,
+      "word_start": 26,
+      "word_end": 38,
+      "cue_start": 12.3,
+      "cue_end": 17.6
+    },
+    {
+      "id": "s5",
+      "start": 17.6,
+      "end": 28.76,
+      "word_start": 38,
+      "word_end": 61,
+      "cue_start": 17.6,
+      "cue_end": 29.98
+    },
+    {
+      "id": "s6",
+      "start": 29.98,
+      "end": 35.61,
+      "word_start": 61,
+      "word_end": 71,
+      "cue_start": 29.98,
+      "cue_end": 36.08
+    },
+    {
+      "id": "s7",
+      "start": 36.08,
+      "end": 40.22,
+      "word_start": 71,
+      "word_end": 78,
+      "cue_start": 36.08,
+      "cue_end": 41.32
+    },
+    {
+      "id": "s8",
+      "start": 41.32,
+      "end": 48.98,
+      "word_start": 78,
+      "word_end": 99,
+      "cue_start": 41.32,
+      "cue_end": 48.98
+    },
+    {
+      "id": "s9",
+      "start": 48.98,
+      "end": 51.9,
+      "word_start": 99,
+      "word_end": 108,
+      "cue_start": 48.98,
+      "cue_end": 52.7
+    },
+    {
+      "id": "s10",
+      "start": 52.7,
+      "end": 55.3,
+      "word_start": 108,
+      "word_end": 116,
+      "cue_start": 52.7,
+      "cue_end": 55.78
+    },
+    {
+      "id": "s11",
+      "start": 55.78,
+      "end": 58,
+      "word_start": 116,
+      "word_end": 120,
+      "cue_start": 55.78,
+      "cue_end": 58.135
+    },
+    {
+      "id": "s12",
+      "start": 58.135,
+      "end": 60.1,
+      "word_start": 120,
+      "word_end": 124,
+      "cue_start": 58.135,
+      "cue_end": 60.585
+    },
+    {
+      "id": "s13",
+      "start": 60.585,
+      "end": 62.565,
+      "word_start": 124,
+      "word_end": 128,
+      "cue_start": 60.585,
+      "cue_end": 62.96
+    },
+    {
+      "id": "s14",
+      "start": 62.96,
+      "end": 69.62,
+      "word_start": 128,
+      "word_end": 145,
+      "cue_start": 62.96,
+      "cue_end": 70.28
+    },
+    {
+      "id": "s15",
+      "start": 70.28,
+      "end": 73.52,
+      "word_start": 145,
+      "word_end": 154,
+      "cue_start": 70.28,
+      "cue_end": 74.22
+    },
+    {
+      "id": "s16",
+      "start": 74.22,
+      "end": 74.96,
+      "word_start": 154,
+      "word_end": 157,
+      "cue_start": 74.22,
+      "cue_end": 75.82
+    },
+    {
+      "id": "s17",
+      "start": 75.82,
+      "end": 82.91,
+      "word_start": 157,
+      "word_end": 171,
+      "cue_start": 75.82,
+      "cue_end": 83.22
+    },
+    {
+      "id": "s18",
+      "start": 83.22,
+      "end": 90.52,
+      "word_start": 171,
+      "word_end": 190,
+      "cue_start": 83.22,
+      "cue_end": 90.98
+    },
+    {
+      "id": "s19",
+      "start": 90.98,
+      "end": 93.46,
+      "word_start": 190,
+      "word_end": 196,
+      "cue_start": 90.98,
+      "cue_end": 94.2
+    },
+    {
+      "id": "s20",
+      "start": 94.2,
+      "end": 105.22,
+      "word_start": 196,
+      "word_end": 224,
+      "cue_start": 94.2,
+      "cue_end": 106.12
+    },
+    {
+      "id": "s21",
+      "start": 106.12,
+      "end": 108.7,
+      "word_start": 224,
+      "word_end": 232,
+      "cue_start": 106.12,
+      "cue_end": 109.26
+    },
+    {
+      "id": "s22",
+      "start": 109.26,
+      "end": 118.32,
+      "word_start": 232,
+      "word_end": 253,
+      "cue_start": 109.26,
+      "cue_end": 119.18
+    },
+    {
+      "id": "s23",
+      "start": 119.18,
+      "end": 122.2,
+      "word_start": 253,
+      "word_end": 261,
+      "cue_start": 119.18,
+      "cue_end": 122.84
+    },
+    {
+      "id": "s24",
+      "start": 122.84,
+      "end": 127.66,
+      "word_start": 261,
+      "word_end": 273,
+      "cue_start": 122.84,
+      "cue_end": 128
+    },
+    {
+      "id": "s25",
+      "start": 128,
+      "end": 133.945,
+      "word_start": 273,
+      "word_end": 283,
+      "cue_start": 128,
+      "cue_end": 134.38
+    },
+    {
+      "id": "s26",
+      "start": 134.38,
+      "end": 135.4,
+      "word_start": 283,
+      "word_end": 288,
+      "cue_start": 134.38,
+      "cue_end": 135.62
+    },
+    {
+      "id": "s27",
+      "start": 135.62,
+      "end": 137.1,
+      "word_start": 288,
+      "word_end": 293,
+      "cue_start": 135.62,
+      "cue_end": 138.18
+    },
+    {
+      "id": "s28",
+      "start": 138.18,
+      "end": 139.86,
+      "word_start": 293,
+      "word_end": 299,
+      "cue_start": 138.18,
+      "cue_end": 140.84
+    },
+    {
+      "id": "s29",
+      "start": 140.84,
+      "end": 143.44,
+      "word_start": 299,
+      "word_end": 306,
+      "cue_start": 140.84,
+      "cue_end": 144.38
+    },
+    {
+      "id": "s30",
+      "start": 144.38,
+      "end": 147.24,
+      "word_start": 306,
+      "word_end": 315,
+      "cue_start": 144.38,
+      "cue_end": 148.44
+    },
+    {
+      "id": "s31",
+      "start": 148.44,
+      "end": 152.8,
+      "word_start": 315,
+      "word_end": 326,
+      "cue_start": 148.44,
+      "cue_end": 153.68
+    },
+    {
+      "id": "s32",
+      "start": 153.68,
+      "end": 154.44,
+      "word_start": 326,
+      "word_end": 330,
+      "cue_start": 153.68,
+      "cue_end": 155
+    },
+    {
+      "id": "s33",
+      "start": 155,
+      "end": 162.9,
+      "word_start": 330,
+      "word_end": 347,
+      "cue_start": 155,
+      "cue_end": 163.74
+    },
+    {
+      "id": "s34",
+      "start": 163.74,
+      "end": 174.37,
+      "word_start": 347,
+      "word_end": 372,
+      "cue_start": 163.74,
+      "cue_end": 174.84
+    },
+    {
+      "id": "s35",
+      "start": 174.84,
+      "end": 179.2,
+      "word_start": 372,
+      "word_end": 383,
+      "cue_start": 174.84,
+      "cue_end": 179.32
+    },
+    {
+      "id": "s36",
+      "start": 179.32,
+      "end": 187.2,
+      "word_start": 383,
+      "word_end": 401,
+      "cue_start": 179.32,
+      "cue_end": 188.1
+    },
+    {
+      "id": "s37",
+      "start": 188.1,
+      "end": 190.36,
+      "word_start": 401,
+      "word_end": 408,
+      "cue_start": 188.1,
+      "cue_end": 190.66
+    },
+    {
+      "id": "s38",
+      "start": 190.66,
+      "end": 195.8,
+      "word_start": 408,
+      "word_end": 423,
+      "cue_start": 190.66,
+      "cue_end": 196.36
+    },
+    {
+      "id": "s39",
+      "start": 196.36,
+      "end": 198.24,
+      "word_start": 423,
+      "word_end": 426,
+      "cue_start": 196.36,
+      "cue_end": 199.16
+    },
+    {
+      "id": "s40",
+      "start": 199.16,
+      "end": 203.34,
+      "word_start": 426,
+      "word_end": 436,
+      "cue_start": 199.16,
+      "cue_end": 203.4
+    },
+    {
+      "id": "s41",
+      "start": 203.4,
+      "end": 207.46,
+      "word_start": 436,
+      "word_end": 446,
+      "cue_start": 203.4,
+      "cue_end": 208.2
+    },
+    {
+      "id": "s42",
+      "start": 208.2,
+      "end": 210.46,
+      "word_start": 446,
+      "word_end": 452,
+      "cue_start": 208.2,
+      "cue_end": 210.88
+    },
+    {
+      "id": "s43",
+      "start": 210.88,
+      "end": 213.08,
+      "word_start": 452,
+      "word_end": 457,
+      "cue_start": 210.88,
+      "cue_end": 214.12
+    },
+    {
+      "id": "s44",
+      "start": 214.12,
+      "end": 235.08,
+      "word_start": 457,
+      "word_end": 503,
+      "cue_start": 214.12,
+      "cue_end": 235.66
+    },
+    {
+      "id": "s45",
+      "start": 235.66,
+      "end": 244.4,
+      "word_start": 503,
+      "word_end": 524,
+      "cue_start": 235.66,
+      "cue_end": 244.88
+    },
+    {
+      "id": "s46",
+      "start": 244.88,
+      "end": 246.26,
+      "word_start": 524,
+      "word_end": 527,
+      "cue_start": 244.88,
+      "cue_end": 247.18
+    },
+    {
+      "id": "s47",
+      "start": 247.18,
+      "end": 248.22,
+      "word_start": 527,
+      "word_end": 530,
+      "cue_start": 247.18,
+      "cue_end": 249.1
+    },
+    {
+      "id": "s48",
+      "start": 249.1,
+      "end": 250.92,
+      "word_start": 530,
+      "word_end": 536,
+      "cue_start": 249.1,
+      "cue_end": 251.36
+    },
+    {
+      "id": "s49",
+      "start": 251.36,
+      "end": 254.235,
+      "word_start": 536,
+      "word_end": 543,
+      "cue_start": 251.36,
+      "cue_end": 254.62
+    },
+    {
+      "id": "s50",
+      "start": 254.62,
+      "end": 256.74,
+      "word_start": 543,
+      "word_end": 550,
+      "cue_start": 254.62,
+      "cue_end": 259.783
+    },
+    {
+      "id": "s51",
+      "start": 259.783,
+      "end": 267.323,
+      "word_start": 550,
+      "word_end": 563,
+      "cue_start": 259.783,
+      "cue_end": 268.023
+    },
+    {
+      "id": "s52",
+      "start": 268.023,
+      "end": 269.343,
+      "word_start": 563,
+      "word_end": 567,
+      "cue_start": 268.023,
+      "cue_end": 269.803
+    },
+    {
+      "id": "s53",
+      "start": 269.803,
+      "end": 275.433,
+      "word_start": 567,
+      "word_end": 578,
+      "cue_start": 269.803,
+      "cue_end": 275.763
+    },
+    {
+      "id": "s54",
+      "start": 275.763,
+      "end": 277.423,
+      "word_start": 578,
+      "word_end": 582,
+      "cue_start": 275.763,
+      "cue_end": 278.223
+    },
+    {
+      "id": "s55",
+      "start": 278.223,
+      "end": 279.803,
+      "word_start": 582,
+      "word_end": 587,
+      "cue_start": 278.223,
+      "cue_end": 280.683
+    },
+    {
+      "id": "s56",
+      "start": 280.683,
+      "end": 286.783,
+      "word_start": 587,
+      "word_end": 603,
+      "cue_start": 280.683,
+      "cue_end": 287.163
+    },
+    {
+      "id": "s57",
+      "start": 287.163,
+      "end": 289.863,
+      "word_start": 603,
+      "word_end": 610,
+      "cue_start": 287.163,
+      "cue_end": 290.843
+    },
+    {
+      "id": "s58",
+      "start": 290.843,
+      "end": 292.903,
+      "word_start": 610,
+      "word_end": 619,
+      "cue_start": 290.843,
+      "cue_end": 293.883
+    },
+    {
+      "id": "s59",
+      "start": 293.883,
+      "end": 297.603,
+      "word_start": 619,
+      "word_end": 627,
+      "cue_start": 293.883,
+      "cue_end": 298.323
+    },
+    {
+      "id": "s60",
+      "start": 298.323,
+      "end": 300.298,
+      "word_start": 627,
+      "word_end": 632,
+      "cue_start": 298.323,
+      "cue_end": 300.603
+    },
+    {
+      "id": "s61",
+      "start": 300.603,
+      "end": 302.303,
+      "word_start": 632,
+      "word_end": 636,
+      "cue_start": 300.603,
+      "cue_end": 302.923
+    },
+    {
+      "id": "s62",
+      "start": 302.923,
+      "end": 304.083,
+      "word_start": 636,
+      "word_end": 640,
+      "cue_start": 302.923,
+      "cue_end": 304.883
+    },
+    {
+      "id": "s63",
+      "start": 304.883,
+      "end": 309.163,
+      "word_start": 640,
+      "word_end": 652,
+      "cue_start": 304.883,
+      "cue_end": 310.123
+    },
+    {
+      "id": "s64",
+      "start": 310.123,
+      "end": 319.683,
+      "word_start": 652,
+      "word_end": 673,
+      "cue_start": 310.123,
+      "cue_end": 320.403
+    },
+    {
+      "id": "s65",
+      "start": 320.403,
+      "end": 323.278,
+      "word_start": 673,
+      "word_end": 678,
+      "cue_start": 320.403,
+      "cue_end": 323.463
+    },
+    {
+      "id": "s66",
+      "start": 323.463,
+      "end": 326.043,
+      "word_start": 678,
+      "word_end": 686,
+      "cue_start": 323.463,
+      "cue_end": 327.063
+    },
+    {
+      "id": "s67",
+      "start": 327.063,
+      "end": 329.583,
+      "word_start": 686,
+      "word_end": 692,
+      "cue_start": 327.063,
+      "cue_end": 330.743
+    },
+    {
+      "id": "s68",
+      "start": 330.743,
+      "end": 336.623,
+      "word_start": 692,
+      "word_end": 709,
+      "cue_start": 330.743,
+      "cue_end": 338.183
+    },
+    {
+      "id": "s69",
+      "start": 338.183,
+      "end": 339.843,
+      "word_start": 709,
+      "word_end": 714,
+      "cue_start": 338.183,
+      "cue_end": 340.563
+    },
+    {
+      "id": "s70",
+      "start": 340.563,
+      "end": 342.803,
+      "word_start": 714,
+      "word_end": 721,
+      "cue_start": 340.563,
+      "cue_end": 343.323
+    },
+    {
+      "id": "s71",
+      "start": 343.323,
+      "end": 349.303,
+      "word_start": 721,
+      "word_end": 737,
+      "cue_start": 343.323,
+      "cue_end": 350.143
+    },
+    {
+      "id": "s72",
+      "start": 350.143,
+      "end": 352.303,
+      "word_start": 737,
+      "word_end": 742,
+      "cue_start": 350.143,
+      "cue_end": 357.356
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "p0",
+      "start": 0,
+      "end": 3.1,
+      "word_start": 0,
+      "word_end": 5,
+      "cue_start": 0,
+      "cue_end": 4.22
+    },
+    {
+      "id": "p1",
+      "start": 4.22,
+      "end": 28.76,
+      "word_start": 5,
+      "word_end": 61,
+      "cue_start": 4.22,
+      "cue_end": 29.98
+    },
+    {
+      "id": "p2",
+      "start": 29.98,
+      "end": 35.61,
+      "word_start": 61,
+      "word_end": 71,
+      "cue_start": 29.98,
+      "cue_end": 36.08
+    },
+    {
+      "id": "p3",
+      "start": 36.08,
+      "end": 48.98,
+      "word_start": 71,
+      "word_end": 99,
+      "cue_start": 36.08,
+      "cue_end": 48.98
+    },
+    {
+      "id": "p4",
+      "start": 48.98,
+      "end": 60.1,
+      "word_start": 99,
+      "word_end": 124,
+      "cue_start": 48.98,
+      "cue_end": 60.585
+    },
+    {
+      "id": "p5",
+      "start": 60.585,
+      "end": 69.62,
+      "word_start": 124,
+      "word_end": 145,
+      "cue_start": 60.585,
+      "cue_end": 70.28
+    },
+    {
+      "id": "p6",
+      "start": 70.28,
+      "end": 90.52,
+      "word_start": 145,
+      "word_end": 190,
+      "cue_start": 70.28,
+      "cue_end": 90.98
+    },
+    {
+      "id": "p7",
+      "start": 90.98,
+      "end": 105.22,
+      "word_start": 190,
+      "word_end": 224,
+      "cue_start": 90.98,
+      "cue_end": 106.12
+    },
+    {
+      "id": "p8",
+      "start": 106.12,
+      "end": 135.4,
+      "word_start": 224,
+      "word_end": 288,
+      "cue_start": 106.12,
+      "cue_end": 135.62
+    },
+    {
+      "id": "p9",
+      "start": 135.62,
+      "end": 147.24,
+      "word_start": 288,
+      "word_end": 315,
+      "cue_start": 135.62,
+      "cue_end": 148.44
+    },
+    {
+      "id": "p10",
+      "start": 148.44,
+      "end": 162.9,
+      "word_start": 315,
+      "word_end": 347,
+      "cue_start": 148.44,
+      "cue_end": 163.74
+    },
+    {
+      "id": "p11",
+      "start": 163.74,
+      "end": 179.2,
+      "word_start": 347,
+      "word_end": 383,
+      "cue_start": 163.74,
+      "cue_end": 179.32
+    },
+    {
+      "id": "p12",
+      "start": 179.32,
+      "end": 203.34,
+      "word_start": 383,
+      "word_end": 436,
+      "cue_start": 179.32,
+      "cue_end": 203.4
+    },
+    {
+      "id": "p13",
+      "start": 203.4,
+      "end": 235.08,
+      "word_start": 436,
+      "word_end": 503,
+      "cue_start": 203.4,
+      "cue_end": 235.66
+    },
+    {
+      "id": "p14",
+      "start": 235.66,
+      "end": 244.4,
+      "word_start": 503,
+      "word_end": 524,
+      "cue_start": 235.66,
+      "cue_end": 244.88
+    },
+    {
+      "id": "p15",
+      "start": 244.88,
+      "end": 256.74,
+      "word_start": 524,
+      "word_end": 550,
+      "cue_start": 244.88,
+      "cue_end": 259.783
+    },
+    {
+      "id": "p16",
+      "start": 259.783,
+      "end": 275.433,
+      "word_start": 550,
+      "word_end": 578,
+      "cue_start": 259.783,
+      "cue_end": 275.763
+    },
+    {
+      "id": "p17",
+      "start": 275.763,
+      "end": 286.783,
+      "word_start": 578,
+      "word_end": 603,
+      "cue_start": 275.763,
+      "cue_end": 287.163
+    },
+    {
+      "id": "p18",
+      "start": 287.163,
+      "end": 309.163,
+      "word_start": 603,
+      "word_end": 652,
+      "cue_start": 287.163,
+      "cue_end": 310.123
+    },
+    {
+      "id": "p19",
+      "start": 310.123,
+      "end": 323.278,
+      "word_start": 652,
+      "word_end": 678,
+      "cue_start": 310.123,
+      "cue_end": 323.463
+    },
+    {
+      "id": "p20",
+      "start": 323.463,
+      "end": 336.623,
+      "word_start": 678,
+      "word_end": 709,
+      "cue_start": 323.463,
+      "cue_end": 338.183
+    },
+    {
+      "id": "p21",
+      "start": 338.183,
+      "end": 352.303,
+      "word_start": 709,
+      "word_end": 742,
+      "cue_start": 338.183,
+      "cue_end": 357.356
+    }
+  ]
+}

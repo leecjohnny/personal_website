@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "sourceDocument": {
+    "fileName": "Dynamism-as-a-supercomputing-race.docx",
+    "originalPath": "/Users/johnny/Library/Mobile Documents/com~apple~CloudDocs/Downloads/Dynamism as a supercomputing race .docx"
+  },
+  "assets": [
+    {
+      "id": "figure-01",
+      "file": "/assets/essay/figure-01.png",
+      "source": {
+        "document": "Dynamism-as-a-supercomputing-race.docx",
+        "relationshipId": "rId6",
+        "mediaPart": "word/media/image2.png",
+        "originalFileName": "image2.png"
+      },
+      "caption": null,
+      "sourceUrl": null,
+      "sourceAlt": null,
+      "alt": "Black-and-white diptych of a dark cosmic portal and a futuristic city with a vehicle flying between towers.",
+      "title": null,
+      "documentPlacement": {
+        "widthInches": 2.47,
+        "heightInches": 2.47
+      },
+      "width": 2048,
+      "height": 2048,
+      "format": "PNG",
+      "animated": false,
+      "frames": 1,
+      "displayCaption": null
+    },
+    {
+      "id": "figure-02",
+      "file": "/assets/essay/figure-02.png",
+      "source": {
+        "document": "Dynamism-as-a-supercomputing-race.docx",
+        "relationshipId": "rId7",
+        "mediaPart": "word/media/image7.png",
+        "originalFileName": "image7.png"
+      },
+      "caption": "Network graph of the internet link",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Internet#/media/File:Internet_map_1024_-_transparent,_inverted.png",
+      "sourceAlt": null,
+      "alt": "A dense, multicolored network map visualizing connections across the internet.",
+      "title": null,
+      "documentPlacement": {
+        "widthInches": 3.02,
+        "heightInches": 3.02
+      },
+      "width": 1280,
+      "height": 1280,
+      "format": "PNG",
+      "animated": false,
+      "frames": 1,
+      "displayCaption": "Network graph of the internet"
+    },
+    {
+      "id": "figure-03",
+      "file": "/assets/essay/figure-03.png",
+      "source": {
+        "document": "Dynamism-as-a-supercomputing-race.docx",
+        "relationshipId": "rId9",
+        "mediaPart": "word/media/image8.png",
+        "originalFileName": "image8.png"
+      },
+      "caption": "2022 ChatGPT reaction link",
+      "sourceUrl": "https://x.com/tqbf/status/1598513757805858820?s=20",
+      "sourceAlt": null,
+      "alt": "A 2022 social post showing an early ChatGPT response written in biblical style.",
+      "title": null,
+      "documentPlacement": {
+        "widthInches": 2.68,
+        "heightInches": 2.96
+      },
+      "width": 880,
+      "height": 970,
+      "format": "PNG",
+      "animated": false,
+      "frames": 1,
+      "displayCaption": "An early reaction to ChatGPT, 2022"
+    },
+    {
+      "id": "figure-04",
+      "file": "/assets/essay/figure-04.gif",
+      "source": {
+        "document": "Dynamism-as-a-supercomputing-race.docx",
+        "relationshipId": "rId11",
+        "mediaPart": "word/media/image6.gif",
+        "originalFileName": "image6.gif"
+      },
+      "caption": "2026 gpt-5.6 using a computer to design parts, not sped up, link",
+      "sourceUrl": "https://x.com/evayzh/status/2075374512401711203?s=20",
+      "sourceAlt": null,
+      "alt": "Animated screen recording of GPT-5.6 operating Blender to design mechanical parts.",
+      "title": null,
+      "documentPlacement": {
+        "widthInches": 2.47,
+        "heightInches": 3.05
+      },
+      "width": 720,
+      "height": 885,
+      "format": "GIF",
+      "animated": true,
+      "frames": 516,
+      "displayCaption": "GPT-5.6 using a computer to design parts, shown at real speed, 2026"
+    },
+    {
+      "id": "figure-05",
+      "file": "/assets/essay/figure-05.png",
+      "source": {
+        "document": "Dynamism-as-a-supercomputing-race.docx",
+        "relationshipId": "rId13",
+        "mediaPart": "word/media/image4.png",
+        "originalFileName": "image4.png"
+      },
+      "caption": "People protesting against artificial intelligence outside an OpenAI office in San Francisco last year.Credit...Jason Henry for The New York Times",
+      "sourceUrl": "https://www.nytimes.com/2026/04/27/technology/ai-artificial-intelligence-backlash.html",
+      "sourceAlt": null,
+      "alt": "People holding signs while protesting artificial intelligence in San Francisco.",
+      "title": null,
+      "documentPlacement": {
+        "widthInches": 4.24,
+        "heightInches": 2.83
+      },
+      "width": 2048,
+      "height": 1366,
+      "format": "PNG",
+      "animated": false,
+      "frames": 1,
+      "displayCaption": "People protesting artificial intelligence outside an OpenAI office in San Francisco. Credit: Jason Henry / The New York Times"
+    },
+    {
+      "id": "figure-06",
+      "file": "/assets/essay/figure-06.jpg",
+      "source": {
+        "document": "Dynamism-as-a-supercomputing-race.docx",
+        "relationshipId": "rId14",
+        "mediaPart": "word/media/image1.jpg",
+        "originalFileName": "image1.jpg"
+      },
+      "caption": "Computer simulated image from NASA",
+      "sourceUrl": "https://images.nasa.gov/details/behemoth-black-hole-found-in-an-unlikely-place_26209716511_o",
+      "sourceAlt": "This computer-simulated image shows a supermassive black hole at the core of a galaxy. The black region in the center represents the black hole’s event horizon, where no light can escape the massive object’s gravitational grip. The black hole’s powerful gravity distorts space around it like a funhouse mirror. Light from background stars is stretched and smeared as the stars skim by the black hole.\n\nCredits: NASA, ESA, and D. Coe, J. Anderson, and R. van der Marel (STScI)\n\nMore info: Astronomers have uncovered a near-record breaking supermassive black hole, weighing 17 billion suns, in an unlikely place: in the center of a galaxy in a sparsely populated area of the universe. The observations, made by NASA’s Hubble Space Telescope and the Gemini Telescope in Hawaii, may indicate that these monster objects may be more common than once thought.\n\nUntil now, the biggest supermassive black holes – those roughly 10 billion times the mass of our sun – have been found at the cores of very large galaxies in regions of the universe packed with other large galaxies. In fact, the current record holder tips the scale at 21 billion suns and resides in the crowded Coma galaxy cluster that consists of over 1,000 galaxies.",
+      "alt": "NASA computer simulation of a black hole bending a bright field of stars.",
+      "title": null,
+      "documentPlacement": {
+        "widthInches": 2.4,
+        "heightInches": 2.38
+      },
+      "width": 1280,
+      "height": 1266,
+      "format": "JPEG",
+      "animated": false,
+      "frames": 1,
+      "displayCaption": "Computer-simulated image from NASA"
+    },
+    {
+      "id": "figure-07",
+      "file": "/assets/essay/figure-07.gif",
+      "source": {
+        "document": "Dynamism-as-a-supercomputing-race.docx",
+        "relationshipId": "rId16",
+        "mediaPart": "word/media/image5.gif",
+        "originalFileName": "image5.gif"
+      },
+      "caption": "Space X Falcon 9 launch",
+      "sourceUrl": "https://x.com/SpaceX/status/2075795462104182824?s=20",
+      "sourceAlt": null,
+      "alt": "Animated view of a Falcon 9 rocket rising above a cloud deck.",
+      "title": null,
+      "documentPlacement": {
+        "widthInches": 6.5,
+        "heightInches": 3.65
+      },
+      "width": 720,
+      "height": 405,
+      "format": "GIF",
+      "animated": true,
+      "frames": 119,
+      "displayCaption": "SpaceX Falcon 9 launch"
+    },
+    {
+      "id": "figure-08",
+      "file": "/assets/essay/figure-08.png",
+      "source": {
+        "document": "Dynamism-as-a-supercomputing-race.docx",
+        "relationshipId": "rId18",
+        "mediaPart": "word/media/image3.png",
+        "originalFileName": "image3.png"
+      },
+      "caption": "Sagittarius A* captured in 2017 from the Event Horizon Telescope",
+      "sourceUrl": "https://eventhorizontelescope.org/blog/astronomers-reveal-first-image-black-hole-heart-our-galaxy",
+      "sourceAlt": null,
+      "alt": "The glowing orange ring of Sagittarius A star, the black hole at the center of the Milky Way, against black space.",
+      "title": null,
+      "documentPlacement": {
+        "widthInches": 6.5,
+        "heightInches": 3.65
+      },
+      "width": 2048,
+      "height": 1152,
+      "format": "PNG",
+      "animated": false,
+      "frames": 1,
+      "displayCaption": "Sagittarius A* captured from 2017 observations by the Event Horizon Telescope"
+    }
+  ]
+}

@@ -1,0 +1,6826 @@
+{
+  "schema": "article-audio-sync/article/v1",
+  "source": "../../../article.txt",
+  "sha256": "231aaf5b8c5748863db5dd659889a565a5ac441ca49ac7cd30bb79acf1650818",
+  "char_offset_units": "utf16",
+  "text": "Dynamism as a supercomputing race\n\nComputers are the most important tools we have today. Most of us have a computer in our pocket. It's a smartphone. With the smartphone, you can access the world's knowledge through the internet. The internet is actually many, many more computers connected together to communicate, to connect you with more people, more knowledge, and more opportunity.\n\nOur society, our race, has evolved to coexist with computers.\n\nFundamentally, today, we are a supercomputing race. Everything we have done, most of what we do today has a connection with the digital world that relies on computing.\n\nIn this moment, we're going through a phase shift. Our relationship with computing is evolving yet again. It started with ChatGPT. It started with conversation.\n\nWe gave it jokes. We asked it to write poems and songs, but we also realized it hallucinated, made things up.\n\nYet again, the computers improved because we improved them. We trained them. Now these supercomputers can create applications completely, entirely from scratch with just a sentence. They perform at the same level as a software engineer with decades of experience, with more breadth and depth.\n\nComputers can now program other computers. Now that thought can actually be quite scary because it leads us down this road to think: if we continue this evolution, this loop, where does it go?\n\nSome folks think this is the final stage. This may be the last job that people do because computers can teach themselves, build themselves, and perhaps evolve beyond humans. And possibly, this change can happen so fast. This exponential will happen so fast that it will be enormously disruptive. Possibly, it can lead to chaos, populist uprising, and riots. It can lead to suffering.\n\nThere is an alternate story. We see it every single day. Sometimes we're just slightly blind to it. It's always with us, if we just look up.\n\nThink about the night sky, full of stars, without light pollution. What do you see? You see our galaxy, other planets, and this vast, empty space where we are so, so small.\n\nWe are a race that discovered the theory of relativity, mostly with pen and paper, and mostly with our intellect, our curiosity, and our ambition. We raced for the moon, and we race beyond solar systems.\n\nAnd today, every single week, we send rockets into this vast darkness in a complete and reliable fashion. It is exactly like taking a bus. The rockets go up, they drop off the satellites, they come right back and land. It's entirely normal. This is the result of human progress, of human dynamism.\n\nWe have a responsibility to continue to push this envelope. The human race is not static. We are a dynamic species. If you decide to surrender to the exponential and believe chaos will happen, that machines will disrupt society so dramatically, so quickly, that we must be afraid, that we must interrupt our livelihood, you are surrendering our most human value: our capacity for ambition, our dynamism.\n\nYou can only believe the exponential will cause enormous harm because it is so fast, if you believe humans are static.\n\nWe are ambitious. We have curiosity. We have the capacity for change. And we have the capacity for intellect. We can do what you cannot imagine.\n\nAt the center of our galaxy, there is this vast, dark, scary object. It's a black hole. It's so massive and vast that light cannot escape its gravity.\n\nYet, humans are here. We live on this planet. Not only do we understand the very mechanics, the laws, the dynamics of the black hole.\n\nThe black hole is so far away. We may never be able to travel to it. It is so far, yet so immensely powerful. It must boggle our minds. Yet we understand it. Yet we study it. Yet we do not shy away from the enormous dangers of space.\n\nWe coexist on this planet, in this solar system, in this galaxy, with so many different stars, so many different galaxies. We cannot live in fear.\n\nThis is the time for us to build. To build towards an ambitious renaissance. Not to turn inward into the machines that we're building and believe somehow the answer is within.\n\nThe answer is within us. The answer has always been with us. And to think we have gotten this far, we should realize it's actually just the beginning. The beginning of human dynamism.\n",
+  "words": [
+    {
+      "id": "w0",
+      "text": "Dynamism",
+      "char_start": 0,
+      "char_end": 8,
+      "paragraph_id": "p0",
+      "segment_id": "s0"
+    },
+    {
+      "id": "w1",
+      "text": "as",
+      "char_start": 9,
+      "char_end": 11,
+      "paragraph_id": "p0",
+      "segment_id": "s0"
+    },
+    {
+      "id": "w2",
+      "text": "a",
+      "char_start": 12,
+      "char_end": 13,
+      "paragraph_id": "p0",
+      "segment_id": "s0"
+    },
+    {
+      "id": "w3",
+      "text": "supercomputing",
+      "char_start": 14,
+      "char_end": 28,
+      "paragraph_id": "p0",
+      "segment_id": "s0"
+    },
+    {
+      "id": "w4",
+      "text": "race",
+      "char_start": 29,
+      "char_end": 33,
+      "paragraph_id": "p0",
+      "segment_id": "s0"
+    },
+    {
+      "id": "w5",
+      "text": "Computers",
+      "char_start": 35,
+      "char_end": 44,
+      "paragraph_id": "p1",
+      "segment_id": "s1"
+    },
+    {
+      "id": "w6",
+      "text": "are",
+      "char_start": 45,
+      "char_end": 48,
+      "paragraph_id": "p1",
+      "segment_id": "s1"
+    },
+    {
+      "id": "w7",
+      "text": "the",
+      "char_start": 49,
+      "char_end": 52,
+      "paragraph_id": "p1",
+      "segment_id": "s1"
+    },
+    {
+      "id": "w8",
+      "text": "most",
+      "char_start": 53,
+      "char_end": 57,
+      "paragraph_id": "p1",
+      "segment_id": "s1"
+    },
+    {
+      "id": "w9",
+      "text": "important",
+      "char_start": 58,
+      "char_end": 67,
+      "paragraph_id": "p1",
+      "segment_id": "s1"
+    },
+    {
+      "id": "w10",
+      "text": "tools",
+      "char_start": 68,
+      "char_end": 73,
+      "paragraph_id": "p1",
+      "segment_id": "s1"
+    },
+    {
+      "id": "w11",
+      "text": "we",
+      "char_start": 74,
+      "char_end": 76,
+      "paragraph_id": "p1",
+      "segment_id": "s1"
+    },
+    {
+      "id": "w12",
+      "text": "have",
+      "char_start": 77,
+      "char_end": 81,
+      "paragraph_id": "p1",
+      "segment_id": "s1"
+    },
+    {
+      "id": "w13",
+      "text": "today",
+      "char_start": 82,
+      "char_end": 87,
+      "paragraph_id": "p1",
+      "segment_id": "s1"
+    },
+    {
+      "id": "w14",
+      "text": "Most",
+      "char_start": 89,
+      "char_end": 93,
+      "paragraph_id": "p1",
+      "segment_id": "s2"
+    },
+    {
+      "id": "w15",
+      "text": "of",
+      "char_start": 94,
+      "char_end": 96,
+      "paragraph_id": "p1",
+      "segment_id": "s2"
+    },
+    {
+      "id": "w16",
+      "text": "us",
+      "char_start": 97,
+      "char_end": 99,
+      "paragraph_id": "p1",
+      "segment_id": "s2"
+    },
+    {
+      "id": "w17",
+      "text": "have",
+      "char_start": 100,
+      "char_end": 104,
+      "paragraph_id": "p1",
+      "segment_id": "s2"
+    },
+    {
+      "id": "w18",
+      "text": "a",
+      "char_start": 105,
+      "char_end": 106,
+      "paragraph_id": "p1",
+      "segment_id": "s2"
+    },
+    {
+      "id": "w19",
+      "text": "computer",
+      "char_start": 107,
+      "char_end": 115,
+      "paragraph_id": "p1",
+      "segment_id": "s2"
+    },
+    {
+      "id": "w20",
+      "text": "in",
+      "char_start": 116,
+      "char_end": 118,
+      "paragraph_id": "p1",
+      "segment_id": "s2"
+    },
+    {
+      "id": "w21",
+      "text": "our",
+      "char_start": 119,
+      "char_end": 122,
+      "paragraph_id": "p1",
+      "segment_id": "s2"
+    },
+    {
+      "id": "w22",
+      "text": "pocket",
+      "char_start": 123,
+      "char_end": 129,
+      "paragraph_id": "p1",
+      "segment_id": "s2"
+    },
+    {
+      "id": "w23",
+      "text": "It's",
+      "char_start": 131,
+      "char_end": 135,
+      "paragraph_id": "p1",
+      "segment_id": "s3"
+    },
+    {
+      "id": "w24",
+      "text": "a",
+      "char_start": 136,
+      "char_end": 137,
+      "paragraph_id": "p1",
+      "segment_id": "s3"
+    },
+    {
+      "id": "w25",
+      "text": "smartphone",
+      "char_start": 138,
+      "char_end": 148,
+      "paragraph_id": "p1",
+      "segment_id": "s3"
+    },
+    {
+      "id": "w26",
+      "text": "With",
+      "char_start": 150,
+      "char_end": 154,
+      "paragraph_id": "p1",
+      "segment_id": "s4"
+    },
+    {
+      "id": "w27",
+      "text": "the",
+      "char_start": 155,
+      "char_end": 158,
+      "paragraph_id": "p1",
+      "segment_id": "s4"
+    },
+    {
+      "id": "w28",
+      "text": "smartphone",
+      "char_start": 159,
+      "char_end": 169,
+      "paragraph_id": "p1",
+      "segment_id": "s4"
+    },
+    {
+      "id": "w29",
+      "text": "you",
+      "char_start": 171,
+      "char_end": 174,
+      "paragraph_id": "p1",
+      "segment_id": "s4"
+    },
+    {
+      "id": "w30",
+      "text": "can",
+      "char_start": 175,
+      "char_end": 178,
+      "paragraph_id": "p1",
+      "segment_id": "s4"
+    },
+    {
+      "id": "w31",
+      "text": "access",
+      "char_start": 179,
+      "char_end": 185,
+      "paragraph_id": "p1",
+      "segment_id": "s4"
+    },
+    {
+      "id": "w32",
+      "text": "the",
+      "char_start": 186,
+      "char_end": 189,
+      "paragraph_id": "p1",
+      "segment_id": "s4"
+    },
+    {
+      "id": "w33",
+      "text": "world's",
+      "char_start": 190,
+      "char_end": 197,
+      "paragraph_id": "p1",
+      "segment_id": "s4"
+    },
+    {
+      "id": "w34",
+      "text": "knowledge",
+      "char_start": 198,
+      "char_end": 207,
+      "paragraph_id": "p1",
+      "segment_id": "s4"
+    },
+    {
+      "id": "w35",
+      "text": "through",
+      "char_start": 208,
+      "char_end": 215,
+      "paragraph_id": "p1",
+      "segment_id": "s4"
+    },
+    {
+      "id": "w36",
+      "text": "the",
+      "char_start": 216,
+      "char_end": 219,
+      "paragraph_id": "p1",
+      "segment_id": "s4"
+    },
+    {
+      "id": "w37",
+      "text": "internet",
+      "char_start": 220,
+      "char_end": 228,
+      "paragraph_id": "p1",
+      "segment_id": "s4"
+    },
+    {
+      "id": "w38",
+      "text": "The",
+      "char_start": 230,
+      "char_end": 233,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w39",
+      "text": "internet",
+      "char_start": 234,
+      "char_end": 242,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w40",
+      "text": "is",
+      "char_start": 243,
+      "char_end": 245,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w41",
+      "text": "actually",
+      "char_start": 246,
+      "char_end": 254,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w42",
+      "text": "many",
+      "char_start": 255,
+      "char_end": 259,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w43",
+      "text": "many",
+      "char_start": 261,
+      "char_end": 265,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w44",
+      "text": "more",
+      "char_start": 266,
+      "char_end": 270,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w45",
+      "text": "computers",
+      "char_start": 271,
+      "char_end": 280,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w46",
+      "text": "connected",
+      "char_start": 281,
+      "char_end": 290,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w47",
+      "text": "together",
+      "char_start": 291,
+      "char_end": 299,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w48",
+      "text": "to",
+      "char_start": 300,
+      "char_end": 302,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w49",
+      "text": "communicate",
+      "char_start": 303,
+      "char_end": 314,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w50",
+      "text": "to",
+      "char_start": 316,
+      "char_end": 318,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w51",
+      "text": "connect",
+      "char_start": 319,
+      "char_end": 326,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w52",
+      "text": "you",
+      "char_start": 327,
+      "char_end": 330,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w53",
+      "text": "with",
+      "char_start": 331,
+      "char_end": 335,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w54",
+      "text": "more",
+      "char_start": 336,
+      "char_end": 340,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w55",
+      "text": "people",
+      "char_start": 341,
+      "char_end": 347,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w56",
+      "text": "more",
+      "char_start": 349,
+      "char_end": 353,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w57",
+      "text": "knowledge",
+      "char_start": 354,
+      "char_end": 363,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w58",
+      "text": "and",
+      "char_start": 365,
+      "char_end": 368,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w59",
+      "text": "more",
+      "char_start": 369,
+      "char_end": 373,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w60",
+      "text": "opportunity",
+      "char_start": 374,
+      "char_end": 385,
+      "paragraph_id": "p1",
+      "segment_id": "s5"
+    },
+    {
+      "id": "w61",
+      "text": "Our",
+      "char_start": 388,
+      "char_end": 391,
+      "paragraph_id": "p2",
+      "segment_id": "s6"
+    },
+    {
+      "id": "w62",
+      "text": "society",
+      "char_start": 392,
+      "char_end": 399,
+      "paragraph_id": "p2",
+      "segment_id": "s6"
+    },
+    {
+      "id": "w63",
+      "text": "our",
+      "char_start": 401,
+      "char_end": 404,
+      "paragraph_id": "p2",
+      "segment_id": "s6"
+    },
+    {
+      "id": "w64",
+      "text": "race",
+      "char_start": 405,
+      "char_end": 409,
+      "paragraph_id": "p2",
+      "segment_id": "s6"
+    },
+    {
+      "id": "w65",
+      "text": "has",
+      "char_start": 411,
+      "char_end": 414,
+      "paragraph_id": "p2",
+      "segment_id": "s6"
+    },
+    {
+      "id": "w66",
+      "text": "evolved",
+      "char_start": 415,
+      "char_end": 422,
+      "paragraph_id": "p2",
+      "segment_id": "s6"
+    },
+    {
+      "id": "w67",
+      "text": "to",
+      "char_start": 423,
+      "char_end": 425,
+      "paragraph_id": "p2",
+      "segment_id": "s6"
+    },
+    {
+      "id": "w68",
+      "text": "coexist",
+      "char_start": 426,
+      "char_end": 433,
+      "paragraph_id": "p2",
+      "segment_id": "s6"
+    },
+    {
+      "id": "w69",
+      "text": "with",
+      "char_start": 434,
+      "char_end": 438,
+      "paragraph_id": "p2",
+      "segment_id": "s6"
+    },
+    {
+      "id": "w70",
+      "text": "computers",
+      "char_start": 439,
+      "char_end": 448,
+      "paragraph_id": "p2",
+      "segment_id": "s6"
+    },
+    {
+      "id": "w71",
+      "text": "Fundamentally",
+      "char_start": 451,
+      "char_end": 464,
+      "paragraph_id": "p3",
+      "segment_id": "s7"
+    },
+    {
+      "id": "w72",
+      "text": "today",
+      "char_start": 466,
+      "char_end": 471,
+      "paragraph_id": "p3",
+      "segment_id": "s7"
+    },
+    {
+      "id": "w73",
+      "text": "we",
+      "char_start": 473,
+      "char_end": 475,
+      "paragraph_id": "p3",
+      "segment_id": "s7"
+    },
+    {
+      "id": "w74",
+      "text": "are",
+      "char_start": 476,
+      "char_end": 479,
+      "paragraph_id": "p3",
+      "segment_id": "s7"
+    },
+    {
+      "id": "w75",
+      "text": "a",
+      "char_start": 480,
+      "char_end": 481,
+      "paragraph_id": "p3",
+      "segment_id": "s7"
+    },
+    {
+      "id": "w76",
+      "text": "supercomputing",
+      "char_start": 482,
+      "char_end": 496,
+      "paragraph_id": "p3",
+      "segment_id": "s7"
+    },
+    {
+      "id": "w77",
+      "text": "race",
+      "char_start": 497,
+      "char_end": 501,
+      "paragraph_id": "p3",
+      "segment_id": "s7"
+    },
+    {
+      "id": "w78",
+      "text": "Everything",
+      "char_start": 503,
+      "char_end": 513,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w79",
+      "text": "we",
+      "char_start": 514,
+      "char_end": 516,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w80",
+      "text": "have",
+      "char_start": 517,
+      "char_end": 521,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w81",
+      "text": "done",
+      "char_start": 522,
+      "char_end": 526,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w82",
+      "text": "most",
+      "char_start": 528,
+      "char_end": 532,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w83",
+      "text": "of",
+      "char_start": 533,
+      "char_end": 535,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w84",
+      "text": "what",
+      "char_start": 536,
+      "char_end": 540,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w85",
+      "text": "we",
+      "char_start": 541,
+      "char_end": 543,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w86",
+      "text": "do",
+      "char_start": 544,
+      "char_end": 546,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w87",
+      "text": "today",
+      "char_start": 547,
+      "char_end": 552,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w88",
+      "text": "has",
+      "char_start": 553,
+      "char_end": 556,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w89",
+      "text": "a",
+      "char_start": 557,
+      "char_end": 558,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w90",
+      "text": "connection",
+      "char_start": 559,
+      "char_end": 569,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w91",
+      "text": "with",
+      "char_start": 570,
+      "char_end": 574,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w92",
+      "text": "the",
+      "char_start": 575,
+      "char_end": 578,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w93",
+      "text": "digital",
+      "char_start": 579,
+      "char_end": 586,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w94",
+      "text": "world",
+      "char_start": 587,
+      "char_end": 592,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w95",
+      "text": "that",
+      "char_start": 593,
+      "char_end": 597,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w96",
+      "text": "relies",
+      "char_start": 598,
+      "char_end": 604,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w97",
+      "text": "on",
+      "char_start": 605,
+      "char_end": 607,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w98",
+      "text": "computing",
+      "char_start": 608,
+      "char_end": 617,
+      "paragraph_id": "p3",
+      "segment_id": "s8"
+    },
+    {
+      "id": "w99",
+      "text": "In",
+      "char_start": 620,
+      "char_end": 622,
+      "paragraph_id": "p4",
+      "segment_id": "s9"
+    },
+    {
+      "id": "w100",
+      "text": "this",
+      "char_start": 623,
+      "char_end": 627,
+      "paragraph_id": "p4",
+      "segment_id": "s9"
+    },
+    {
+      "id": "w101",
+      "text": "moment",
+      "char_start": 628,
+      "char_end": 634,
+      "paragraph_id": "p4",
+      "segment_id": "s9"
+    },
+    {
+      "id": "w102",
+      "text": "we're",
+      "char_start": 636,
+      "char_end": 641,
+      "paragraph_id": "p4",
+      "segment_id": "s9"
+    },
+    {
+      "id": "w103",
+      "text": "going",
+      "char_start": 642,
+      "char_end": 647,
+      "paragraph_id": "p4",
+      "segment_id": "s9"
+    },
+    {
+      "id": "w104",
+      "text": "through",
+      "char_start": 648,
+      "char_end": 655,
+      "paragraph_id": "p4",
+      "segment_id": "s9"
+    },
+    {
+      "id": "w105",
+      "text": "a",
+      "char_start": 656,
+      "char_end": 657,
+      "paragraph_id": "p4",
+      "segment_id": "s9"
+    },
+    {
+      "id": "w106",
+      "text": "phase",
+      "char_start": 658,
+      "char_end": 663,
+      "paragraph_id": "p4",
+      "segment_id": "s9"
+    },
+    {
+      "id": "w107",
+      "text": "shift",
+      "char_start": 664,
+      "char_end": 669,
+      "paragraph_id": "p4",
+      "segment_id": "s9"
+    },
+    {
+      "id": "w108",
+      "text": "Our",
+      "char_start": 671,
+      "char_end": 674,
+      "paragraph_id": "p4",
+      "segment_id": "s10"
+    },
+    {
+      "id": "w109",
+      "text": "relationship",
+      "char_start": 675,
+      "char_end": 687,
+      "paragraph_id": "p4",
+      "segment_id": "s10"
+    },
+    {
+      "id": "w110",
+      "text": "with",
+      "char_start": 688,
+      "char_end": 692,
+      "paragraph_id": "p4",
+      "segment_id": "s10"
+    },
+    {
+      "id": "w111",
+      "text": "computing",
+      "char_start": 693,
+      "char_end": 702,
+      "paragraph_id": "p4",
+      "segment_id": "s10"
+    },
+    {
+      "id": "w112",
+      "text": "is",
+      "char_start": 703,
+      "char_end": 705,
+      "paragraph_id": "p4",
+      "segment_id": "s10"
+    },
+    {
+      "id": "w113",
+      "text": "evolving",
+      "char_start": 706,
+      "char_end": 714,
+      "paragraph_id": "p4",
+      "segment_id": "s10"
+    },
+    {
+      "id": "w114",
+      "text": "yet",
+      "char_start": 715,
+      "char_end": 718,
+      "paragraph_id": "p4",
+      "segment_id": "s10"
+    },
+    {
+      "id": "w115",
+      "text": "again",
+      "char_start": 719,
+      "char_end": 724,
+      "paragraph_id": "p4",
+      "segment_id": "s10"
+    },
+    {
+      "id": "w116",
+      "text": "It",
+      "char_start": 726,
+      "char_end": 728,
+      "paragraph_id": "p4",
+      "segment_id": "s11"
+    },
+    {
+      "id": "w117",
+      "text": "started",
+      "char_start": 729,
+      "char_end": 736,
+      "paragraph_id": "p4",
+      "segment_id": "s11"
+    },
+    {
+      "id": "w118",
+      "text": "with",
+      "char_start": 737,
+      "char_end": 741,
+      "paragraph_id": "p4",
+      "segment_id": "s11"
+    },
+    {
+      "id": "w119",
+      "text": "ChatGPT",
+      "char_start": 742,
+      "char_end": 749,
+      "paragraph_id": "p4",
+      "segment_id": "s11"
+    },
+    {
+      "id": "w120",
+      "text": "It",
+      "char_start": 751,
+      "char_end": 753,
+      "paragraph_id": "p4",
+      "segment_id": "s12"
+    },
+    {
+      "id": "w121",
+      "text": "started",
+      "char_start": 754,
+      "char_end": 761,
+      "paragraph_id": "p4",
+      "segment_id": "s12"
+    },
+    {
+      "id": "w122",
+      "text": "with",
+      "char_start": 762,
+      "char_end": 766,
+      "paragraph_id": "p4",
+      "segment_id": "s12"
+    },
+    {
+      "id": "w123",
+      "text": "conversation",
+      "char_start": 767,
+      "char_end": 779,
+      "paragraph_id": "p4",
+      "segment_id": "s12"
+    },
+    {
+      "id": "w124",
+      "text": "We",
+      "char_start": 782,
+      "char_end": 784,
+      "paragraph_id": "p5",
+      "segment_id": "s13"
+    },
+    {
+      "id": "w125",
+      "text": "gave",
+      "char_start": 785,
+      "char_end": 789,
+      "paragraph_id": "p5",
+      "segment_id": "s13"
+    },
+    {
+      "id": "w126",
+      "text": "it",
+      "char_start": 790,
+      "char_end": 792,
+      "paragraph_id": "p5",
+      "segment_id": "s13"
+    },
+    {
+      "id": "w127",
+      "text": "jokes",
+      "char_start": 793,
+      "char_end": 798,
+      "paragraph_id": "p5",
+      "segment_id": "s13"
+    },
+    {
+      "id": "w128",
+      "text": "We",
+      "char_start": 800,
+      "char_end": 802,
+      "paragraph_id": "p5",
+      "segment_id": "s14"
+    },
+    {
+      "id": "w129",
+      "text": "asked",
+      "char_start": 803,
+      "char_end": 808,
+      "paragraph_id": "p5",
+      "segment_id": "s14"
+    },
+    {
+      "id": "w130",
+      "text": "it",
+      "char_start": 809,
+      "char_end": 811,
+      "paragraph_id": "p5",
+      "segment_id": "s14"
+    },
+    {
+      "id": "w131",
+      "text": "to",
+      "char_start": 812,
+      "char_end": 814,
+      "paragraph_id": "p5",
+      "segment_id": "s14"
+    },
+    {
+      "id": "w132",
+      "text": "write",
+      "char_start": 815,
+      "char_end": 820,
+      "paragraph_id": "p5",
+      "segment_id": "s14"
+    },
+    {
+      "id": "w133",
+      "text": "poems",
+      "char_start": 821,
+      "char_end": 826,
+      "paragraph_id": "p5",
+      "segment_id": "s14"
+    },
+    {
+      "id": "w134",
+      "text": "and",
+      "char_start": 827,
+      "char_end": 830,
+      "paragraph_id": "p5",
+      "segment_id": "s14"
+    },
+    {
+      "id": "w135",
+      "text": "songs",
+      "char_start": 831,
+      "char_end": 836,
+      "paragraph_id": "p5",
+      "segment_id": "s14"
+    },
+    {
+      "id": "w136",
+      "text": "but",
+      "char_start": 838,
+      "char_end": 841,
+      "paragraph_id": "p5",
+      "segment_id": "s14"
+    },
+    {
+      "id": "w137",
+      "text": "we",
+      "char_start": 842,
+      "char_end": 844,
+      "paragraph_id": "p5",
+      "segment_id": "s14"
+    },
+    {
+      "id": "w138",
+      "text": "also",
+      "char_start": 845,
+      "char_end": 849,
+      "paragraph_id": "p5",
+      "segment_id": "s14"
+    },
+    {
+      "id": "w139",
+      "text": "realized",
+      "char_start": 850,
+      "char_end": 858,
+      "paragraph_id": "p5",
+      "segment_id": "s14"
+    },
+    {
+      "id": "w140",
+      "text": "it",
+      "char_start": 859,
+      "char_end": 861,
+      "paragraph_id": "p5",
+      "segment_id": "s14"
+    },
+    {
+      "id": "w141",
+      "text": "hallucinated",
+      "char_start": 862,
+      "char_end": 874,
+      "paragraph_id": "p5",
+      "segment_id": "s14"
+    },
+    {
+      "id": "w142",
+      "text": "made",
+      "char_start": 876,
+      "char_end": 880,
+      "paragraph_id": "p5",
+      "segment_id": "s14"
+    },
+    {
+      "id": "w143",
+      "text": "things",
+      "char_start": 881,
+      "char_end": 887,
+      "paragraph_id": "p5",
+      "segment_id": "s14"
+    },
+    {
+      "id": "w144",
+      "text": "up",
+      "char_start": 888,
+      "char_end": 890,
+      "paragraph_id": "p5",
+      "segment_id": "s14"
+    },
+    {
+      "id": "w145",
+      "text": "Yet",
+      "char_start": 893,
+      "char_end": 896,
+      "paragraph_id": "p6",
+      "segment_id": "s15"
+    },
+    {
+      "id": "w146",
+      "text": "again",
+      "char_start": 897,
+      "char_end": 902,
+      "paragraph_id": "p6",
+      "segment_id": "s15"
+    },
+    {
+      "id": "w147",
+      "text": "the",
+      "char_start": 904,
+      "char_end": 907,
+      "paragraph_id": "p6",
+      "segment_id": "s15"
+    },
+    {
+      "id": "w148",
+      "text": "computers",
+      "char_start": 908,
+      "char_end": 917,
+      "paragraph_id": "p6",
+      "segment_id": "s15"
+    },
+    {
+      "id": "w149",
+      "text": "improved",
+      "char_start": 918,
+      "char_end": 926,
+      "paragraph_id": "p6",
+      "segment_id": "s15"
+    },
+    {
+      "id": "w150",
+      "text": "because",
+      "char_start": 927,
+      "char_end": 934,
+      "paragraph_id": "p6",
+      "segment_id": "s15"
+    },
+    {
+      "id": "w151",
+      "text": "we",
+      "char_start": 935,
+      "char_end": 937,
+      "paragraph_id": "p6",
+      "segment_id": "s15"
+    },
+    {
+      "id": "w152",
+      "text": "improved",
+      "char_start": 938,
+      "char_end": 946,
+      "paragraph_id": "p6",
+      "segment_id": "s15"
+    },
+    {
+      "id": "w153",
+      "text": "them",
+      "char_start": 947,
+      "char_end": 951,
+      "paragraph_id": "p6",
+      "segment_id": "s15"
+    },
+    {
+      "id": "w154",
+      "text": "We",
+      "char_start": 953,
+      "char_end": 955,
+      "paragraph_id": "p6",
+      "segment_id": "s16"
+    },
+    {
+      "id": "w155",
+      "text": "trained",
+      "char_start": 956,
+      "char_end": 963,
+      "paragraph_id": "p6",
+      "segment_id": "s16"
+    },
+    {
+      "id": "w156",
+      "text": "them",
+      "char_start": 964,
+      "char_end": 968,
+      "paragraph_id": "p6",
+      "segment_id": "s16"
+    },
+    {
+      "id": "w157",
+      "text": "Now",
+      "char_start": 970,
+      "char_end": 973,
+      "paragraph_id": "p6",
+      "segment_id": "s17"
+    },
+    {
+      "id": "w158",
+      "text": "these",
+      "char_start": 974,
+      "char_end": 979,
+      "paragraph_id": "p6",
+      "segment_id": "s17"
+    },
+    {
+      "id": "w159",
+      "text": "supercomputers",
+      "char_start": 980,
+      "char_end": 994,
+      "paragraph_id": "p6",
+      "segment_id": "s17"
+    },
+    {
+      "id": "w160",
+      "text": "can",
+      "char_start": 995,
+      "char_end": 998,
+      "paragraph_id": "p6",
+      "segment_id": "s17"
+    },
+    {
+      "id": "w161",
+      "text": "create",
+      "char_start": 999,
+      "char_end": 1005,
+      "paragraph_id": "p6",
+      "segment_id": "s17"
+    },
+    {
+      "id": "w162",
+      "text": "applications",
+      "char_start": 1006,
+      "char_end": 1018,
+      "paragraph_id": "p6",
+      "segment_id": "s17"
+    },
+    {
+      "id": "w163",
+      "text": "completely",
+      "char_start": 1019,
+      "char_end": 1029,
+      "paragraph_id": "p6",
+      "segment_id": "s17"
+    },
+    {
+      "id": "w164",
+      "text": "entirely",
+      "char_start": 1031,
+      "char_end": 1039,
+      "paragraph_id": "p6",
+      "segment_id": "s17"
+    },
+    {
+      "id": "w165",
+      "text": "from",
+      "char_start": 1040,
+      "char_end": 1044,
+      "paragraph_id": "p6",
+      "segment_id": "s17"
+    },
+    {
+      "id": "w166",
+      "text": "scratch",
+      "char_start": 1045,
+      "char_end": 1052,
+      "paragraph_id": "p6",
+      "segment_id": "s17"
+    },
+    {
+      "id": "w167",
+      "text": "with",
+      "char_start": 1053,
+      "char_end": 1057,
+      "paragraph_id": "p6",
+      "segment_id": "s17"
+    },
+    {
+      "id": "w168",
+      "text": "just",
+      "char_start": 1058,
+      "char_end": 1062,
+      "paragraph_id": "p6",
+      "segment_id": "s17"
+    },
+    {
+      "id": "w169",
+      "text": "a",
+      "char_start": 1063,
+      "char_end": 1064,
+      "paragraph_id": "p6",
+      "segment_id": "s17"
+    },
+    {
+      "id": "w170",
+      "text": "sentence",
+      "char_start": 1065,
+      "char_end": 1073,
+      "paragraph_id": "p6",
+      "segment_id": "s17"
+    },
+    {
+      "id": "w171",
+      "text": "They",
+      "char_start": 1075,
+      "char_end": 1079,
+      "paragraph_id": "p6",
+      "segment_id": "s18"
+    },
+    {
+      "id": "w172",
+      "text": "perform",
+      "char_start": 1080,
+      "char_end": 1087,
+      "paragraph_id": "p6",
+      "segment_id": "s18"
+    },
+    {
+      "id": "w173",
+      "text": "at",
+      "char_start": 1088,
+      "char_end": 1090,
+      "paragraph_id": "p6",
+      "segment_id": "s18"
+    },
+    {
+      "id": "w174",
+      "text": "the",
+      "char_start": 1091,
+      "char_end": 1094,
+      "paragraph_id": "p6",
+      "segment_id": "s18"
+    },
+    {
+      "id": "w175",
+      "text": "same",
+      "char_start": 1095,
+      "char_end": 1099,
+      "paragraph_id": "p6",
+      "segment_id": "s18"
+    },
+    {
+      "id": "w176",
+      "text": "level",
+      "char_start": 1100,
+      "char_end": 1105,
+      "paragraph_id": "p6",
+      "segment_id": "s18"
+    },
+    {
+      "id": "w177",
+      "text": "as",
+      "char_start": 1106,
+      "char_end": 1108,
+      "paragraph_id": "p6",
+      "segment_id": "s18"
+    },
+    {
+      "id": "w178",
+      "text": "a",
+      "char_start": 1109,
+      "char_end": 1110,
+      "paragraph_id": "p6",
+      "segment_id": "s18"
+    },
+    {
+      "id": "w179",
+      "text": "software",
+      "char_start": 1111,
+      "char_end": 1119,
+      "paragraph_id": "p6",
+      "segment_id": "s18"
+    },
+    {
+      "id": "w180",
+      "text": "engineer",
+      "char_start": 1120,
+      "char_end": 1128,
+      "paragraph_id": "p6",
+      "segment_id": "s18"
+    },
+    {
+      "id": "w181",
+      "text": "with",
+      "char_start": 1129,
+      "char_end": 1133,
+      "paragraph_id": "p6",
+      "segment_id": "s18"
+    },
+    {
+      "id": "w182",
+      "text": "decades",
+      "char_start": 1134,
+      "char_end": 1141,
+      "paragraph_id": "p6",
+      "segment_id": "s18"
+    },
+    {
+      "id": "w183",
+      "text": "of",
+      "char_start": 1142,
+      "char_end": 1144,
+      "paragraph_id": "p6",
+      "segment_id": "s18"
+    },
+    {
+      "id": "w184",
+      "text": "experience",
+      "char_start": 1145,
+      "char_end": 1155,
+      "paragraph_id": "p6",
+      "segment_id": "s18"
+    },
+    {
+      "id": "w185",
+      "text": "with",
+      "char_start": 1157,
+      "char_end": 1161,
+      "paragraph_id": "p6",
+      "segment_id": "s18"
+    },
+    {
+      "id": "w186",
+      "text": "more",
+      "char_start": 1162,
+      "char_end": 1166,
+      "paragraph_id": "p6",
+      "segment_id": "s18"
+    },
+    {
+      "id": "w187",
+      "text": "breadth",
+      "char_start": 1167,
+      "char_end": 1174,
+      "paragraph_id": "p6",
+      "segment_id": "s18"
+    },
+    {
+      "id": "w188",
+      "text": "and",
+      "char_start": 1175,
+      "char_end": 1178,
+      "paragraph_id": "p6",
+      "segment_id": "s18"
+    },
+    {
+      "id": "w189",
+      "text": "depth",
+      "char_start": 1179,
+      "char_end": 1184,
+      "paragraph_id": "p6",
+      "segment_id": "s18"
+    },
+    {
+      "id": "w190",
+      "text": "Computers",
+      "char_start": 1187,
+      "char_end": 1196,
+      "paragraph_id": "p7",
+      "segment_id": "s19"
+    },
+    {
+      "id": "w191",
+      "text": "can",
+      "char_start": 1197,
+      "char_end": 1200,
+      "paragraph_id": "p7",
+      "segment_id": "s19"
+    },
+    {
+      "id": "w192",
+      "text": "now",
+      "char_start": 1201,
+      "char_end": 1204,
+      "paragraph_id": "p7",
+      "segment_id": "s19"
+    },
+    {
+      "id": "w193",
+      "text": "program",
+      "char_start": 1205,
+      "char_end": 1212,
+      "paragraph_id": "p7",
+      "segment_id": "s19"
+    },
+    {
+      "id": "w194",
+      "text": "other",
+      "char_start": 1213,
+      "char_end": 1218,
+      "paragraph_id": "p7",
+      "segment_id": "s19"
+    },
+    {
+      "id": "w195",
+      "text": "computers",
+      "char_start": 1219,
+      "char_end": 1228,
+      "paragraph_id": "p7",
+      "segment_id": "s19"
+    },
+    {
+      "id": "w196",
+      "text": "Now",
+      "char_start": 1230,
+      "char_end": 1233,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w197",
+      "text": "that",
+      "char_start": 1234,
+      "char_end": 1238,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w198",
+      "text": "thought",
+      "char_start": 1239,
+      "char_end": 1246,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w199",
+      "text": "can",
+      "char_start": 1247,
+      "char_end": 1250,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w200",
+      "text": "actually",
+      "char_start": 1251,
+      "char_end": 1259,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w201",
+      "text": "be",
+      "char_start": 1260,
+      "char_end": 1262,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w202",
+      "text": "quite",
+      "char_start": 1263,
+      "char_end": 1268,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w203",
+      "text": "scary",
+      "char_start": 1269,
+      "char_end": 1274,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w204",
+      "text": "because",
+      "char_start": 1275,
+      "char_end": 1282,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w205",
+      "text": "it",
+      "char_start": 1283,
+      "char_end": 1285,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w206",
+      "text": "leads",
+      "char_start": 1286,
+      "char_end": 1291,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w207",
+      "text": "us",
+      "char_start": 1292,
+      "char_end": 1294,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w208",
+      "text": "down",
+      "char_start": 1295,
+      "char_end": 1299,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w209",
+      "text": "this",
+      "char_start": 1300,
+      "char_end": 1304,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w210",
+      "text": "road",
+      "char_start": 1305,
+      "char_end": 1309,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w211",
+      "text": "to",
+      "char_start": 1310,
+      "char_end": 1312,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w212",
+      "text": "think",
+      "char_start": 1313,
+      "char_end": 1318,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w213",
+      "text": "if",
+      "char_start": 1320,
+      "char_end": 1322,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w214",
+      "text": "we",
+      "char_start": 1323,
+      "char_end": 1325,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w215",
+      "text": "continue",
+      "char_start": 1326,
+      "char_end": 1334,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w216",
+      "text": "this",
+      "char_start": 1335,
+      "char_end": 1339,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w217",
+      "text": "evolution",
+      "char_start": 1340,
+      "char_end": 1349,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w218",
+      "text": "this",
+      "char_start": 1351,
+      "char_end": 1355,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w219",
+      "text": "loop",
+      "char_start": 1356,
+      "char_end": 1360,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w220",
+      "text": "where",
+      "char_start": 1362,
+      "char_end": 1367,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w221",
+      "text": "does",
+      "char_start": 1368,
+      "char_end": 1372,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w222",
+      "text": "it",
+      "char_start": 1373,
+      "char_end": 1375,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w223",
+      "text": "go",
+      "char_start": 1376,
+      "char_end": 1378,
+      "paragraph_id": "p7",
+      "segment_id": "s20"
+    },
+    {
+      "id": "w224",
+      "text": "Some",
+      "char_start": 1381,
+      "char_end": 1385,
+      "paragraph_id": "p8",
+      "segment_id": "s21"
+    },
+    {
+      "id": "w225",
+      "text": "folks",
+      "char_start": 1386,
+      "char_end": 1391,
+      "paragraph_id": "p8",
+      "segment_id": "s21"
+    },
+    {
+      "id": "w226",
+      "text": "think",
+      "char_start": 1392,
+      "char_end": 1397,
+      "paragraph_id": "p8",
+      "segment_id": "s21"
+    },
+    {
+      "id": "w227",
+      "text": "this",
+      "char_start": 1398,
+      "char_end": 1402,
+      "paragraph_id": "p8",
+      "segment_id": "s21"
+    },
+    {
+      "id": "w228",
+      "text": "is",
+      "char_start": 1403,
+      "char_end": 1405,
+      "paragraph_id": "p8",
+      "segment_id": "s21"
+    },
+    {
+      "id": "w229",
+      "text": "the",
+      "char_start": 1406,
+      "char_end": 1409,
+      "paragraph_id": "p8",
+      "segment_id": "s21"
+    },
+    {
+      "id": "w230",
+      "text": "final",
+      "char_start": 1410,
+      "char_end": 1415,
+      "paragraph_id": "p8",
+      "segment_id": "s21"
+    },
+    {
+      "id": "w231",
+      "text": "stage",
+      "char_start": 1416,
+      "char_end": 1421,
+      "paragraph_id": "p8",
+      "segment_id": "s21"
+    },
+    {
+      "id": "w232",
+      "text": "This",
+      "char_start": 1423,
+      "char_end": 1427,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w233",
+      "text": "may",
+      "char_start": 1428,
+      "char_end": 1431,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w234",
+      "text": "be",
+      "char_start": 1432,
+      "char_end": 1434,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w235",
+      "text": "the",
+      "char_start": 1435,
+      "char_end": 1438,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w236",
+      "text": "last",
+      "char_start": 1439,
+      "char_end": 1443,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w237",
+      "text": "job",
+      "char_start": 1444,
+      "char_end": 1447,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w238",
+      "text": "that",
+      "char_start": 1448,
+      "char_end": 1452,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w239",
+      "text": "people",
+      "char_start": 1453,
+      "char_end": 1459,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w240",
+      "text": "do",
+      "char_start": 1460,
+      "char_end": 1462,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w241",
+      "text": "because",
+      "char_start": 1463,
+      "char_end": 1470,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w242",
+      "text": "computers",
+      "char_start": 1471,
+      "char_end": 1480,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w243",
+      "text": "can",
+      "char_start": 1481,
+      "char_end": 1484,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w244",
+      "text": "teach",
+      "char_start": 1485,
+      "char_end": 1490,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w245",
+      "text": "themselves",
+      "char_start": 1491,
+      "char_end": 1501,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w246",
+      "text": "build",
+      "char_start": 1503,
+      "char_end": 1508,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w247",
+      "text": "themselves",
+      "char_start": 1509,
+      "char_end": 1519,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w248",
+      "text": "and",
+      "char_start": 1521,
+      "char_end": 1524,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w249",
+      "text": "perhaps",
+      "char_start": 1525,
+      "char_end": 1532,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w250",
+      "text": "evolve",
+      "char_start": 1533,
+      "char_end": 1539,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w251",
+      "text": "beyond",
+      "char_start": 1540,
+      "char_end": 1546,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w252",
+      "text": "humans",
+      "char_start": 1547,
+      "char_end": 1553,
+      "paragraph_id": "p8",
+      "segment_id": "s22"
+    },
+    {
+      "id": "w253",
+      "text": "And",
+      "char_start": 1555,
+      "char_end": 1558,
+      "paragraph_id": "p8",
+      "segment_id": "s23"
+    },
+    {
+      "id": "w254",
+      "text": "possibly",
+      "char_start": 1559,
+      "char_end": 1567,
+      "paragraph_id": "p8",
+      "segment_id": "s23"
+    },
+    {
+      "id": "w255",
+      "text": "this",
+      "char_start": 1569,
+      "char_end": 1573,
+      "paragraph_id": "p8",
+      "segment_id": "s23"
+    },
+    {
+      "id": "w256",
+      "text": "change",
+      "char_start": 1574,
+      "char_end": 1580,
+      "paragraph_id": "p8",
+      "segment_id": "s23"
+    },
+    {
+      "id": "w257",
+      "text": "can",
+      "char_start": 1581,
+      "char_end": 1584,
+      "paragraph_id": "p8",
+      "segment_id": "s23"
+    },
+    {
+      "id": "w258",
+      "text": "happen",
+      "char_start": 1585,
+      "char_end": 1591,
+      "paragraph_id": "p8",
+      "segment_id": "s23"
+    },
+    {
+      "id": "w259",
+      "text": "so",
+      "char_start": 1592,
+      "char_end": 1594,
+      "paragraph_id": "p8",
+      "segment_id": "s23"
+    },
+    {
+      "id": "w260",
+      "text": "fast",
+      "char_start": 1595,
+      "char_end": 1599,
+      "paragraph_id": "p8",
+      "segment_id": "s23"
+    },
+    {
+      "id": "w261",
+      "text": "This",
+      "char_start": 1601,
+      "char_end": 1605,
+      "paragraph_id": "p8",
+      "segment_id": "s24"
+    },
+    {
+      "id": "w262",
+      "text": "exponential",
+      "char_start": 1606,
+      "char_end": 1617,
+      "paragraph_id": "p8",
+      "segment_id": "s24"
+    },
+    {
+      "id": "w263",
+      "text": "will",
+      "char_start": 1618,
+      "char_end": 1622,
+      "paragraph_id": "p8",
+      "segment_id": "s24"
+    },
+    {
+      "id": "w264",
+      "text": "happen",
+      "char_start": 1623,
+      "char_end": 1629,
+      "paragraph_id": "p8",
+      "segment_id": "s24"
+    },
+    {
+      "id": "w265",
+      "text": "so",
+      "char_start": 1630,
+      "char_end": 1632,
+      "paragraph_id": "p8",
+      "segment_id": "s24"
+    },
+    {
+      "id": "w266",
+      "text": "fast",
+      "char_start": 1633,
+      "char_end": 1637,
+      "paragraph_id": "p8",
+      "segment_id": "s24"
+    },
+    {
+      "id": "w267",
+      "text": "that",
+      "char_start": 1638,
+      "char_end": 1642,
+      "paragraph_id": "p8",
+      "segment_id": "s24"
+    },
+    {
+      "id": "w268",
+      "text": "it",
+      "char_start": 1643,
+      "char_end": 1645,
+      "paragraph_id": "p8",
+      "segment_id": "s24"
+    },
+    {
+      "id": "w269",
+      "text": "will",
+      "char_start": 1646,
+      "char_end": 1650,
+      "paragraph_id": "p8",
+      "segment_id": "s24"
+    },
+    {
+      "id": "w270",
+      "text": "be",
+      "char_start": 1651,
+      "char_end": 1653,
+      "paragraph_id": "p8",
+      "segment_id": "s24"
+    },
+    {
+      "id": "w271",
+      "text": "enormously",
+      "char_start": 1654,
+      "char_end": 1664,
+      "paragraph_id": "p8",
+      "segment_id": "s24"
+    },
+    {
+      "id": "w272",
+      "text": "disruptive",
+      "char_start": 1665,
+      "char_end": 1675,
+      "paragraph_id": "p8",
+      "segment_id": "s24"
+    },
+    {
+      "id": "w273",
+      "text": "Possibly",
+      "char_start": 1677,
+      "char_end": 1685,
+      "paragraph_id": "p8",
+      "segment_id": "s25"
+    },
+    {
+      "id": "w274",
+      "text": "it",
+      "char_start": 1687,
+      "char_end": 1689,
+      "paragraph_id": "p8",
+      "segment_id": "s25"
+    },
+    {
+      "id": "w275",
+      "text": "can",
+      "char_start": 1690,
+      "char_end": 1693,
+      "paragraph_id": "p8",
+      "segment_id": "s25"
+    },
+    {
+      "id": "w276",
+      "text": "lead",
+      "char_start": 1694,
+      "char_end": 1698,
+      "paragraph_id": "p8",
+      "segment_id": "s25"
+    },
+    {
+      "id": "w277",
+      "text": "to",
+      "char_start": 1699,
+      "char_end": 1701,
+      "paragraph_id": "p8",
+      "segment_id": "s25"
+    },
+    {
+      "id": "w278",
+      "text": "chaos",
+      "char_start": 1702,
+      "char_end": 1707,
+      "paragraph_id": "p8",
+      "segment_id": "s25"
+    },
+    {
+      "id": "w279",
+      "text": "populist",
+      "char_start": 1709,
+      "char_end": 1717,
+      "paragraph_id": "p8",
+      "segment_id": "s25"
+    },
+    {
+      "id": "w280",
+      "text": "uprising",
+      "char_start": 1718,
+      "char_end": 1726,
+      "paragraph_id": "p8",
+      "segment_id": "s25"
+    },
+    {
+      "id": "w281",
+      "text": "and",
+      "char_start": 1728,
+      "char_end": 1731,
+      "paragraph_id": "p8",
+      "segment_id": "s25"
+    },
+    {
+      "id": "w282",
+      "text": "riots",
+      "char_start": 1732,
+      "char_end": 1737,
+      "paragraph_id": "p8",
+      "segment_id": "s25"
+    },
+    {
+      "id": "w283",
+      "text": "It",
+      "char_start": 1739,
+      "char_end": 1741,
+      "paragraph_id": "p8",
+      "segment_id": "s26"
+    },
+    {
+      "id": "w284",
+      "text": "can",
+      "char_start": 1742,
+      "char_end": 1745,
+      "paragraph_id": "p8",
+      "segment_id": "s26"
+    },
+    {
+      "id": "w285",
+      "text": "lead",
+      "char_start": 1746,
+      "char_end": 1750,
+      "paragraph_id": "p8",
+      "segment_id": "s26"
+    },
+    {
+      "id": "w286",
+      "text": "to",
+      "char_start": 1751,
+      "char_end": 1753,
+      "paragraph_id": "p8",
+      "segment_id": "s26"
+    },
+    {
+      "id": "w287",
+      "text": "suffering",
+      "char_start": 1754,
+      "char_end": 1763,
+      "paragraph_id": "p8",
+      "segment_id": "s26"
+    },
+    {
+      "id": "w288",
+      "text": "There",
+      "char_start": 1766,
+      "char_end": 1771,
+      "paragraph_id": "p9",
+      "segment_id": "s27"
+    },
+    {
+      "id": "w289",
+      "text": "is",
+      "char_start": 1772,
+      "char_end": 1774,
+      "paragraph_id": "p9",
+      "segment_id": "s27"
+    },
+    {
+      "id": "w290",
+      "text": "an",
+      "char_start": 1775,
+      "char_end": 1777,
+      "paragraph_id": "p9",
+      "segment_id": "s27"
+    },
+    {
+      "id": "w291",
+      "text": "alternate",
+      "char_start": 1778,
+      "char_end": 1787,
+      "paragraph_id": "p9",
+      "segment_id": "s27"
+    },
+    {
+      "id": "w292",
+      "text": "story",
+      "char_start": 1788,
+      "char_end": 1793,
+      "paragraph_id": "p9",
+      "segment_id": "s27"
+    },
+    {
+      "id": "w293",
+      "text": "We",
+      "char_start": 1795,
+      "char_end": 1797,
+      "paragraph_id": "p9",
+      "segment_id": "s28"
+    },
+    {
+      "id": "w294",
+      "text": "see",
+      "char_start": 1798,
+      "char_end": 1801,
+      "paragraph_id": "p9",
+      "segment_id": "s28"
+    },
+    {
+      "id": "w295",
+      "text": "it",
+      "char_start": 1802,
+      "char_end": 1804,
+      "paragraph_id": "p9",
+      "segment_id": "s28"
+    },
+    {
+      "id": "w296",
+      "text": "every",
+      "char_start": 1805,
+      "char_end": 1810,
+      "paragraph_id": "p9",
+      "segment_id": "s28"
+    },
+    {
+      "id": "w297",
+      "text": "single",
+      "char_start": 1811,
+      "char_end": 1817,
+      "paragraph_id": "p9",
+      "segment_id": "s28"
+    },
+    {
+      "id": "w298",
+      "text": "day",
+      "char_start": 1818,
+      "char_end": 1821,
+      "paragraph_id": "p9",
+      "segment_id": "s28"
+    },
+    {
+      "id": "w299",
+      "text": "Sometimes",
+      "char_start": 1823,
+      "char_end": 1832,
+      "paragraph_id": "p9",
+      "segment_id": "s29"
+    },
+    {
+      "id": "w300",
+      "text": "we're",
+      "char_start": 1833,
+      "char_end": 1838,
+      "paragraph_id": "p9",
+      "segment_id": "s29"
+    },
+    {
+      "id": "w301",
+      "text": "just",
+      "char_start": 1839,
+      "char_end": 1843,
+      "paragraph_id": "p9",
+      "segment_id": "s29"
+    },
+    {
+      "id": "w302",
+      "text": "slightly",
+      "char_start": 1844,
+      "char_end": 1852,
+      "paragraph_id": "p9",
+      "segment_id": "s29"
+    },
+    {
+      "id": "w303",
+      "text": "blind",
+      "char_start": 1853,
+      "char_end": 1858,
+      "paragraph_id": "p9",
+      "segment_id": "s29"
+    },
+    {
+      "id": "w304",
+      "text": "to",
+      "char_start": 1859,
+      "char_end": 1861,
+      "paragraph_id": "p9",
+      "segment_id": "s29"
+    },
+    {
+      "id": "w305",
+      "text": "it",
+      "char_start": 1862,
+      "char_end": 1864,
+      "paragraph_id": "p9",
+      "segment_id": "s29"
+    },
+    {
+      "id": "w306",
+      "text": "It's",
+      "char_start": 1866,
+      "char_end": 1870,
+      "paragraph_id": "p9",
+      "segment_id": "s30"
+    },
+    {
+      "id": "w307",
+      "text": "always",
+      "char_start": 1871,
+      "char_end": 1877,
+      "paragraph_id": "p9",
+      "segment_id": "s30"
+    },
+    {
+      "id": "w308",
+      "text": "with",
+      "char_start": 1878,
+      "char_end": 1882,
+      "paragraph_id": "p9",
+      "segment_id": "s30"
+    },
+    {
+      "id": "w309",
+      "text": "us",
+      "char_start": 1883,
+      "char_end": 1885,
+      "paragraph_id": "p9",
+      "segment_id": "s30"
+    },
+    {
+      "id": "w310",
+      "text": "if",
+      "char_start": 1887,
+      "char_end": 1889,
+      "paragraph_id": "p9",
+      "segment_id": "s30"
+    },
+    {
+      "id": "w311",
+      "text": "we",
+      "char_start": 1890,
+      "char_end": 1892,
+      "paragraph_id": "p9",
+      "segment_id": "s30"
+    },
+    {
+      "id": "w312",
+      "text": "just",
+      "char_start": 1893,
+      "char_end": 1897,
+      "paragraph_id": "p9",
+      "segment_id": "s30"
+    },
+    {
+      "id": "w313",
+      "text": "look",
+      "char_start": 1898,
+      "char_end": 1902,
+      "paragraph_id": "p9",
+      "segment_id": "s30"
+    },
+    {
+      "id": "w314",
+      "text": "up",
+      "char_start": 1903,
+      "char_end": 1905,
+      "paragraph_id": "p9",
+      "segment_id": "s30"
+    },
+    {
+      "id": "w315",
+      "text": "Think",
+      "char_start": 1908,
+      "char_end": 1913,
+      "paragraph_id": "p10",
+      "segment_id": "s31"
+    },
+    {
+      "id": "w316",
+      "text": "about",
+      "char_start": 1914,
+      "char_end": 1919,
+      "paragraph_id": "p10",
+      "segment_id": "s31"
+    },
+    {
+      "id": "w317",
+      "text": "the",
+      "char_start": 1920,
+      "char_end": 1923,
+      "paragraph_id": "p10",
+      "segment_id": "s31"
+    },
+    {
+      "id": "w318",
+      "text": "night",
+      "char_start": 1924,
+      "char_end": 1929,
+      "paragraph_id": "p10",
+      "segment_id": "s31"
+    },
+    {
+      "id": "w319",
+      "text": "sky",
+      "char_start": 1930,
+      "char_end": 1933,
+      "paragraph_id": "p10",
+      "segment_id": "s31"
+    },
+    {
+      "id": "w320",
+      "text": "full",
+      "char_start": 1935,
+      "char_end": 1939,
+      "paragraph_id": "p10",
+      "segment_id": "s31"
+    },
+    {
+      "id": "w321",
+      "text": "of",
+      "char_start": 1940,
+      "char_end": 1942,
+      "paragraph_id": "p10",
+      "segment_id": "s31"
+    },
+    {
+      "id": "w322",
+      "text": "stars",
+      "char_start": 1943,
+      "char_end": 1948,
+      "paragraph_id": "p10",
+      "segment_id": "s31"
+    },
+    {
+      "id": "w323",
+      "text": "without",
+      "char_start": 1950,
+      "char_end": 1957,
+      "paragraph_id": "p10",
+      "segment_id": "s31"
+    },
+    {
+      "id": "w324",
+      "text": "light",
+      "char_start": 1958,
+      "char_end": 1963,
+      "paragraph_id": "p10",
+      "segment_id": "s31"
+    },
+    {
+      "id": "w325",
+      "text": "pollution",
+      "char_start": 1964,
+      "char_end": 1973,
+      "paragraph_id": "p10",
+      "segment_id": "s31"
+    },
+    {
+      "id": "w326",
+      "text": "What",
+      "char_start": 1975,
+      "char_end": 1979,
+      "paragraph_id": "p10",
+      "segment_id": "s32"
+    },
+    {
+      "id": "w327",
+      "text": "do",
+      "char_start": 1980,
+      "char_end": 1982,
+      "paragraph_id": "p10",
+      "segment_id": "s32"
+    },
+    {
+      "id": "w328",
+      "text": "you",
+      "char_start": 1983,
+      "char_end": 1986,
+      "paragraph_id": "p10",
+      "segment_id": "s32"
+    },
+    {
+      "id": "w329",
+      "text": "see",
+      "char_start": 1987,
+      "char_end": 1990,
+      "paragraph_id": "p10",
+      "segment_id": "s32"
+    },
+    {
+      "id": "w330",
+      "text": "You",
+      "char_start": 1992,
+      "char_end": 1995,
+      "paragraph_id": "p10",
+      "segment_id": "s33"
+    },
+    {
+      "id": "w331",
+      "text": "see",
+      "char_start": 1996,
+      "char_end": 1999,
+      "paragraph_id": "p10",
+      "segment_id": "s33"
+    },
+    {
+      "id": "w332",
+      "text": "our",
+      "char_start": 2000,
+      "char_end": 2003,
+      "paragraph_id": "p10",
+      "segment_id": "s33"
+    },
+    {
+      "id": "w333",
+      "text": "galaxy",
+      "char_start": 2004,
+      "char_end": 2010,
+      "paragraph_id": "p10",
+      "segment_id": "s33"
+    },
+    {
+      "id": "w334",
+      "text": "other",
+      "char_start": 2012,
+      "char_end": 2017,
+      "paragraph_id": "p10",
+      "segment_id": "s33"
+    },
+    {
+      "id": "w335",
+      "text": "planets",
+      "char_start": 2018,
+      "char_end": 2025,
+      "paragraph_id": "p10",
+      "segment_id": "s33"
+    },
+    {
+      "id": "w336",
+      "text": "and",
+      "char_start": 2027,
+      "char_end": 2030,
+      "paragraph_id": "p10",
+      "segment_id": "s33"
+    },
+    {
+      "id": "w337",
+      "text": "this",
+      "char_start": 2031,
+      "char_end": 2035,
+      "paragraph_id": "p10",
+      "segment_id": "s33"
+    },
+    {
+      "id": "w338",
+      "text": "vast",
+      "char_start": 2036,
+      "char_end": 2040,
+      "paragraph_id": "p10",
+      "segment_id": "s33"
+    },
+    {
+      "id": "w339",
+      "text": "empty",
+      "char_start": 2042,
+      "char_end": 2047,
+      "paragraph_id": "p10",
+      "segment_id": "s33"
+    },
+    {
+      "id": "w340",
+      "text": "space",
+      "char_start": 2048,
+      "char_end": 2053,
+      "paragraph_id": "p10",
+      "segment_id": "s33"
+    },
+    {
+      "id": "w341",
+      "text": "where",
+      "char_start": 2054,
+      "char_end": 2059,
+      "paragraph_id": "p10",
+      "segment_id": "s33"
+    },
+    {
+      "id": "w342",
+      "text": "we",
+      "char_start": 2060,
+      "char_end": 2062,
+      "paragraph_id": "p10",
+      "segment_id": "s33"
+    },
+    {
+      "id": "w343",
+      "text": "are",
+      "char_start": 2063,
+      "char_end": 2066,
+      "paragraph_id": "p10",
+      "segment_id": "s33"
+    },
+    {
+      "id": "w344",
+      "text": "so",
+      "char_start": 2067,
+      "char_end": 2069,
+      "paragraph_id": "p10",
+      "segment_id": "s33"
+    },
+    {
+      "id": "w345",
+      "text": "so",
+      "char_start": 2071,
+      "char_end": 2073,
+      "paragraph_id": "p10",
+      "segment_id": "s33"
+    },
+    {
+      "id": "w346",
+      "text": "small",
+      "char_start": 2074,
+      "char_end": 2079,
+      "paragraph_id": "p10",
+      "segment_id": "s33"
+    },
+    {
+      "id": "w347",
+      "text": "We",
+      "char_start": 2082,
+      "char_end": 2084,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w348",
+      "text": "are",
+      "char_start": 2085,
+      "char_end": 2088,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w349",
+      "text": "a",
+      "char_start": 2089,
+      "char_end": 2090,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w350",
+      "text": "race",
+      "char_start": 2091,
+      "char_end": 2095,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w351",
+      "text": "that",
+      "char_start": 2096,
+      "char_end": 2100,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w352",
+      "text": "discovered",
+      "char_start": 2101,
+      "char_end": 2111,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w353",
+      "text": "the",
+      "char_start": 2112,
+      "char_end": 2115,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w354",
+      "text": "theory",
+      "char_start": 2116,
+      "char_end": 2122,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w355",
+      "text": "of",
+      "char_start": 2123,
+      "char_end": 2125,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w356",
+      "text": "relativity",
+      "char_start": 2126,
+      "char_end": 2136,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w357",
+      "text": "mostly",
+      "char_start": 2138,
+      "char_end": 2144,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w358",
+      "text": "with",
+      "char_start": 2145,
+      "char_end": 2149,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w359",
+      "text": "pen",
+      "char_start": 2150,
+      "char_end": 2153,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w360",
+      "text": "and",
+      "char_start": 2154,
+      "char_end": 2157,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w361",
+      "text": "paper",
+      "char_start": 2158,
+      "char_end": 2163,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w362",
+      "text": "and",
+      "char_start": 2165,
+      "char_end": 2168,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w363",
+      "text": "mostly",
+      "char_start": 2169,
+      "char_end": 2175,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w364",
+      "text": "with",
+      "char_start": 2176,
+      "char_end": 2180,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w365",
+      "text": "our",
+      "char_start": 2181,
+      "char_end": 2184,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w366",
+      "text": "intellect",
+      "char_start": 2185,
+      "char_end": 2194,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w367",
+      "text": "our",
+      "char_start": 2196,
+      "char_end": 2199,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w368",
+      "text": "curiosity",
+      "char_start": 2200,
+      "char_end": 2209,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w369",
+      "text": "and",
+      "char_start": 2211,
+      "char_end": 2214,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w370",
+      "text": "our",
+      "char_start": 2215,
+      "char_end": 2218,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w371",
+      "text": "ambition",
+      "char_start": 2219,
+      "char_end": 2227,
+      "paragraph_id": "p11",
+      "segment_id": "s34"
+    },
+    {
+      "id": "w372",
+      "text": "We",
+      "char_start": 2229,
+      "char_end": 2231,
+      "paragraph_id": "p11",
+      "segment_id": "s35"
+    },
+    {
+      "id": "w373",
+      "text": "raced",
+      "char_start": 2232,
+      "char_end": 2237,
+      "paragraph_id": "p11",
+      "segment_id": "s35"
+    },
+    {
+      "id": "w374",
+      "text": "for",
+      "char_start": 2238,
+      "char_end": 2241,
+      "paragraph_id": "p11",
+      "segment_id": "s35"
+    },
+    {
+      "id": "w375",
+      "text": "the",
+      "char_start": 2242,
+      "char_end": 2245,
+      "paragraph_id": "p11",
+      "segment_id": "s35"
+    },
+    {
+      "id": "w376",
+      "text": "moon",
+      "char_start": 2246,
+      "char_end": 2250,
+      "paragraph_id": "p11",
+      "segment_id": "s35"
+    },
+    {
+      "id": "w377",
+      "text": "and",
+      "char_start": 2252,
+      "char_end": 2255,
+      "paragraph_id": "p11",
+      "segment_id": "s35"
+    },
+    {
+      "id": "w378",
+      "text": "we",
+      "char_start": 2256,
+      "char_end": 2258,
+      "paragraph_id": "p11",
+      "segment_id": "s35"
+    },
+    {
+      "id": "w379",
+      "text": "race",
+      "char_start": 2259,
+      "char_end": 2263,
+      "paragraph_id": "p11",
+      "segment_id": "s35"
+    },
+    {
+      "id": "w380",
+      "text": "beyond",
+      "char_start": 2264,
+      "char_end": 2270,
+      "paragraph_id": "p11",
+      "segment_id": "s35"
+    },
+    {
+      "id": "w381",
+      "text": "solar",
+      "char_start": 2271,
+      "char_end": 2276,
+      "paragraph_id": "p11",
+      "segment_id": "s35"
+    },
+    {
+      "id": "w382",
+      "text": "systems",
+      "char_start": 2277,
+      "char_end": 2284,
+      "paragraph_id": "p11",
+      "segment_id": "s35"
+    },
+    {
+      "id": "w383",
+      "text": "And",
+      "char_start": 2287,
+      "char_end": 2290,
+      "paragraph_id": "p12",
+      "segment_id": "s36"
+    },
+    {
+      "id": "w384",
+      "text": "today",
+      "char_start": 2291,
+      "char_end": 2296,
+      "paragraph_id": "p12",
+      "segment_id": "s36"
+    },
+    {
+      "id": "w385",
+      "text": "every",
+      "char_start": 2298,
+      "char_end": 2303,
+      "paragraph_id": "p12",
+      "segment_id": "s36"
+    },
+    {
+      "id": "w386",
+      "text": "single",
+      "char_start": 2304,
+      "char_end": 2310,
+      "paragraph_id": "p12",
+      "segment_id": "s36"
+    },
+    {
+      "id": "w387",
+      "text": "week",
+      "char_start": 2311,
+      "char_end": 2315,
+      "paragraph_id": "p12",
+      "segment_id": "s36"
+    },
+    {
+      "id": "w388",
+      "text": "we",
+      "char_start": 2317,
+      "char_end": 2319,
+      "paragraph_id": "p12",
+      "segment_id": "s36"
+    },
+    {
+      "id": "w389",
+      "text": "send",
+      "char_start": 2320,
+      "char_end": 2324,
+      "paragraph_id": "p12",
+      "segment_id": "s36"
+    },
+    {
+      "id": "w390",
+      "text": "rockets",
+      "char_start": 2325,
+      "char_end": 2332,
+      "paragraph_id": "p12",
+      "segment_id": "s36"
+    },
+    {
+      "id": "w391",
+      "text": "into",
+      "char_start": 2333,
+      "char_end": 2337,
+      "paragraph_id": "p12",
+      "segment_id": "s36"
+    },
+    {
+      "id": "w392",
+      "text": "this",
+      "char_start": 2338,
+      "char_end": 2342,
+      "paragraph_id": "p12",
+      "segment_id": "s36"
+    },
+    {
+      "id": "w393",
+      "text": "vast",
+      "char_start": 2343,
+      "char_end": 2347,
+      "paragraph_id": "p12",
+      "segment_id": "s36"
+    },
+    {
+      "id": "w394",
+      "text": "darkness",
+      "char_start": 2348,
+      "char_end": 2356,
+      "paragraph_id": "p12",
+      "segment_id": "s36"
+    },
+    {
+      "id": "w395",
+      "text": "in",
+      "char_start": 2357,
+      "char_end": 2359,
+      "paragraph_id": "p12",
+      "segment_id": "s36"
+    },
+    {
+      "id": "w396",
+      "text": "a",
+      "char_start": 2360,
+      "char_end": 2361,
+      "paragraph_id": "p12",
+      "segment_id": "s36"
+    },
+    {
+      "id": "w397",
+      "text": "complete",
+      "char_start": 2362,
+      "char_end": 2370,
+      "paragraph_id": "p12",
+      "segment_id": "s36"
+    },
+    {
+      "id": "w398",
+      "text": "and",
+      "char_start": 2371,
+      "char_end": 2374,
+      "paragraph_id": "p12",
+      "segment_id": "s36"
+    },
+    {
+      "id": "w399",
+      "text": "reliable",
+      "char_start": 2375,
+      "char_end": 2383,
+      "paragraph_id": "p12",
+      "segment_id": "s36"
+    },
+    {
+      "id": "w400",
+      "text": "fashion",
+      "char_start": 2384,
+      "char_end": 2391,
+      "paragraph_id": "p12",
+      "segment_id": "s36"
+    },
+    {
+      "id": "w401",
+      "text": "It",
+      "char_start": 2393,
+      "char_end": 2395,
+      "paragraph_id": "p12",
+      "segment_id": "s37"
+    },
+    {
+      "id": "w402",
+      "text": "is",
+      "char_start": 2396,
+      "char_end": 2398,
+      "paragraph_id": "p12",
+      "segment_id": "s37"
+    },
+    {
+      "id": "w403",
+      "text": "exactly",
+      "char_start": 2399,
+      "char_end": 2406,
+      "paragraph_id": "p12",
+      "segment_id": "s37"
+    },
+    {
+      "id": "w404",
+      "text": "like",
+      "char_start": 2407,
+      "char_end": 2411,
+      "paragraph_id": "p12",
+      "segment_id": "s37"
+    },
+    {
+      "id": "w405",
+      "text": "taking",
+      "char_start": 2412,
+      "char_end": 2418,
+      "paragraph_id": "p12",
+      "segment_id": "s37"
+    },
+    {
+      "id": "w406",
+      "text": "a",
+      "char_start": 2419,
+      "char_end": 2420,
+      "paragraph_id": "p12",
+      "segment_id": "s37"
+    },
+    {
+      "id": "w407",
+      "text": "bus",
+      "char_start": 2421,
+      "char_end": 2424,
+      "paragraph_id": "p12",
+      "segment_id": "s37"
+    },
+    {
+      "id": "w408",
+      "text": "The",
+      "char_start": 2426,
+      "char_end": 2429,
+      "paragraph_id": "p12",
+      "segment_id": "s38"
+    },
+    {
+      "id": "w409",
+      "text": "rockets",
+      "char_start": 2430,
+      "char_end": 2437,
+      "paragraph_id": "p12",
+      "segment_id": "s38"
+    },
+    {
+      "id": "w410",
+      "text": "go",
+      "char_start": 2438,
+      "char_end": 2440,
+      "paragraph_id": "p12",
+      "segment_id": "s38"
+    },
+    {
+      "id": "w411",
+      "text": "up",
+      "char_start": 2441,
+      "char_end": 2443,
+      "paragraph_id": "p12",
+      "segment_id": "s38"
+    },
+    {
+      "id": "w412",
+      "text": "they",
+      "char_start": 2445,
+      "char_end": 2449,
+      "paragraph_id": "p12",
+      "segment_id": "s38"
+    },
+    {
+      "id": "w413",
+      "text": "drop",
+      "char_start": 2450,
+      "char_end": 2454,
+      "paragraph_id": "p12",
+      "segment_id": "s38"
+    },
+    {
+      "id": "w414",
+      "text": "off",
+      "char_start": 2455,
+      "char_end": 2458,
+      "paragraph_id": "p12",
+      "segment_id": "s38"
+    },
+    {
+      "id": "w415",
+      "text": "the",
+      "char_start": 2459,
+      "char_end": 2462,
+      "paragraph_id": "p12",
+      "segment_id": "s38"
+    },
+    {
+      "id": "w416",
+      "text": "satellites",
+      "char_start": 2463,
+      "char_end": 2473,
+      "paragraph_id": "p12",
+      "segment_id": "s38"
+    },
+    {
+      "id": "w417",
+      "text": "they",
+      "char_start": 2475,
+      "char_end": 2479,
+      "paragraph_id": "p12",
+      "segment_id": "s38"
+    },
+    {
+      "id": "w418",
+      "text": "come",
+      "char_start": 2480,
+      "char_end": 2484,
+      "paragraph_id": "p12",
+      "segment_id": "s38"
+    },
+    {
+      "id": "w419",
+      "text": "right",
+      "char_start": 2485,
+      "char_end": 2490,
+      "paragraph_id": "p12",
+      "segment_id": "s38"
+    },
+    {
+      "id": "w420",
+      "text": "back",
+      "char_start": 2491,
+      "char_end": 2495,
+      "paragraph_id": "p12",
+      "segment_id": "s38"
+    },
+    {
+      "id": "w421",
+      "text": "and",
+      "char_start": 2496,
+      "char_end": 2499,
+      "paragraph_id": "p12",
+      "segment_id": "s38"
+    },
+    {
+      "id": "w422",
+      "text": "land",
+      "char_start": 2500,
+      "char_end": 2504,
+      "paragraph_id": "p12",
+      "segment_id": "s38"
+    },
+    {
+      "id": "w423",
+      "text": "It's",
+      "char_start": 2506,
+      "char_end": 2510,
+      "paragraph_id": "p12",
+      "segment_id": "s39"
+    },
+    {
+      "id": "w424",
+      "text": "entirely",
+      "char_start": 2511,
+      "char_end": 2519,
+      "paragraph_id": "p12",
+      "segment_id": "s39"
+    },
+    {
+      "id": "w425",
+      "text": "normal",
+      "char_start": 2520,
+      "char_end": 2526,
+      "paragraph_id": "p12",
+      "segment_id": "s39"
+    },
+    {
+      "id": "w426",
+      "text": "This",
+      "char_start": 2528,
+      "char_end": 2532,
+      "paragraph_id": "p12",
+      "segment_id": "s40"
+    },
+    {
+      "id": "w427",
+      "text": "is",
+      "char_start": 2533,
+      "char_end": 2535,
+      "paragraph_id": "p12",
+      "segment_id": "s40"
+    },
+    {
+      "id": "w428",
+      "text": "the",
+      "char_start": 2536,
+      "char_end": 2539,
+      "paragraph_id": "p12",
+      "segment_id": "s40"
+    },
+    {
+      "id": "w429",
+      "text": "result",
+      "char_start": 2540,
+      "char_end": 2546,
+      "paragraph_id": "p12",
+      "segment_id": "s40"
+    },
+    {
+      "id": "w430",
+      "text": "of",
+      "char_start": 2547,
+      "char_end": 2549,
+      "paragraph_id": "p12",
+      "segment_id": "s40"
+    },
+    {
+      "id": "w431",
+      "text": "human",
+      "char_start": 2550,
+      "char_end": 2555,
+      "paragraph_id": "p12",
+      "segment_id": "s40"
+    },
+    {
+      "id": "w432",
+      "text": "progress",
+      "char_start": 2556,
+      "char_end": 2564,
+      "paragraph_id": "p12",
+      "segment_id": "s40"
+    },
+    {
+      "id": "w433",
+      "text": "of",
+      "char_start": 2566,
+      "char_end": 2568,
+      "paragraph_id": "p12",
+      "segment_id": "s40"
+    },
+    {
+      "id": "w434",
+      "text": "human",
+      "char_start": 2569,
+      "char_end": 2574,
+      "paragraph_id": "p12",
+      "segment_id": "s40"
+    },
+    {
+      "id": "w435",
+      "text": "dynamism",
+      "char_start": 2575,
+      "char_end": 2583,
+      "paragraph_id": "p12",
+      "segment_id": "s40"
+    },
+    {
+      "id": "w436",
+      "text": "We",
+      "char_start": 2586,
+      "char_end": 2588,
+      "paragraph_id": "p13",
+      "segment_id": "s41"
+    },
+    {
+      "id": "w437",
+      "text": "have",
+      "char_start": 2589,
+      "char_end": 2593,
+      "paragraph_id": "p13",
+      "segment_id": "s41"
+    },
+    {
+      "id": "w438",
+      "text": "a",
+      "char_start": 2594,
+      "char_end": 2595,
+      "paragraph_id": "p13",
+      "segment_id": "s41"
+    },
+    {
+      "id": "w439",
+      "text": "responsibility",
+      "char_start": 2596,
+      "char_end": 2610,
+      "paragraph_id": "p13",
+      "segment_id": "s41"
+    },
+    {
+      "id": "w440",
+      "text": "to",
+      "char_start": 2611,
+      "char_end": 2613,
+      "paragraph_id": "p13",
+      "segment_id": "s41"
+    },
+    {
+      "id": "w441",
+      "text": "continue",
+      "char_start": 2614,
+      "char_end": 2622,
+      "paragraph_id": "p13",
+      "segment_id": "s41"
+    },
+    {
+      "id": "w442",
+      "text": "to",
+      "char_start": 2623,
+      "char_end": 2625,
+      "paragraph_id": "p13",
+      "segment_id": "s41"
+    },
+    {
+      "id": "w443",
+      "text": "push",
+      "char_start": 2626,
+      "char_end": 2630,
+      "paragraph_id": "p13",
+      "segment_id": "s41"
+    },
+    {
+      "id": "w444",
+      "text": "this",
+      "char_start": 2631,
+      "char_end": 2635,
+      "paragraph_id": "p13",
+      "segment_id": "s41"
+    },
+    {
+      "id": "w445",
+      "text": "envelope",
+      "char_start": 2636,
+      "char_end": 2644,
+      "paragraph_id": "p13",
+      "segment_id": "s41"
+    },
+    {
+      "id": "w446",
+      "text": "The",
+      "char_start": 2646,
+      "char_end": 2649,
+      "paragraph_id": "p13",
+      "segment_id": "s42"
+    },
+    {
+      "id": "w447",
+      "text": "human",
+      "char_start": 2650,
+      "char_end": 2655,
+      "paragraph_id": "p13",
+      "segment_id": "s42"
+    },
+    {
+      "id": "w448",
+      "text": "race",
+      "char_start": 2656,
+      "char_end": 2660,
+      "paragraph_id": "p13",
+      "segment_id": "s42"
+    },
+    {
+      "id": "w449",
+      "text": "is",
+      "char_start": 2661,
+      "char_end": 2663,
+      "paragraph_id": "p13",
+      "segment_id": "s42"
+    },
+    {
+      "id": "w450",
+      "text": "not",
+      "char_start": 2664,
+      "char_end": 2667,
+      "paragraph_id": "p13",
+      "segment_id": "s42"
+    },
+    {
+      "id": "w451",
+      "text": "static",
+      "char_start": 2668,
+      "char_end": 2674,
+      "paragraph_id": "p13",
+      "segment_id": "s42"
+    },
+    {
+      "id": "w452",
+      "text": "We",
+      "char_start": 2676,
+      "char_end": 2678,
+      "paragraph_id": "p13",
+      "segment_id": "s43"
+    },
+    {
+      "id": "w453",
+      "text": "are",
+      "char_start": 2679,
+      "char_end": 2682,
+      "paragraph_id": "p13",
+      "segment_id": "s43"
+    },
+    {
+      "id": "w454",
+      "text": "a",
+      "char_start": 2683,
+      "char_end": 2684,
+      "paragraph_id": "p13",
+      "segment_id": "s43"
+    },
+    {
+      "id": "w455",
+      "text": "dynamic",
+      "char_start": 2685,
+      "char_end": 2692,
+      "paragraph_id": "p13",
+      "segment_id": "s43"
+    },
+    {
+      "id": "w456",
+      "text": "species",
+      "char_start": 2693,
+      "char_end": 2700,
+      "paragraph_id": "p13",
+      "segment_id": "s43"
+    },
+    {
+      "id": "w457",
+      "text": "If",
+      "char_start": 2702,
+      "char_end": 2704,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w458",
+      "text": "you",
+      "char_start": 2705,
+      "char_end": 2708,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w459",
+      "text": "decide",
+      "char_start": 2709,
+      "char_end": 2715,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w460",
+      "text": "to",
+      "char_start": 2716,
+      "char_end": 2718,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w461",
+      "text": "surrender",
+      "char_start": 2719,
+      "char_end": 2728,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w462",
+      "text": "to",
+      "char_start": 2729,
+      "char_end": 2731,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w463",
+      "text": "the",
+      "char_start": 2732,
+      "char_end": 2735,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w464",
+      "text": "exponential",
+      "char_start": 2736,
+      "char_end": 2747,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w465",
+      "text": "and",
+      "char_start": 2748,
+      "char_end": 2751,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w466",
+      "text": "believe",
+      "char_start": 2752,
+      "char_end": 2759,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w467",
+      "text": "chaos",
+      "char_start": 2760,
+      "char_end": 2765,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w468",
+      "text": "will",
+      "char_start": 2766,
+      "char_end": 2770,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w469",
+      "text": "happen",
+      "char_start": 2771,
+      "char_end": 2777,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w470",
+      "text": "that",
+      "char_start": 2779,
+      "char_end": 2783,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w471",
+      "text": "machines",
+      "char_start": 2784,
+      "char_end": 2792,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w472",
+      "text": "will",
+      "char_start": 2793,
+      "char_end": 2797,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w473",
+      "text": "disrupt",
+      "char_start": 2798,
+      "char_end": 2805,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w474",
+      "text": "society",
+      "char_start": 2806,
+      "char_end": 2813,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w475",
+      "text": "so",
+      "char_start": 2814,
+      "char_end": 2816,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w476",
+      "text": "dramatically",
+      "char_start": 2817,
+      "char_end": 2829,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w477",
+      "text": "so",
+      "char_start": 2831,
+      "char_end": 2833,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w478",
+      "text": "quickly",
+      "char_start": 2834,
+      "char_end": 2841,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w479",
+      "text": "that",
+      "char_start": 2843,
+      "char_end": 2847,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w480",
+      "text": "we",
+      "char_start": 2848,
+      "char_end": 2850,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w481",
+      "text": "must",
+      "char_start": 2851,
+      "char_end": 2855,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w482",
+      "text": "be",
+      "char_start": 2856,
+      "char_end": 2858,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w483",
+      "text": "afraid",
+      "char_start": 2859,
+      "char_end": 2865,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w484",
+      "text": "that",
+      "char_start": 2867,
+      "char_end": 2871,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w485",
+      "text": "we",
+      "char_start": 2872,
+      "char_end": 2874,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w486",
+      "text": "must",
+      "char_start": 2875,
+      "char_end": 2879,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w487",
+      "text": "interrupt",
+      "char_start": 2880,
+      "char_end": 2889,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w488",
+      "text": "our",
+      "char_start": 2890,
+      "char_end": 2893,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w489",
+      "text": "livelihood",
+      "char_start": 2894,
+      "char_end": 2904,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w490",
+      "text": "you",
+      "char_start": 2906,
+      "char_end": 2909,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w491",
+      "text": "are",
+      "char_start": 2910,
+      "char_end": 2913,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w492",
+      "text": "surrendering",
+      "char_start": 2914,
+      "char_end": 2926,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w493",
+      "text": "our",
+      "char_start": 2927,
+      "char_end": 2930,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w494",
+      "text": "most",
+      "char_start": 2931,
+      "char_end": 2935,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w495",
+      "text": "human",
+      "char_start": 2936,
+      "char_end": 2941,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w496",
+      "text": "value",
+      "char_start": 2942,
+      "char_end": 2947,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w497",
+      "text": "our",
+      "char_start": 2949,
+      "char_end": 2952,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w498",
+      "text": "capacity",
+      "char_start": 2953,
+      "char_end": 2961,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w499",
+      "text": "for",
+      "char_start": 2962,
+      "char_end": 2965,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w500",
+      "text": "ambition",
+      "char_start": 2966,
+      "char_end": 2974,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w501",
+      "text": "our",
+      "char_start": 2976,
+      "char_end": 2979,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w502",
+      "text": "dynamism",
+      "char_start": 2980,
+      "char_end": 2988,
+      "paragraph_id": "p13",
+      "segment_id": "s44"
+    },
+    {
+      "id": "w503",
+      "text": "You",
+      "char_start": 2991,
+      "char_end": 2994,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w504",
+      "text": "can",
+      "char_start": 2995,
+      "char_end": 2998,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w505",
+      "text": "only",
+      "char_start": 2999,
+      "char_end": 3003,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w506",
+      "text": "believe",
+      "char_start": 3004,
+      "char_end": 3011,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w507",
+      "text": "the",
+      "char_start": 3012,
+      "char_end": 3015,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w508",
+      "text": "exponential",
+      "char_start": 3016,
+      "char_end": 3027,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w509",
+      "text": "will",
+      "char_start": 3028,
+      "char_end": 3032,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w510",
+      "text": "cause",
+      "char_start": 3033,
+      "char_end": 3038,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w511",
+      "text": "enormous",
+      "char_start": 3039,
+      "char_end": 3047,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w512",
+      "text": "harm",
+      "char_start": 3048,
+      "char_end": 3052,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w513",
+      "text": "because",
+      "char_start": 3053,
+      "char_end": 3060,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w514",
+      "text": "it",
+      "char_start": 3061,
+      "char_end": 3063,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w515",
+      "text": "is",
+      "char_start": 3064,
+      "char_end": 3066,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w516",
+      "text": "so",
+      "char_start": 3067,
+      "char_end": 3069,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w517",
+      "text": "fast",
+      "char_start": 3070,
+      "char_end": 3074,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w518",
+      "text": "if",
+      "char_start": 3076,
+      "char_end": 3078,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w519",
+      "text": "you",
+      "char_start": 3079,
+      "char_end": 3082,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w520",
+      "text": "believe",
+      "char_start": 3083,
+      "char_end": 3090,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w521",
+      "text": "humans",
+      "char_start": 3091,
+      "char_end": 3097,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w522",
+      "text": "are",
+      "char_start": 3098,
+      "char_end": 3101,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w523",
+      "text": "static",
+      "char_start": 3102,
+      "char_end": 3108,
+      "paragraph_id": "p14",
+      "segment_id": "s45"
+    },
+    {
+      "id": "w524",
+      "text": "We",
+      "char_start": 3111,
+      "char_end": 3113,
+      "paragraph_id": "p15",
+      "segment_id": "s46"
+    },
+    {
+      "id": "w525",
+      "text": "are",
+      "char_start": 3114,
+      "char_end": 3117,
+      "paragraph_id": "p15",
+      "segment_id": "s46"
+    },
+    {
+      "id": "w526",
+      "text": "ambitious",
+      "char_start": 3118,
+      "char_end": 3127,
+      "paragraph_id": "p15",
+      "segment_id": "s46"
+    },
+    {
+      "id": "w527",
+      "text": "We",
+      "char_start": 3129,
+      "char_end": 3131,
+      "paragraph_id": "p15",
+      "segment_id": "s47"
+    },
+    {
+      "id": "w528",
+      "text": "have",
+      "char_start": 3132,
+      "char_end": 3136,
+      "paragraph_id": "p15",
+      "segment_id": "s47"
+    },
+    {
+      "id": "w529",
+      "text": "curiosity",
+      "char_start": 3137,
+      "char_end": 3146,
+      "paragraph_id": "p15",
+      "segment_id": "s47"
+    },
+    {
+      "id": "w530",
+      "text": "We",
+      "char_start": 3148,
+      "char_end": 3150,
+      "paragraph_id": "p15",
+      "segment_id": "s48"
+    },
+    {
+      "id": "w531",
+      "text": "have",
+      "char_start": 3151,
+      "char_end": 3155,
+      "paragraph_id": "p15",
+      "segment_id": "s48"
+    },
+    {
+      "id": "w532",
+      "text": "the",
+      "char_start": 3156,
+      "char_end": 3159,
+      "paragraph_id": "p15",
+      "segment_id": "s48"
+    },
+    {
+      "id": "w533",
+      "text": "capacity",
+      "char_start": 3160,
+      "char_end": 3168,
+      "paragraph_id": "p15",
+      "segment_id": "s48"
+    },
+    {
+      "id": "w534",
+      "text": "for",
+      "char_start": 3169,
+      "char_end": 3172,
+      "paragraph_id": "p15",
+      "segment_id": "s48"
+    },
+    {
+      "id": "w535",
+      "text": "change",
+      "char_start": 3173,
+      "char_end": 3179,
+      "paragraph_id": "p15",
+      "segment_id": "s48"
+    },
+    {
+      "id": "w536",
+      "text": "And",
+      "char_start": 3181,
+      "char_end": 3184,
+      "paragraph_id": "p15",
+      "segment_id": "s49"
+    },
+    {
+      "id": "w537",
+      "text": "we",
+      "char_start": 3185,
+      "char_end": 3187,
+      "paragraph_id": "p15",
+      "segment_id": "s49"
+    },
+    {
+      "id": "w538",
+      "text": "have",
+      "char_start": 3188,
+      "char_end": 3192,
+      "paragraph_id": "p15",
+      "segment_id": "s49"
+    },
+    {
+      "id": "w539",
+      "text": "the",
+      "char_start": 3193,
+      "char_end": 3196,
+      "paragraph_id": "p15",
+      "segment_id": "s49"
+    },
+    {
+      "id": "w540",
+      "text": "capacity",
+      "char_start": 3197,
+      "char_end": 3205,
+      "paragraph_id": "p15",
+      "segment_id": "s49"
+    },
+    {
+      "id": "w541",
+      "text": "for",
+      "char_start": 3206,
+      "char_end": 3209,
+      "paragraph_id": "p15",
+      "segment_id": "s49"
+    },
+    {
+      "id": "w542",
+      "text": "intellect",
+      "char_start": 3210,
+      "char_end": 3219,
+      "paragraph_id": "p15",
+      "segment_id": "s49"
+    },
+    {
+      "id": "w543",
+      "text": "We",
+      "char_start": 3221,
+      "char_end": 3223,
+      "paragraph_id": "p15",
+      "segment_id": "s50"
+    },
+    {
+      "id": "w544",
+      "text": "can",
+      "char_start": 3224,
+      "char_end": 3227,
+      "paragraph_id": "p15",
+      "segment_id": "s50"
+    },
+    {
+      "id": "w545",
+      "text": "do",
+      "char_start": 3228,
+      "char_end": 3230,
+      "paragraph_id": "p15",
+      "segment_id": "s50"
+    },
+    {
+      "id": "w546",
+      "text": "what",
+      "char_start": 3231,
+      "char_end": 3235,
+      "paragraph_id": "p15",
+      "segment_id": "s50"
+    },
+    {
+      "id": "w547",
+      "text": "you",
+      "char_start": 3236,
+      "char_end": 3239,
+      "paragraph_id": "p15",
+      "segment_id": "s50"
+    },
+    {
+      "id": "w548",
+      "text": "cannot",
+      "char_start": 3240,
+      "char_end": 3246,
+      "paragraph_id": "p15",
+      "segment_id": "s50"
+    },
+    {
+      "id": "w549",
+      "text": "imagine",
+      "char_start": 3247,
+      "char_end": 3254,
+      "paragraph_id": "p15",
+      "segment_id": "s50"
+    },
+    {
+      "id": "w550",
+      "text": "At",
+      "char_start": 3257,
+      "char_end": 3259,
+      "paragraph_id": "p16",
+      "segment_id": "s51"
+    },
+    {
+      "id": "w551",
+      "text": "the",
+      "char_start": 3260,
+      "char_end": 3263,
+      "paragraph_id": "p16",
+      "segment_id": "s51"
+    },
+    {
+      "id": "w552",
+      "text": "center",
+      "char_start": 3264,
+      "char_end": 3270,
+      "paragraph_id": "p16",
+      "segment_id": "s51"
+    },
+    {
+      "id": "w553",
+      "text": "of",
+      "char_start": 3271,
+      "char_end": 3273,
+      "paragraph_id": "p16",
+      "segment_id": "s51"
+    },
+    {
+      "id": "w554",
+      "text": "our",
+      "char_start": 3274,
+      "char_end": 3277,
+      "paragraph_id": "p16",
+      "segment_id": "s51"
+    },
+    {
+      "id": "w555",
+      "text": "galaxy",
+      "char_start": 3278,
+      "char_end": 3284,
+      "paragraph_id": "p16",
+      "segment_id": "s51"
+    },
+    {
+      "id": "w556",
+      "text": "there",
+      "char_start": 3286,
+      "char_end": 3291,
+      "paragraph_id": "p16",
+      "segment_id": "s51"
+    },
+    {
+      "id": "w557",
+      "text": "is",
+      "char_start": 3292,
+      "char_end": 3294,
+      "paragraph_id": "p16",
+      "segment_id": "s51"
+    },
+    {
+      "id": "w558",
+      "text": "this",
+      "char_start": 3295,
+      "char_end": 3299,
+      "paragraph_id": "p16",
+      "segment_id": "s51"
+    },
+    {
+      "id": "w559",
+      "text": "vast",
+      "char_start": 3300,
+      "char_end": 3304,
+      "paragraph_id": "p16",
+      "segment_id": "s51"
+    },
+    {
+      "id": "w560",
+      "text": "dark",
+      "char_start": 3306,
+      "char_end": 3310,
+      "paragraph_id": "p16",
+      "segment_id": "s51"
+    },
+    {
+      "id": "w561",
+      "text": "scary",
+      "char_start": 3312,
+      "char_end": 3317,
+      "paragraph_id": "p16",
+      "segment_id": "s51"
+    },
+    {
+      "id": "w562",
+      "text": "object",
+      "char_start": 3318,
+      "char_end": 3324,
+      "paragraph_id": "p16",
+      "segment_id": "s51"
+    },
+    {
+      "id": "w563",
+      "text": "It's",
+      "char_start": 3326,
+      "char_end": 3330,
+      "paragraph_id": "p16",
+      "segment_id": "s52"
+    },
+    {
+      "id": "w564",
+      "text": "a",
+      "char_start": 3331,
+      "char_end": 3332,
+      "paragraph_id": "p16",
+      "segment_id": "s52"
+    },
+    {
+      "id": "w565",
+      "text": "black",
+      "char_start": 3333,
+      "char_end": 3338,
+      "paragraph_id": "p16",
+      "segment_id": "s52"
+    },
+    {
+      "id": "w566",
+      "text": "hole",
+      "char_start": 3339,
+      "char_end": 3343,
+      "paragraph_id": "p16",
+      "segment_id": "s52"
+    },
+    {
+      "id": "w567",
+      "text": "It's",
+      "char_start": 3345,
+      "char_end": 3349,
+      "paragraph_id": "p16",
+      "segment_id": "s53"
+    },
+    {
+      "id": "w568",
+      "text": "so",
+      "char_start": 3350,
+      "char_end": 3352,
+      "paragraph_id": "p16",
+      "segment_id": "s53"
+    },
+    {
+      "id": "w569",
+      "text": "massive",
+      "char_start": 3353,
+      "char_end": 3360,
+      "paragraph_id": "p16",
+      "segment_id": "s53"
+    },
+    {
+      "id": "w570",
+      "text": "and",
+      "char_start": 3361,
+      "char_end": 3364,
+      "paragraph_id": "p16",
+      "segment_id": "s53"
+    },
+    {
+      "id": "w571",
+      "text": "vast",
+      "char_start": 3365,
+      "char_end": 3369,
+      "paragraph_id": "p16",
+      "segment_id": "s53"
+    },
+    {
+      "id": "w572",
+      "text": "that",
+      "char_start": 3370,
+      "char_end": 3374,
+      "paragraph_id": "p16",
+      "segment_id": "s53"
+    },
+    {
+      "id": "w573",
+      "text": "light",
+      "char_start": 3375,
+      "char_end": 3380,
+      "paragraph_id": "p16",
+      "segment_id": "s53"
+    },
+    {
+      "id": "w574",
+      "text": "cannot",
+      "char_start": 3381,
+      "char_end": 3387,
+      "paragraph_id": "p16",
+      "segment_id": "s53"
+    },
+    {
+      "id": "w575",
+      "text": "escape",
+      "char_start": 3388,
+      "char_end": 3394,
+      "paragraph_id": "p16",
+      "segment_id": "s53"
+    },
+    {
+      "id": "w576",
+      "text": "its",
+      "char_start": 3395,
+      "char_end": 3398,
+      "paragraph_id": "p16",
+      "segment_id": "s53"
+    },
+    {
+      "id": "w577",
+      "text": "gravity",
+      "char_start": 3399,
+      "char_end": 3406,
+      "paragraph_id": "p16",
+      "segment_id": "s53"
+    },
+    {
+      "id": "w578",
+      "text": "Yet",
+      "char_start": 3409,
+      "char_end": 3412,
+      "paragraph_id": "p17",
+      "segment_id": "s54"
+    },
+    {
+      "id": "w579",
+      "text": "humans",
+      "char_start": 3414,
+      "char_end": 3420,
+      "paragraph_id": "p17",
+      "segment_id": "s54"
+    },
+    {
+      "id": "w580",
+      "text": "are",
+      "char_start": 3421,
+      "char_end": 3424,
+      "paragraph_id": "p17",
+      "segment_id": "s54"
+    },
+    {
+      "id": "w581",
+      "text": "here",
+      "char_start": 3425,
+      "char_end": 3429,
+      "paragraph_id": "p17",
+      "segment_id": "s54"
+    },
+    {
+      "id": "w582",
+      "text": "We",
+      "char_start": 3431,
+      "char_end": 3433,
+      "paragraph_id": "p17",
+      "segment_id": "s55"
+    },
+    {
+      "id": "w583",
+      "text": "live",
+      "char_start": 3434,
+      "char_end": 3438,
+      "paragraph_id": "p17",
+      "segment_id": "s55"
+    },
+    {
+      "id": "w584",
+      "text": "on",
+      "char_start": 3439,
+      "char_end": 3441,
+      "paragraph_id": "p17",
+      "segment_id": "s55"
+    },
+    {
+      "id": "w585",
+      "text": "this",
+      "char_start": 3442,
+      "char_end": 3446,
+      "paragraph_id": "p17",
+      "segment_id": "s55"
+    },
+    {
+      "id": "w586",
+      "text": "planet",
+      "char_start": 3447,
+      "char_end": 3453,
+      "paragraph_id": "p17",
+      "segment_id": "s55"
+    },
+    {
+      "id": "w587",
+      "text": "Not",
+      "char_start": 3455,
+      "char_end": 3458,
+      "paragraph_id": "p17",
+      "segment_id": "s56"
+    },
+    {
+      "id": "w588",
+      "text": "only",
+      "char_start": 3459,
+      "char_end": 3463,
+      "paragraph_id": "p17",
+      "segment_id": "s56"
+    },
+    {
+      "id": "w589",
+      "text": "do",
+      "char_start": 3464,
+      "char_end": 3466,
+      "paragraph_id": "p17",
+      "segment_id": "s56"
+    },
+    {
+      "id": "w590",
+      "text": "we",
+      "char_start": 3467,
+      "char_end": 3469,
+      "paragraph_id": "p17",
+      "segment_id": "s56"
+    },
+    {
+      "id": "w591",
+      "text": "understand",
+      "char_start": 3470,
+      "char_end": 3480,
+      "paragraph_id": "p17",
+      "segment_id": "s56"
+    },
+    {
+      "id": "w592",
+      "text": "the",
+      "char_start": 3481,
+      "char_end": 3484,
+      "paragraph_id": "p17",
+      "segment_id": "s56"
+    },
+    {
+      "id": "w593",
+      "text": "very",
+      "char_start": 3485,
+      "char_end": 3489,
+      "paragraph_id": "p17",
+      "segment_id": "s56"
+    },
+    {
+      "id": "w594",
+      "text": "mechanics",
+      "char_start": 3490,
+      "char_end": 3499,
+      "paragraph_id": "p17",
+      "segment_id": "s56"
+    },
+    {
+      "id": "w595",
+      "text": "the",
+      "char_start": 3501,
+      "char_end": 3504,
+      "paragraph_id": "p17",
+      "segment_id": "s56"
+    },
+    {
+      "id": "w596",
+      "text": "laws",
+      "char_start": 3505,
+      "char_end": 3509,
+      "paragraph_id": "p17",
+      "segment_id": "s56"
+    },
+    {
+      "id": "w597",
+      "text": "the",
+      "char_start": 3511,
+      "char_end": 3514,
+      "paragraph_id": "p17",
+      "segment_id": "s56"
+    },
+    {
+      "id": "w598",
+      "text": "dynamics",
+      "char_start": 3515,
+      "char_end": 3523,
+      "paragraph_id": "p17",
+      "segment_id": "s56"
+    },
+    {
+      "id": "w599",
+      "text": "of",
+      "char_start": 3524,
+      "char_end": 3526,
+      "paragraph_id": "p17",
+      "segment_id": "s56"
+    },
+    {
+      "id": "w600",
+      "text": "the",
+      "char_start": 3527,
+      "char_end": 3530,
+      "paragraph_id": "p17",
+      "segment_id": "s56"
+    },
+    {
+      "id": "w601",
+      "text": "black",
+      "char_start": 3531,
+      "char_end": 3536,
+      "paragraph_id": "p17",
+      "segment_id": "s56"
+    },
+    {
+      "id": "w602",
+      "text": "hole",
+      "char_start": 3537,
+      "char_end": 3541,
+      "paragraph_id": "p17",
+      "segment_id": "s56"
+    },
+    {
+      "id": "w603",
+      "text": "The",
+      "char_start": 3544,
+      "char_end": 3547,
+      "paragraph_id": "p18",
+      "segment_id": "s57"
+    },
+    {
+      "id": "w604",
+      "text": "black",
+      "char_start": 3548,
+      "char_end": 3553,
+      "paragraph_id": "p18",
+      "segment_id": "s57"
+    },
+    {
+      "id": "w605",
+      "text": "hole",
+      "char_start": 3554,
+      "char_end": 3558,
+      "paragraph_id": "p18",
+      "segment_id": "s57"
+    },
+    {
+      "id": "w606",
+      "text": "is",
+      "char_start": 3559,
+      "char_end": 3561,
+      "paragraph_id": "p18",
+      "segment_id": "s57"
+    },
+    {
+      "id": "w607",
+      "text": "so",
+      "char_start": 3562,
+      "char_end": 3564,
+      "paragraph_id": "p18",
+      "segment_id": "s57"
+    },
+    {
+      "id": "w608",
+      "text": "far",
+      "char_start": 3565,
+      "char_end": 3568,
+      "paragraph_id": "p18",
+      "segment_id": "s57"
+    },
+    {
+      "id": "w609",
+      "text": "away",
+      "char_start": 3569,
+      "char_end": 3573,
+      "paragraph_id": "p18",
+      "segment_id": "s57"
+    },
+    {
+      "id": "w610",
+      "text": "We",
+      "char_start": 3575,
+      "char_end": 3577,
+      "paragraph_id": "p18",
+      "segment_id": "s58"
+    },
+    {
+      "id": "w611",
+      "text": "may",
+      "char_start": 3578,
+      "char_end": 3581,
+      "paragraph_id": "p18",
+      "segment_id": "s58"
+    },
+    {
+      "id": "w612",
+      "text": "never",
+      "char_start": 3582,
+      "char_end": 3587,
+      "paragraph_id": "p18",
+      "segment_id": "s58"
+    },
+    {
+      "id": "w613",
+      "text": "be",
+      "char_start": 3588,
+      "char_end": 3590,
+      "paragraph_id": "p18",
+      "segment_id": "s58"
+    },
+    {
+      "id": "w614",
+      "text": "able",
+      "char_start": 3591,
+      "char_end": 3595,
+      "paragraph_id": "p18",
+      "segment_id": "s58"
+    },
+    {
+      "id": "w615",
+      "text": "to",
+      "char_start": 3596,
+      "char_end": 3598,
+      "paragraph_id": "p18",
+      "segment_id": "s58"
+    },
+    {
+      "id": "w616",
+      "text": "travel",
+      "char_start": 3599,
+      "char_end": 3605,
+      "paragraph_id": "p18",
+      "segment_id": "s58"
+    },
+    {
+      "id": "w617",
+      "text": "to",
+      "char_start": 3606,
+      "char_end": 3608,
+      "paragraph_id": "p18",
+      "segment_id": "s58"
+    },
+    {
+      "id": "w618",
+      "text": "it",
+      "char_start": 3609,
+      "char_end": 3611,
+      "paragraph_id": "p18",
+      "segment_id": "s58"
+    },
+    {
+      "id": "w619",
+      "text": "It",
+      "char_start": 3613,
+      "char_end": 3615,
+      "paragraph_id": "p18",
+      "segment_id": "s59"
+    },
+    {
+      "id": "w620",
+      "text": "is",
+      "char_start": 3616,
+      "char_end": 3618,
+      "paragraph_id": "p18",
+      "segment_id": "s59"
+    },
+    {
+      "id": "w621",
+      "text": "so",
+      "char_start": 3619,
+      "char_end": 3621,
+      "paragraph_id": "p18",
+      "segment_id": "s59"
+    },
+    {
+      "id": "w622",
+      "text": "far",
+      "char_start": 3622,
+      "char_end": 3625,
+      "paragraph_id": "p18",
+      "segment_id": "s59"
+    },
+    {
+      "id": "w623",
+      "text": "yet",
+      "char_start": 3627,
+      "char_end": 3630,
+      "paragraph_id": "p18",
+      "segment_id": "s59"
+    },
+    {
+      "id": "w624",
+      "text": "so",
+      "char_start": 3631,
+      "char_end": 3633,
+      "paragraph_id": "p18",
+      "segment_id": "s59"
+    },
+    {
+      "id": "w625",
+      "text": "immensely",
+      "char_start": 3634,
+      "char_end": 3643,
+      "paragraph_id": "p18",
+      "segment_id": "s59"
+    },
+    {
+      "id": "w626",
+      "text": "powerful",
+      "char_start": 3644,
+      "char_end": 3652,
+      "paragraph_id": "p18",
+      "segment_id": "s59"
+    },
+    {
+      "id": "w627",
+      "text": "It",
+      "char_start": 3654,
+      "char_end": 3656,
+      "paragraph_id": "p18",
+      "segment_id": "s60"
+    },
+    {
+      "id": "w628",
+      "text": "must",
+      "char_start": 3657,
+      "char_end": 3661,
+      "paragraph_id": "p18",
+      "segment_id": "s60"
+    },
+    {
+      "id": "w629",
+      "text": "boggle",
+      "char_start": 3662,
+      "char_end": 3668,
+      "paragraph_id": "p18",
+      "segment_id": "s60"
+    },
+    {
+      "id": "w630",
+      "text": "our",
+      "char_start": 3669,
+      "char_end": 3672,
+      "paragraph_id": "p18",
+      "segment_id": "s60"
+    },
+    {
+      "id": "w631",
+      "text": "minds",
+      "char_start": 3673,
+      "char_end": 3678,
+      "paragraph_id": "p18",
+      "segment_id": "s60"
+    },
+    {
+      "id": "w632",
+      "text": "Yet",
+      "char_start": 3680,
+      "char_end": 3683,
+      "paragraph_id": "p18",
+      "segment_id": "s61"
+    },
+    {
+      "id": "w633",
+      "text": "we",
+      "char_start": 3684,
+      "char_end": 3686,
+      "paragraph_id": "p18",
+      "segment_id": "s61"
+    },
+    {
+      "id": "w634",
+      "text": "understand",
+      "char_start": 3687,
+      "char_end": 3697,
+      "paragraph_id": "p18",
+      "segment_id": "s61"
+    },
+    {
+      "id": "w635",
+      "text": "it",
+      "char_start": 3698,
+      "char_end": 3700,
+      "paragraph_id": "p18",
+      "segment_id": "s61"
+    },
+    {
+      "id": "w636",
+      "text": "Yet",
+      "char_start": 3702,
+      "char_end": 3705,
+      "paragraph_id": "p18",
+      "segment_id": "s62"
+    },
+    {
+      "id": "w637",
+      "text": "we",
+      "char_start": 3706,
+      "char_end": 3708,
+      "paragraph_id": "p18",
+      "segment_id": "s62"
+    },
+    {
+      "id": "w638",
+      "text": "study",
+      "char_start": 3709,
+      "char_end": 3714,
+      "paragraph_id": "p18",
+      "segment_id": "s62"
+    },
+    {
+      "id": "w639",
+      "text": "it",
+      "char_start": 3715,
+      "char_end": 3717,
+      "paragraph_id": "p18",
+      "segment_id": "s62"
+    },
+    {
+      "id": "w640",
+      "text": "Yet",
+      "char_start": 3719,
+      "char_end": 3722,
+      "paragraph_id": "p18",
+      "segment_id": "s63"
+    },
+    {
+      "id": "w641",
+      "text": "we",
+      "char_start": 3723,
+      "char_end": 3725,
+      "paragraph_id": "p18",
+      "segment_id": "s63"
+    },
+    {
+      "id": "w642",
+      "text": "do",
+      "char_start": 3726,
+      "char_end": 3728,
+      "paragraph_id": "p18",
+      "segment_id": "s63"
+    },
+    {
+      "id": "w643",
+      "text": "not",
+      "char_start": 3729,
+      "char_end": 3732,
+      "paragraph_id": "p18",
+      "segment_id": "s63"
+    },
+    {
+      "id": "w644",
+      "text": "shy",
+      "char_start": 3733,
+      "char_end": 3736,
+      "paragraph_id": "p18",
+      "segment_id": "s63"
+    },
+    {
+      "id": "w645",
+      "text": "away",
+      "char_start": 3737,
+      "char_end": 3741,
+      "paragraph_id": "p18",
+      "segment_id": "s63"
+    },
+    {
+      "id": "w646",
+      "text": "from",
+      "char_start": 3742,
+      "char_end": 3746,
+      "paragraph_id": "p18",
+      "segment_id": "s63"
+    },
+    {
+      "id": "w647",
+      "text": "the",
+      "char_start": 3747,
+      "char_end": 3750,
+      "paragraph_id": "p18",
+      "segment_id": "s63"
+    },
+    {
+      "id": "w648",
+      "text": "enormous",
+      "char_start": 3751,
+      "char_end": 3759,
+      "paragraph_id": "p18",
+      "segment_id": "s63"
+    },
+    {
+      "id": "w649",
+      "text": "dangers",
+      "char_start": 3760,
+      "char_end": 3767,
+      "paragraph_id": "p18",
+      "segment_id": "s63"
+    },
+    {
+      "id": "w650",
+      "text": "of",
+      "char_start": 3768,
+      "char_end": 3770,
+      "paragraph_id": "p18",
+      "segment_id": "s63"
+    },
+    {
+      "id": "w651",
+      "text": "space",
+      "char_start": 3771,
+      "char_end": 3776,
+      "paragraph_id": "p18",
+      "segment_id": "s63"
+    },
+    {
+      "id": "w652",
+      "text": "We",
+      "char_start": 3779,
+      "char_end": 3781,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w653",
+      "text": "coexist",
+      "char_start": 3782,
+      "char_end": 3789,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w654",
+      "text": "on",
+      "char_start": 3790,
+      "char_end": 3792,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w655",
+      "text": "this",
+      "char_start": 3793,
+      "char_end": 3797,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w656",
+      "text": "planet",
+      "char_start": 3798,
+      "char_end": 3804,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w657",
+      "text": "in",
+      "char_start": 3806,
+      "char_end": 3808,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w658",
+      "text": "this",
+      "char_start": 3809,
+      "char_end": 3813,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w659",
+      "text": "solar",
+      "char_start": 3814,
+      "char_end": 3819,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w660",
+      "text": "system",
+      "char_start": 3820,
+      "char_end": 3826,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w661",
+      "text": "in",
+      "char_start": 3828,
+      "char_end": 3830,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w662",
+      "text": "this",
+      "char_start": 3831,
+      "char_end": 3835,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w663",
+      "text": "galaxy",
+      "char_start": 3836,
+      "char_end": 3842,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w664",
+      "text": "with",
+      "char_start": 3844,
+      "char_end": 3848,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w665",
+      "text": "so",
+      "char_start": 3849,
+      "char_end": 3851,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w666",
+      "text": "many",
+      "char_start": 3852,
+      "char_end": 3856,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w667",
+      "text": "different",
+      "char_start": 3857,
+      "char_end": 3866,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w668",
+      "text": "stars",
+      "char_start": 3867,
+      "char_end": 3872,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w669",
+      "text": "so",
+      "char_start": 3874,
+      "char_end": 3876,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w670",
+      "text": "many",
+      "char_start": 3877,
+      "char_end": 3881,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w671",
+      "text": "different",
+      "char_start": 3882,
+      "char_end": 3891,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w672",
+      "text": "galaxies",
+      "char_start": 3892,
+      "char_end": 3900,
+      "paragraph_id": "p19",
+      "segment_id": "s64"
+    },
+    {
+      "id": "w673",
+      "text": "We",
+      "char_start": 3902,
+      "char_end": 3904,
+      "paragraph_id": "p19",
+      "segment_id": "s65"
+    },
+    {
+      "id": "w674",
+      "text": "cannot",
+      "char_start": 3905,
+      "char_end": 3911,
+      "paragraph_id": "p19",
+      "segment_id": "s65"
+    },
+    {
+      "id": "w675",
+      "text": "live",
+      "char_start": 3912,
+      "char_end": 3916,
+      "paragraph_id": "p19",
+      "segment_id": "s65"
+    },
+    {
+      "id": "w676",
+      "text": "in",
+      "char_start": 3917,
+      "char_end": 3919,
+      "paragraph_id": "p19",
+      "segment_id": "s65"
+    },
+    {
+      "id": "w677",
+      "text": "fear",
+      "char_start": 3920,
+      "char_end": 3924,
+      "paragraph_id": "p19",
+      "segment_id": "s65"
+    },
+    {
+      "id": "w678",
+      "text": "This",
+      "char_start": 3927,
+      "char_end": 3931,
+      "paragraph_id": "p20",
+      "segment_id": "s66"
+    },
+    {
+      "id": "w679",
+      "text": "is",
+      "char_start": 3932,
+      "char_end": 3934,
+      "paragraph_id": "p20",
+      "segment_id": "s66"
+    },
+    {
+      "id": "w680",
+      "text": "the",
+      "char_start": 3935,
+      "char_end": 3938,
+      "paragraph_id": "p20",
+      "segment_id": "s66"
+    },
+    {
+      "id": "w681",
+      "text": "time",
+      "char_start": 3939,
+      "char_end": 3943,
+      "paragraph_id": "p20",
+      "segment_id": "s66"
+    },
+    {
+      "id": "w682",
+      "text": "for",
+      "char_start": 3944,
+      "char_end": 3947,
+      "paragraph_id": "p20",
+      "segment_id": "s66"
+    },
+    {
+      "id": "w683",
+      "text": "us",
+      "char_start": 3948,
+      "char_end": 3950,
+      "paragraph_id": "p20",
+      "segment_id": "s66"
+    },
+    {
+      "id": "w684",
+      "text": "to",
+      "char_start": 3951,
+      "char_end": 3953,
+      "paragraph_id": "p20",
+      "segment_id": "s66"
+    },
+    {
+      "id": "w685",
+      "text": "build",
+      "char_start": 3954,
+      "char_end": 3959,
+      "paragraph_id": "p20",
+      "segment_id": "s66"
+    },
+    {
+      "id": "w686",
+      "text": "To",
+      "char_start": 3961,
+      "char_end": 3963,
+      "paragraph_id": "p20",
+      "segment_id": "s67"
+    },
+    {
+      "id": "w687",
+      "text": "build",
+      "char_start": 3964,
+      "char_end": 3969,
+      "paragraph_id": "p20",
+      "segment_id": "s67"
+    },
+    {
+      "id": "w688",
+      "text": "towards",
+      "char_start": 3970,
+      "char_end": 3977,
+      "paragraph_id": "p20",
+      "segment_id": "s67"
+    },
+    {
+      "id": "w689",
+      "text": "an",
+      "char_start": 3978,
+      "char_end": 3980,
+      "paragraph_id": "p20",
+      "segment_id": "s67"
+    },
+    {
+      "id": "w690",
+      "text": "ambitious",
+      "char_start": 3981,
+      "char_end": 3990,
+      "paragraph_id": "p20",
+      "segment_id": "s67"
+    },
+    {
+      "id": "w691",
+      "text": "renaissance",
+      "char_start": 3991,
+      "char_end": 4002,
+      "paragraph_id": "p20",
+      "segment_id": "s67"
+    },
+    {
+      "id": "w692",
+      "text": "Not",
+      "char_start": 4004,
+      "char_end": 4007,
+      "paragraph_id": "p20",
+      "segment_id": "s68"
+    },
+    {
+      "id": "w693",
+      "text": "to",
+      "char_start": 4008,
+      "char_end": 4010,
+      "paragraph_id": "p20",
+      "segment_id": "s68"
+    },
+    {
+      "id": "w694",
+      "text": "turn",
+      "char_start": 4011,
+      "char_end": 4015,
+      "paragraph_id": "p20",
+      "segment_id": "s68"
+    },
+    {
+      "id": "w695",
+      "text": "inward",
+      "char_start": 4016,
+      "char_end": 4022,
+      "paragraph_id": "p20",
+      "segment_id": "s68"
+    },
+    {
+      "id": "w696",
+      "text": "into",
+      "char_start": 4023,
+      "char_end": 4027,
+      "paragraph_id": "p20",
+      "segment_id": "s68"
+    },
+    {
+      "id": "w697",
+      "text": "the",
+      "char_start": 4028,
+      "char_end": 4031,
+      "paragraph_id": "p20",
+      "segment_id": "s68"
+    },
+    {
+      "id": "w698",
+      "text": "machines",
+      "char_start": 4032,
+      "char_end": 4040,
+      "paragraph_id": "p20",
+      "segment_id": "s68"
+    },
+    {
+      "id": "w699",
+      "text": "that",
+      "char_start": 4041,
+      "char_end": 4045,
+      "paragraph_id": "p20",
+      "segment_id": "s68"
+    },
+    {
+      "id": "w700",
+      "text": "we're",
+      "char_start": 4046,
+      "char_end": 4051,
+      "paragraph_id": "p20",
+      "segment_id": "s68"
+    },
+    {
+      "id": "w701",
+      "text": "building",
+      "char_start": 4052,
+      "char_end": 4060,
+      "paragraph_id": "p20",
+      "segment_id": "s68"
+    },
+    {
+      "id": "w702",
+      "text": "and",
+      "char_start": 4061,
+      "char_end": 4064,
+      "paragraph_id": "p20",
+      "segment_id": "s68"
+    },
+    {
+      "id": "w703",
+      "text": "believe",
+      "char_start": 4065,
+      "char_end": 4072,
+      "paragraph_id": "p20",
+      "segment_id": "s68"
+    },
+    {
+      "id": "w704",
+      "text": "somehow",
+      "char_start": 4073,
+      "char_end": 4080,
+      "paragraph_id": "p20",
+      "segment_id": "s68"
+    },
+    {
+      "id": "w705",
+      "text": "the",
+      "char_start": 4081,
+      "char_end": 4084,
+      "paragraph_id": "p20",
+      "segment_id": "s68"
+    },
+    {
+      "id": "w706",
+      "text": "answer",
+      "char_start": 4085,
+      "char_end": 4091,
+      "paragraph_id": "p20",
+      "segment_id": "s68"
+    },
+    {
+      "id": "w707",
+      "text": "is",
+      "char_start": 4092,
+      "char_end": 4094,
+      "paragraph_id": "p20",
+      "segment_id": "s68"
+    },
+    {
+      "id": "w708",
+      "text": "within",
+      "char_start": 4095,
+      "char_end": 4101,
+      "paragraph_id": "p20",
+      "segment_id": "s68"
+    },
+    {
+      "id": "w709",
+      "text": "The",
+      "char_start": 4104,
+      "char_end": 4107,
+      "paragraph_id": "p21",
+      "segment_id": "s69"
+    },
+    {
+      "id": "w710",
+      "text": "answer",
+      "char_start": 4108,
+      "char_end": 4114,
+      "paragraph_id": "p21",
+      "segment_id": "s69"
+    },
+    {
+      "id": "w711",
+      "text": "is",
+      "char_start": 4115,
+      "char_end": 4117,
+      "paragraph_id": "p21",
+      "segment_id": "s69"
+    },
+    {
+      "id": "w712",
+      "text": "within",
+      "char_start": 4118,
+      "char_end": 4124,
+      "paragraph_id": "p21",
+      "segment_id": "s69"
+    },
+    {
+      "id": "w713",
+      "text": "us",
+      "char_start": 4125,
+      "char_end": 4127,
+      "paragraph_id": "p21",
+      "segment_id": "s69"
+    },
+    {
+      "id": "w714",
+      "text": "The",
+      "char_start": 4129,
+      "char_end": 4132,
+      "paragraph_id": "p21",
+      "segment_id": "s70"
+    },
+    {
+      "id": "w715",
+      "text": "answer",
+      "char_start": 4133,
+      "char_end": 4139,
+      "paragraph_id": "p21",
+      "segment_id": "s70"
+    },
+    {
+      "id": "w716",
+      "text": "has",
+      "char_start": 4140,
+      "char_end": 4143,
+      "paragraph_id": "p21",
+      "segment_id": "s70"
+    },
+    {
+      "id": "w717",
+      "text": "always",
+      "char_start": 4144,
+      "char_end": 4150,
+      "paragraph_id": "p21",
+      "segment_id": "s70"
+    },
+    {
+      "id": "w718",
+      "text": "been",
+      "char_start": 4151,
+      "char_end": 4155,
+      "paragraph_id": "p21",
+      "segment_id": "s70"
+    },
+    {
+      "id": "w719",
+      "text": "with",
+      "char_start": 4156,
+      "char_end": 4160,
+      "paragraph_id": "p21",
+      "segment_id": "s70"
+    },
+    {
+      "id": "w720",
+      "text": "us",
+      "char_start": 4161,
+      "char_end": 4163,
+      "paragraph_id": "p21",
+      "segment_id": "s70"
+    },
+    {
+      "id": "w721",
+      "text": "And",
+      "char_start": 4165,
+      "char_end": 4168,
+      "paragraph_id": "p21",
+      "segment_id": "s71"
+    },
+    {
+      "id": "w722",
+      "text": "to",
+      "char_start": 4169,
+      "char_end": 4171,
+      "paragraph_id": "p21",
+      "segment_id": "s71"
+    },
+    {
+      "id": "w723",
+      "text": "think",
+      "char_start": 4172,
+      "char_end": 4177,
+      "paragraph_id": "p21",
+      "segment_id": "s71"
+    },
+    {
+      "id": "w724",
+      "text": "we",
+      "char_start": 4178,
+      "char_end": 4180,
+      "paragraph_id": "p21",
+      "segment_id": "s71"
+    },
+    {
+      "id": "w725",
+      "text": "have",
+      "char_start": 4181,
+      "char_end": 4185,
+      "paragraph_id": "p21",
+      "segment_id": "s71"
+    },
+    {
+      "id": "w726",
+      "text": "gotten",
+      "char_start": 4186,
+      "char_end": 4192,
+      "paragraph_id": "p21",
+      "segment_id": "s71"
+    },
+    {
+      "id": "w727",
+      "text": "this",
+      "char_start": 4193,
+      "char_end": 4197,
+      "paragraph_id": "p21",
+      "segment_id": "s71"
+    },
+    {
+      "id": "w728",
+      "text": "far",
+      "char_start": 4198,
+      "char_end": 4201,
+      "paragraph_id": "p21",
+      "segment_id": "s71"
+    },
+    {
+      "id": "w729",
+      "text": "we",
+      "char_start": 4203,
+      "char_end": 4205,
+      "paragraph_id": "p21",
+      "segment_id": "s71"
+    },
+    {
+      "id": "w730",
+      "text": "should",
+      "char_start": 4206,
+      "char_end": 4212,
+      "paragraph_id": "p21",
+      "segment_id": "s71"
+    },
+    {
+      "id": "w731",
+      "text": "realize",
+      "char_start": 4213,
+      "char_end": 4220,
+      "paragraph_id": "p21",
+      "segment_id": "s71"
+    },
+    {
+      "id": "w732",
+      "text": "it's",
+      "char_start": 4221,
+      "char_end": 4225,
+      "paragraph_id": "p21",
+      "segment_id": "s71"
+    },
+    {
+      "id": "w733",
+      "text": "actually",
+      "char_start": 4226,
+      "char_end": 4234,
+      "paragraph_id": "p21",
+      "segment_id": "s71"
+    },
+    {
+      "id": "w734",
+      "text": "just",
+      "char_start": 4235,
+      "char_end": 4239,
+      "paragraph_id": "p21",
+      "segment_id": "s71"
+    },
+    {
+      "id": "w735",
+      "text": "the",
+      "char_start": 4240,
+      "char_end": 4243,
+      "paragraph_id": "p21",
+      "segment_id": "s71"
+    },
+    {
+      "id": "w736",
+      "text": "beginning",
+      "char_start": 4244,
+      "char_end": 4253,
+      "paragraph_id": "p21",
+      "segment_id": "s71"
+    },
+    {
+      "id": "w737",
+      "text": "The",
+      "char_start": 4255,
+      "char_end": 4258,
+      "paragraph_id": "p21",
+      "segment_id": "s72"
+    },
+    {
+      "id": "w738",
+      "text": "beginning",
+      "char_start": 4259,
+      "char_end": 4268,
+      "paragraph_id": "p21",
+      "segment_id": "s72"
+    },
+    {
+      "id": "w739",
+      "text": "of",
+      "char_start": 4269,
+      "char_end": 4271,
+      "paragraph_id": "p21",
+      "segment_id": "s72"
+    },
+    {
+      "id": "w740",
+      "text": "human",
+      "char_start": 4272,
+      "char_end": 4277,
+      "paragraph_id": "p21",
+      "segment_id": "s72"
+    },
+    {
+      "id": "w741",
+      "text": "dynamism",
+      "char_start": 4278,
+      "char_end": 4286,
+      "paragraph_id": "p21",
+      "segment_id": "s72"
+    }
+  ],
+  "segments": [
+    {
+      "id": "s0",
+      "paragraph_id": "p0",
+      "text": "Dynamism as a supercomputing race",
+      "char_start": 0,
+      "char_end": 33,
+      "word_start": 0,
+      "word_end": 5
+    },
+    {
+      "id": "s1",
+      "paragraph_id": "p1",
+      "text": "Computers are the most important tools we have today.",
+      "char_start": 35,
+      "char_end": 88,
+      "word_start": 5,
+      "word_end": 14
+    },
+    {
+      "id": "s2",
+      "paragraph_id": "p1",
+      "text": "Most of us have a computer in our pocket.",
+      "char_start": 89,
+      "char_end": 130,
+      "word_start": 14,
+      "word_end": 23
+    },
+    {
+      "id": "s3",
+      "paragraph_id": "p1",
+      "text": "It's a smartphone.",
+      "char_start": 131,
+      "char_end": 149,
+      "word_start": 23,
+      "word_end": 26
+    },
+    {
+      "id": "s4",
+      "paragraph_id": "p1",
+      "text": "With the smartphone, you can access the world's knowledge through the internet.",
+      "char_start": 150,
+      "char_end": 229,
+      "word_start": 26,
+      "word_end": 38
+    },
+    {
+      "id": "s5",
+      "paragraph_id": "p1",
+      "text": "The internet is actually many, many more computers connected together to communicate, to connect you with more people, more knowledge, and more opportunity.",
+      "char_start": 230,
+      "char_end": 386,
+      "word_start": 38,
+      "word_end": 61
+    },
+    {
+      "id": "s6",
+      "paragraph_id": "p2",
+      "text": "Our society, our race, has evolved to coexist with computers.",
+      "char_start": 388,
+      "char_end": 449,
+      "word_start": 61,
+      "word_end": 71
+    },
+    {
+      "id": "s7",
+      "paragraph_id": "p3",
+      "text": "Fundamentally, today, we are a supercomputing race.",
+      "char_start": 451,
+      "char_end": 502,
+      "word_start": 71,
+      "word_end": 78
+    },
+    {
+      "id": "s8",
+      "paragraph_id": "p3",
+      "text": "Everything we have done, most of what we do today has a connection with the digital world that relies on computing.",
+      "char_start": 503,
+      "char_end": 618,
+      "word_start": 78,
+      "word_end": 99
+    },
+    {
+      "id": "s9",
+      "paragraph_id": "p4",
+      "text": "In this moment, we're going through a phase shift.",
+      "char_start": 620,
+      "char_end": 670,
+      "word_start": 99,
+      "word_end": 108
+    },
+    {
+      "id": "s10",
+      "paragraph_id": "p4",
+      "text": "Our relationship with computing is evolving yet again.",
+      "char_start": 671,
+      "char_end": 725,
+      "word_start": 108,
+      "word_end": 116
+    },
+    {
+      "id": "s11",
+      "paragraph_id": "p4",
+      "text": "It started with ChatGPT.",
+      "char_start": 726,
+      "char_end": 750,
+      "word_start": 116,
+      "word_end": 120
+    },
+    {
+      "id": "s12",
+      "paragraph_id": "p4",
+      "text": "It started with conversation.",
+      "char_start": 751,
+      "char_end": 780,
+      "word_start": 120,
+      "word_end": 124
+    },
+    {
+      "id": "s13",
+      "paragraph_id": "p5",
+      "text": "We gave it jokes.",
+      "char_start": 782,
+      "char_end": 799,
+      "word_start": 124,
+      "word_end": 128
+    },
+    {
+      "id": "s14",
+      "paragraph_id": "p5",
+      "text": "We asked it to write poems and songs, but we also realized it hallucinated, made things up.",
+      "char_start": 800,
+      "char_end": 891,
+      "word_start": 128,
+      "word_end": 145
+    },
+    {
+      "id": "s15",
+      "paragraph_id": "p6",
+      "text": "Yet again, the computers improved because we improved them.",
+      "char_start": 893,
+      "char_end": 952,
+      "word_start": 145,
+      "word_end": 154
+    },
+    {
+      "id": "s16",
+      "paragraph_id": "p6",
+      "text": "We trained them.",
+      "char_start": 953,
+      "char_end": 969,
+      "word_start": 154,
+      "word_end": 157
+    },
+    {
+      "id": "s17",
+      "paragraph_id": "p6",
+      "text": "Now these supercomputers can create applications completely, entirely from scratch with just a sentence.",
+      "char_start": 970,
+      "char_end": 1074,
+      "word_start": 157,
+      "word_end": 171
+    },
+    {
+      "id": "s18",
+      "paragraph_id": "p6",
+      "text": "They perform at the same level as a software engineer with decades of experience, with more breadth and depth.",
+      "char_start": 1075,
+      "char_end": 1185,
+      "word_start": 171,
+      "word_end": 190
+    },
+    {
+      "id": "s19",
+      "paragraph_id": "p7",
+      "text": "Computers can now program other computers.",
+      "char_start": 1187,
+      "char_end": 1229,
+      "word_start": 190,
+      "word_end": 196
+    },
+    {
+      "id": "s20",
+      "paragraph_id": "p7",
+      "text": "Now that thought can actually be quite scary because it leads us down this road to think: if we continue this evolution, this loop, where does it go?",
+      "char_start": 1230,
+      "char_end": 1379,
+      "word_start": 196,
+      "word_end": 224
+    },
+    {
+      "id": "s21",
+      "paragraph_id": "p8",
+      "text": "Some folks think this is the final stage.",
+      "char_start": 1381,
+      "char_end": 1422,
+      "word_start": 224,
+      "word_end": 232
+    },
+    {
+      "id": "s22",
+      "paragraph_id": "p8",
+      "text": "This may be the last job that people do because computers can teach themselves, build themselves, and perhaps evolve beyond humans.",
+      "char_start": 1423,
+      "char_end": 1554,
+      "word_start": 232,
+      "word_end": 253
+    },
+    {
+      "id": "s23",
+      "paragraph_id": "p8",
+      "text": "And possibly, this change can happen so fast.",
+      "char_start": 1555,
+      "char_end": 1600,
+      "word_start": 253,
+      "word_end": 261
+    },
+    {
+      "id": "s24",
+      "paragraph_id": "p8",
+      "text": "This exponential will happen so fast that it will be enormously disruptive.",
+      "char_start": 1601,
+      "char_end": 1676,
+      "word_start": 261,
+      "word_end": 273
+    },
+    {
+      "id": "s25",
+      "paragraph_id": "p8",
+      "text": "Possibly, it can lead to chaos, populist uprising, and riots.",
+      "char_start": 1677,
+      "char_end": 1738,
+      "word_start": 273,
+      "word_end": 283
+    },
+    {
+      "id": "s26",
+      "paragraph_id": "p8",
+      "text": "It can lead to suffering.",
+      "char_start": 1739,
+      "char_end": 1764,
+      "word_start": 283,
+      "word_end": 288
+    },
+    {
+      "id": "s27",
+      "paragraph_id": "p9",
+      "text": "There is an alternate story.",
+      "char_start": 1766,
+      "char_end": 1794,
+      "word_start": 288,
+      "word_end": 293
+    },
+    {
+      "id": "s28",
+      "paragraph_id": "p9",
+      "text": "We see it every single day.",
+      "char_start": 1795,
+      "char_end": 1822,
+      "word_start": 293,
+      "word_end": 299
+    },
+    {
+      "id": "s29",
+      "paragraph_id": "p9",
+      "text": "Sometimes we're just slightly blind to it.",
+      "char_start": 1823,
+      "char_end": 1865,
+      "word_start": 299,
+      "word_end": 306
+    },
+    {
+      "id": "s30",
+      "paragraph_id": "p9",
+      "text": "It's always with us, if we just look up.",
+      "char_start": 1866,
+      "char_end": 1906,
+      "word_start": 306,
+      "word_end": 315
+    },
+    {
+      "id": "s31",
+      "paragraph_id": "p10",
+      "text": "Think about the night sky, full of stars, without light pollution.",
+      "char_start": 1908,
+      "char_end": 1974,
+      "word_start": 315,
+      "word_end": 326
+    },
+    {
+      "id": "s32",
+      "paragraph_id": "p10",
+      "text": "What do you see?",
+      "char_start": 1975,
+      "char_end": 1991,
+      "word_start": 326,
+      "word_end": 330
+    },
+    {
+      "id": "s33",
+      "paragraph_id": "p10",
+      "text": "You see our galaxy, other planets, and this vast, empty space where we are so, so small.",
+      "char_start": 1992,
+      "char_end": 2080,
+      "word_start": 330,
+      "word_end": 347
+    },
+    {
+      "id": "s34",
+      "paragraph_id": "p11",
+      "text": "We are a race that discovered the theory of relativity, mostly with pen and paper, and mostly with our intellect, our curiosity, and our ambition.",
+      "char_start": 2082,
+      "char_end": 2228,
+      "word_start": 347,
+      "word_end": 372
+    },
+    {
+      "id": "s35",
+      "paragraph_id": "p11",
+      "text": "We raced for the moon, and we race beyond solar systems.",
+      "char_start": 2229,
+      "char_end": 2285,
+      "word_start": 372,
+      "word_end": 383
+    },
+    {
+      "id": "s36",
+      "paragraph_id": "p12",
+      "text": "And today, every single week, we send rockets into this vast darkness in a complete and reliable fashion.",
+      "char_start": 2287,
+      "char_end": 2392,
+      "word_start": 383,
+      "word_end": 401
+    },
+    {
+      "id": "s37",
+      "paragraph_id": "p12",
+      "text": "It is exactly like taking a bus.",
+      "char_start": 2393,
+      "char_end": 2425,
+      "word_start": 401,
+      "word_end": 408
+    },
+    {
+      "id": "s38",
+      "paragraph_id": "p12",
+      "text": "The rockets go up, they drop off the satellites, they come right back and land.",
+      "char_start": 2426,
+      "char_end": 2505,
+      "word_start": 408,
+      "word_end": 423
+    },
+    {
+      "id": "s39",
+      "paragraph_id": "p12",
+      "text": "It's entirely normal.",
+      "char_start": 2506,
+      "char_end": 2527,
+      "word_start": 423,
+      "word_end": 426
+    },
+    {
+      "id": "s40",
+      "paragraph_id": "p12",
+      "text": "This is the result of human progress, of human dynamism.",
+      "char_start": 2528,
+      "char_end": 2584,
+      "word_start": 426,
+      "word_end": 436
+    },
+    {
+      "id": "s41",
+      "paragraph_id": "p13",
+      "text": "We have a responsibility to continue to push this envelope.",
+      "char_start": 2586,
+      "char_end": 2645,
+      "word_start": 436,
+      "word_end": 446
+    },
+    {
+      "id": "s42",
+      "paragraph_id": "p13",
+      "text": "The human race is not static.",
+      "char_start": 2646,
+      "char_end": 2675,
+      "word_start": 446,
+      "word_end": 452
+    },
+    {
+      "id": "s43",
+      "paragraph_id": "p13",
+      "text": "We are a dynamic species.",
+      "char_start": 2676,
+      "char_end": 2701,
+      "word_start": 452,
+      "word_end": 457
+    },
+    {
+      "id": "s44",
+      "paragraph_id": "p13",
+      "text": "If you decide to surrender to the exponential and believe chaos will happen, that machines will disrupt society so dramatically, so quickly, that we must be afraid, that we must interrupt our livelihood, you are surrendering our most human value: our capacity for ambition, our dynamism.",
+      "char_start": 2702,
+      "char_end": 2989,
+      "word_start": 457,
+      "word_end": 503
+    },
+    {
+      "id": "s45",
+      "paragraph_id": "p14",
+      "text": "You can only believe the exponential will cause enormous harm because it is so fast, if you believe humans are static.",
+      "char_start": 2991,
+      "char_end": 3109,
+      "word_start": 503,
+      "word_end": 524
+    },
+    {
+      "id": "s46",
+      "paragraph_id": "p15",
+      "text": "We are ambitious.",
+      "char_start": 3111,
+      "char_end": 3128,
+      "word_start": 524,
+      "word_end": 527
+    },
+    {
+      "id": "s47",
+      "paragraph_id": "p15",
+      "text": "We have curiosity.",
+      "char_start": 3129,
+      "char_end": 3147,
+      "word_start": 527,
+      "word_end": 530
+    },
+    {
+      "id": "s48",
+      "paragraph_id": "p15",
+      "text": "We have the capacity for change.",
+      "char_start": 3148,
+      "char_end": 3180,
+      "word_start": 530,
+      "word_end": 536
+    },
+    {
+      "id": "s49",
+      "paragraph_id": "p15",
+      "text": "And we have the capacity for intellect.",
+      "char_start": 3181,
+      "char_end": 3220,
+      "word_start": 536,
+      "word_end": 543
+    },
+    {
+      "id": "s50",
+      "paragraph_id": "p15",
+      "text": "We can do what you cannot imagine.",
+      "char_start": 3221,
+      "char_end": 3255,
+      "word_start": 543,
+      "word_end": 550
+    },
+    {
+      "id": "s51",
+      "paragraph_id": "p16",
+      "text": "At the center of our galaxy, there is this vast, dark, scary object.",
+      "char_start": 3257,
+      "char_end": 3325,
+      "word_start": 550,
+      "word_end": 563
+    },
+    {
+      "id": "s52",
+      "paragraph_id": "p16",
+      "text": "It's a black hole.",
+      "char_start": 3326,
+      "char_end": 3344,
+      "word_start": 563,
+      "word_end": 567
+    },
+    {
+      "id": "s53",
+      "paragraph_id": "p16",
+      "text": "It's so massive and vast that light cannot escape its gravity.",
+      "char_start": 3345,
+      "char_end": 3407,
+      "word_start": 567,
+      "word_end": 578
+    },
+    {
+      "id": "s54",
+      "paragraph_id": "p17",
+      "text": "Yet, humans are here.",
+      "char_start": 3409,
+      "char_end": 3430,
+      "word_start": 578,
+      "word_end": 582
+    },
+    {
+      "id": "s55",
+      "paragraph_id": "p17",
+      "text": "We live on this planet.",
+      "char_start": 3431,
+      "char_end": 3454,
+      "word_start": 582,
+      "word_end": 587
+    },
+    {
+      "id": "s56",
+      "paragraph_id": "p17",
+      "text": "Not only do we understand the very mechanics, the laws, the dynamics of the black hole.",
+      "char_start": 3455,
+      "char_end": 3542,
+      "word_start": 587,
+      "word_end": 603
+    },
+    {
+      "id": "s57",
+      "paragraph_id": "p18",
+      "text": "The black hole is so far away.",
+      "char_start": 3544,
+      "char_end": 3574,
+      "word_start": 603,
+      "word_end": 610
+    },
+    {
+      "id": "s58",
+      "paragraph_id": "p18",
+      "text": "We may never be able to travel to it.",
+      "char_start": 3575,
+      "char_end": 3612,
+      "word_start": 610,
+      "word_end": 619
+    },
+    {
+      "id": "s59",
+      "paragraph_id": "p18",
+      "text": "It is so far, yet so immensely powerful.",
+      "char_start": 3613,
+      "char_end": 3653,
+      "word_start": 619,
+      "word_end": 627
+    },
+    {
+      "id": "s60",
+      "paragraph_id": "p18",
+      "text": "It must boggle our minds.",
+      "char_start": 3654,
+      "char_end": 3679,
+      "word_start": 627,
+      "word_end": 632
+    },
+    {
+      "id": "s61",
+      "paragraph_id": "p18",
+      "text": "Yet we understand it.",
+      "char_start": 3680,
+      "char_end": 3701,
+      "word_start": 632,
+      "word_end": 636
+    },
+    {
+      "id": "s62",
+      "paragraph_id": "p18",
+      "text": "Yet we study it.",
+      "char_start": 3702,
+      "char_end": 3718,
+      "word_start": 636,
+      "word_end": 640
+    },
+    {
+      "id": "s63",
+      "paragraph_id": "p18",
+      "text": "Yet we do not shy away from the enormous dangers of space.",
+      "char_start": 3719,
+      "char_end": 3777,
+      "word_start": 640,
+      "word_end": 652
+    },
+    {
+      "id": "s64",
+      "paragraph_id": "p19",
+      "text": "We coexist on this planet, in this solar system, in this galaxy, with so many different stars, so many different galaxies.",
+      "char_start": 3779,
+      "char_end": 3901,
+      "word_start": 652,
+      "word_end": 673
+    },
+    {
+      "id": "s65",
+      "paragraph_id": "p19",
+      "text": "We cannot live in fear.",
+      "char_start": 3902,
+      "char_end": 3925,
+      "word_start": 673,
+      "word_end": 678
+    },
+    {
+      "id": "s66",
+      "paragraph_id": "p20",
+      "text": "This is the time for us to build.",
+      "char_start": 3927,
+      "char_end": 3960,
+      "word_start": 678,
+      "word_end": 686
+    },
+    {
+      "id": "s67",
+      "paragraph_id": "p20",
+      "text": "To build towards an ambitious renaissance.",
+      "char_start": 3961,
+      "char_end": 4003,
+      "word_start": 686,
+      "word_end": 692
+    },
+    {
+      "id": "s68",
+      "paragraph_id": "p20",
+      "text": "Not to turn inward into the machines that we're building and believe somehow the answer is within.",
+      "char_start": 4004,
+      "char_end": 4102,
+      "word_start": 692,
+      "word_end": 709
+    },
+    {
+      "id": "s69",
+      "paragraph_id": "p21",
+      "text": "The answer is within us.",
+      "char_start": 4104,
+      "char_end": 4128,
+      "word_start": 709,
+      "word_end": 714
+    },
+    {
+      "id": "s70",
+      "paragraph_id": "p21",
+      "text": "The answer has always been with us.",
+      "char_start": 4129,
+      "char_end": 4164,
+      "word_start": 714,
+      "word_end": 721
+    },
+    {
+      "id": "s71",
+      "paragraph_id": "p21",
+      "text": "And to think we have gotten this far, we should realize it's actually just the beginning.",
+      "char_start": 4165,
+      "char_end": 4254,
+      "word_start": 721,
+      "word_end": 737
+    },
+    {
+      "id": "s72",
+      "paragraph_id": "p21",
+      "text": "The beginning of human dynamism.",
+      "char_start": 4255,
+      "char_end": 4287,
+      "word_start": 737,
+      "word_end": 742
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "p0",
+      "text": "Dynamism as a supercomputing race",
+      "char_start": 0,
+      "char_end": 33,
+      "word_start": 0,
+      "word_end": 5,
+      "segment_start": 0,
+      "segment_end": 1
+    },
+    {
+      "id": "p1",
+      "text": "Computers are the most important tools we have today. Most of us have a computer in our pocket. It's a smartphone. With the smartphone, you can access the world's knowledge through the internet. The internet is actually many, many more computers connected together to communicate, to connect you with more people, more knowledge, and more opportunity.",
+      "char_start": 35,
+      "char_end": 386,
+      "word_start": 5,
+      "word_end": 61,
+      "segment_start": 1,
+      "segment_end": 6
+    },
+    {
+      "id": "p2",
+      "text": "Our society, our race, has evolved to coexist with computers.",
+      "char_start": 388,
+      "char_end": 449,
+      "word_start": 61,
+      "word_end": 71,
+      "segment_start": 6,
+      "segment_end": 7
+    },
+    {
+      "id": "p3",
+      "text": "Fundamentally, today, we are a supercomputing race. Everything we have done, most of what we do today has a connection with the digital world that relies on computing.",
+      "char_start": 451,
+      "char_end": 618,
+      "word_start": 71,
+      "word_end": 99,
+      "segment_start": 7,
+      "segment_end": 9
+    },
+    {
+      "id": "p4",
+      "text": "In this moment, we're going through a phase shift. Our relationship with computing is evolving yet again. It started with ChatGPT. It started with conversation.",
+      "char_start": 620,
+      "char_end": 780,
+      "word_start": 99,
+      "word_end": 124,
+      "segment_start": 9,
+      "segment_end": 13
+    },
+    {
+      "id": "p5",
+      "text": "We gave it jokes. We asked it to write poems and songs, but we also realized it hallucinated, made things up.",
+      "char_start": 782,
+      "char_end": 891,
+      "word_start": 124,
+      "word_end": 145,
+      "segment_start": 13,
+      "segment_end": 15
+    },
+    {
+      "id": "p6",
+      "text": "Yet again, the computers improved because we improved them. We trained them. Now these supercomputers can create applications completely, entirely from scratch with just a sentence. They perform at the same level as a software engineer with decades of experience, with more breadth and depth.",
+      "char_start": 893,
+      "char_end": 1185,
+      "word_start": 145,
+      "word_end": 190,
+      "segment_start": 15,
+      "segment_end": 19
+    },
+    {
+      "id": "p7",
+      "text": "Computers can now program other computers. Now that thought can actually be quite scary because it leads us down this road to think: if we continue this evolution, this loop, where does it go?",
+      "char_start": 1187,
+      "char_end": 1379,
+      "word_start": 190,
+      "word_end": 224,
+      "segment_start": 19,
+      "segment_end": 21
+    },
+    {
+      "id": "p8",
+      "text": "Some folks think this is the final stage. This may be the last job that people do because computers can teach themselves, build themselves, and perhaps evolve beyond humans. And possibly, this change can happen so fast. This exponential will happen so fast that it will be enormously disruptive. Possibly, it can lead to chaos, populist uprising, and riots. It can lead to suffering.",
+      "char_start": 1381,
+      "char_end": 1764,
+      "word_start": 224,
+      "word_end": 288,
+      "segment_start": 21,
+      "segment_end": 27
+    },
+    {
+      "id": "p9",
+      "text": "There is an alternate story. We see it every single day. Sometimes we're just slightly blind to it. It's always with us, if we just look up.",
+      "char_start": 1766,
+      "char_end": 1906,
+      "word_start": 288,
+      "word_end": 315,
+      "segment_start": 27,
+      "segment_end": 31
+    },
+    {
+      "id": "p10",
+      "text": "Think about the night sky, full of stars, without light pollution. What do you see? You see our galaxy, other planets, and this vast, empty space where we are so, so small.",
+      "char_start": 1908,
+      "char_end": 2080,
+      "word_start": 315,
+      "word_end": 347,
+      "segment_start": 31,
+      "segment_end": 34
+    },
+    {
+      "id": "p11",
+      "text": "We are a race that discovered the theory of relativity, mostly with pen and paper, and mostly with our intellect, our curiosity, and our ambition. We raced for the moon, and we race beyond solar systems.",
+      "char_start": 2082,
+      "char_end": 2285,
+      "word_start": 347,
+      "word_end": 383,
+      "segment_start": 34,
+      "segment_end": 36
+    },
+    {
+      "id": "p12",
+      "text": "And today, every single week, we send rockets into this vast darkness in a complete and reliable fashion. It is exactly like taking a bus. The rockets go up, they drop off the satellites, they come right back and land. It's entirely normal. This is the result of human progress, of human dynamism.",
+      "char_start": 2287,
+      "char_end": 2584,
+      "word_start": 383,
+      "word_end": 436,
+      "segment_start": 36,
+      "segment_end": 41
+    },
+    {
+      "id": "p13",
+      "text": "We have a responsibility to continue to push this envelope. The human race is not static. We are a dynamic species. If you decide to surrender to the exponential and believe chaos will happen, that machines will disrupt society so dramatically, so quickly, that we must be afraid, that we must interrupt our livelihood, you are surrendering our most human value: our capacity for ambition, our dynamism.",
+      "char_start": 2586,
+      "char_end": 2989,
+      "word_start": 436,
+      "word_end": 503,
+      "segment_start": 41,
+      "segment_end": 45
+    },
+    {
+      "id": "p14",
+      "text": "You can only believe the exponential will cause enormous harm because it is so fast, if you believe humans are static.",
+      "char_start": 2991,
+      "char_end": 3109,
+      "word_start": 503,
+      "word_end": 524,
+      "segment_start": 45,
+      "segment_end": 46
+    },
+    {
+      "id": "p15",
+      "text": "We are ambitious. We have curiosity. We have the capacity for change. And we have the capacity for intellect. We can do what you cannot imagine.",
+      "char_start": 3111,
+      "char_end": 3255,
+      "word_start": 524,
+      "word_end": 550,
+      "segment_start": 46,
+      "segment_end": 51
+    },
+    {
+      "id": "p16",
+      "text": "At the center of our galaxy, there is this vast, dark, scary object. It's a black hole. It's so massive and vast that light cannot escape its gravity.",
+      "char_start": 3257,
+      "char_end": 3407,
+      "word_start": 550,
+      "word_end": 578,
+      "segment_start": 51,
+      "segment_end": 54
+    },
+    {
+      "id": "p17",
+      "text": "Yet, humans are here. We live on this planet. Not only do we understand the very mechanics, the laws, the dynamics of the black hole.",
+      "char_start": 3409,
+      "char_end": 3542,
+      "word_start": 578,
+      "word_end": 603,
+      "segment_start": 54,
+      "segment_end": 57
+    },
+    {
+      "id": "p18",
+      "text": "The black hole is so far away. We may never be able to travel to it. It is so far, yet so immensely powerful. It must boggle our minds. Yet we understand it. Yet we study it. Yet we do not shy away from the enormous dangers of space.",
+      "char_start": 3544,
+      "char_end": 3777,
+      "word_start": 603,
+      "word_end": 652,
+      "segment_start": 57,
+      "segment_end": 64
+    },
+    {
+      "id": "p19",
+      "text": "We coexist on this planet, in this solar system, in this galaxy, with so many different stars, so many different galaxies. We cannot live in fear.",
+      "char_start": 3779,
+      "char_end": 3925,
+      "word_start": 652,
+      "word_end": 678,
+      "segment_start": 64,
+      "segment_end": 66
+    },
+    {
+      "id": "p20",
+      "text": "This is the time for us to build. To build towards an ambitious renaissance. Not to turn inward into the machines that we're building and believe somehow the answer is within.",
+      "char_start": 3927,
+      "char_end": 4102,
+      "word_start": 678,
+      "word_end": 709,
+      "segment_start": 66,
+      "segment_end": 69
+    },
+    {
+      "id": "p21",
+      "text": "The answer is within us. The answer has always been with us. And to think we have gotten this far, we should realize it's actually just the beginning. The beginning of human dynamism.",
+      "char_start": 4104,
+      "char_end": 4287,
+      "word_start": 709,
+      "word_end": 742,
+      "segment_start": 69,
+      "segment_end": 73
+    }
+  ]
+}

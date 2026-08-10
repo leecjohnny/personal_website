@@ -1,0 +1,28 @@
+---
+import DynamismEssay from '../../components/dynamism/DynamismEssay';
+import { DYNAMISM_WORKER_URL } from '../../consts';
+import '../../styles/dynamism.css';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" href="/favicon.png" />
+		<link rel="canonical" href={Astro.url} />
+		<title>Dynamism as a supercomputing race</title>
+		<meta
+			name="description"
+			content="An essay about computing, human ambition, and the beginning of a new dynamism."
+		/>
+	</head>
+	<body>
+		<DynamismEssay client:load />
+		<p class="worker-note">
+			<a href={DYNAMISM_WORKER_URL} target="_blank" rel="noreferrer">
+				View the original Cloudflare Worker build ↗
+			</a>
+		</p>
+	</body>
+</html>

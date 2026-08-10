@@ -1,63 +1,32 @@
-# Astro Starter Kit: Blog
+# johnnyclee.com
+
+The Astro/Vite rebuild of [johnnyclee.com](https://johnnyclee.com): a small personal blog backed by Markdown content, with the original warm paper-and-ink visual language retained.
+
+## What is included
+
+- 28 archived Microfeed articles in `src/content/blog/`.
+- Existing article URLs preserved under `/i/`, including case-sensitive IDs.
+- Local copies of the site’s CDN assets in `public/assets/archive/`.
+- RSS at `/rss.xml` and a generated sitemap.
+- The Dynamism essay interactive migrated to `/i/dynamism-as-a-supercomputing-race-UxscdlvqRjn/`.
+- A link to the original Cloudflare Worker build is retained in the essay and its Markdown archive entry.
+- shadcn/ui’s Astro setup with Base UI powering the share popover.
+
+## Commands
 
 ```sh
-npm create astro@latest -- --template blog
+npm install
+npm run dev
+npm run build
+npm run preview
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Images
 
-Features:
+Assets are committed locally so the site is self-contained. The optional Cloudflare Images Transformations integration is disabled by default while the zone is being configured. After Cloudflare Image Transformations is enabled for `johnnyclee.com`, set:
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and Open Graph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
+```sh
+PUBLIC_CLOUDFLARE_IMAGE_TRANSFORMS=true npm run build
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+When enabled, Markdown images and the migrated essay figures are emitted through `/cdn-cgi/image/` with automatic format selection, quality control, and lazy loading.

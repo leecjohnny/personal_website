@@ -1,0 +1,230 @@
+{
+  "sourceDocument": "Dynamism-as-a-supercomputing-race.docx",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Dynamism as a supercomputing race",
+      "style": "Heading1",
+      "links": []
+    },
+    {
+      "type": "image",
+      "assetId": "figure-01"
+    },
+    {
+      "type": "paragraph",
+      "text": "Computers are the most important tools we have today. Most of us have a computer in our pocket. It's a smartphone. With the smartphone, you can access the world's knowledge through the internet. The internet is actually many, many more computers connected together to communicate, to connect you with more people, more knowledge, and more opportunity.",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "image",
+      "assetId": "figure-02"
+    },
+    {
+      "type": "paragraph",
+      "text": "Network graph of the internet link",
+      "style": null,
+      "links": [
+        "https://en.wikipedia.org/wiki/Internet#/media/File:Internet_map_1024_-_transparent,_inverted.png"
+      ],
+      "captionFor": "figure-02"
+    },
+    {
+      "type": "paragraph",
+      "text": "Our society, our race, has evolved to coexist with computers.",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Fundamentally, today, we are a supercomputing race. Everything we have done, most of what we do today has a connection with the digital world that relies on computing.",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "In this moment, we're going through a phase shift. Our relationship with computing is evolving yet again. It started with ChatGPT. It started with conversation.",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "We gave it jokes. We asked it to write poems and songs, but we also realized it hallucinated, made things up.",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "image",
+      "assetId": "figure-03"
+    },
+    {
+      "type": "paragraph",
+      "text": "2022 ChatGPT reaction link",
+      "style": null,
+      "links": [
+        "https://x.com/tqbf/status/1598513757805858820?s=20"
+      ],
+      "captionFor": "figure-03"
+    },
+    {
+      "type": "paragraph",
+      "text": "Yet again, the computers improved because we improved them. We trained them. Now these supercomputers can create applications completely, entirely from scratch with just a sentence. They perform at the same level as a software engineer with decades of experience, with more breadth and depth.",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "image",
+      "assetId": "figure-04"
+    },
+    {
+      "type": "paragraph",
+      "text": "2026 gpt-5.6 using a computer to design parts, not sped up, link",
+      "style": null,
+      "links": [
+        "https://x.com/evayzh/status/2075374512401711203?s=20"
+      ],
+      "captionFor": "figure-04"
+    },
+    {
+      "type": "paragraph",
+      "text": "Computers can now program other computers. Now that thought can actually be quite scary because it leads us down this road to think: if we continue this evolution, this loop, where does it go?",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Some folks think this is the final stage. This may be the last job that people do because computers can teach themselves, build themselves, and perhaps evolve beyond humans. And possibly, this change can happen so fast. This exponential will happen so fast that it will be enormously disruptive. Possibly, it can lead to chaos, populist uprising, and riots. It can lead to suffering.",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "image",
+      "assetId": "figure-05"
+    },
+    {
+      "type": "paragraph",
+      "text": "People protesting against artificial intelligence outside an OpenAI office in San Francisco last year.Credit...Jason Henry for The New York Times",
+      "style": null,
+      "links": [],
+      "captionFor": "figure-05"
+    },
+    {
+      "type": "paragraph",
+      "text": "There is an alternate story. We see it every single day. Sometimes we're just slightly blind to it. It's always with us, if we just look up.",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Think about the night sky, full of stars, without light pollution. What do you see? You see our galaxy, other planets, and this vast, empty space where we are so, so small.",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "image",
+      "assetId": "figure-06"
+    },
+    {
+      "type": "paragraph",
+      "text": "Computer simulated image from NASA",
+      "style": null,
+      "links": [
+        "https://images.nasa.gov/details/behemoth-black-hole-found-in-an-unlikely-place_26209716511_o"
+      ],
+      "captionFor": "figure-06"
+    },
+    {
+      "type": "paragraph",
+      "text": "We are a race that discovered the theory of relativity, mostly with pen and paper, and mostly with our intellect, our curiosity, and our ambition. We raced for the moon, and we race beyond solar systems.",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "image",
+      "assetId": "figure-07"
+    },
+    {
+      "type": "paragraph",
+      "text": "Space X Falcon 9 launch",
+      "style": null,
+      "links": [
+        "https://x.com/SpaceX/status/2075795462104182824?s=20"
+      ],
+      "captionFor": "figure-07"
+    },
+    {
+      "type": "paragraph",
+      "text": "And today, every single week, we send rockets into this vast darkness in a complete and reliable fashion. It is exactly like taking a bus. The rockets go up, they drop off the satellites, they come right back and land. It's entirely normal. This is the result of human progress, of human dynamism.",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "We have a responsibility to continue to push this envelope. The human race is not static. We are a dynamic species. If you decide to surrender to the exponential and believe chaos will happen, that machines will disrupt society so dramatically, so quickly, that we must be afraid, that we must interrupt our livelihood, you are surrendering our most human value: our capacity for ambition, our dynamism.",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "You can only believe the exponential will cause enormous harm because it is so fast, if you believe humans are static.",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "We are ambitious. We have curiosity. We have the capacity for change. And we have the capacity for intellect. We can do what you cannot imagine.",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "image",
+      "assetId": "figure-08"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sagittarius A* captured in 2017 from the Event Horizon Telescope",
+      "style": null,
+      "links": [
+        "https://eventhorizontelescope.org/blog/astronomers-reveal-first-image-black-hole-heart-our-galaxy"
+      ],
+      "captionFor": "figure-08"
+    },
+    {
+      "type": "paragraph",
+      "text": "At the center of our galaxy, there is this vast, dark, scary object. It's a black hole. It's so massive and vast that light cannot escape its gravity.",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Yet, humans are here. We live on this planet. Not only do we understand the very mechanics, the laws, the dynamics of the black hole.",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The black hole is so far away. We may never be able to travel to it. It is so far, yet so immensely powerful. It must boggle our minds. Yet we understand it. Yet we study it. Yet we do not shy away from the enormous dangers of space.",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "We coexist on this planet, in this solar system, in this galaxy, with so many different stars, so many different galaxies. We cannot live in fear.",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This is the time for us to build. To build towards an ambitious renaissance. Not to turn inward into the machines that we're building and believe somehow the answer is within.",
+      "style": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The answer is within us. The answer has always been with us. And to think we have gotten this far, we should realize it's actually just the beginning. The beginning of human dynamism.",
+      "style": null,
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import SharePopover from '../../components/SharePopover';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import { DYNAMISM_SLUG } from '../../consts';
+import { articlePath, articleSlug } from '../../lib/article-path';
+
+export async function getStaticPaths() {
+	const posts = await getCollection('blog');
+	return posts
+		.filter((post) => articleSlug(post.data.sourceUrl) !== DYNAMISM_SLUG)
+		.map((post) => ({
+			params: { slug: articleSlug(post.data.sourceUrl) },
+			props: { post },
+		}));
+}
+
+type Props = {
+	post: CollectionEntry<'blog'>;
+};
+
+const { post } = Astro.props as Props;
+const { Content } = await render(post);
+const canonicalUrl = new URL(articlePath(post.data.sourceUrl), Astro.site ?? Astro.url.origin);
+const description =
+	post.data.description ??
+	'An article by Johnny Lee on technology, markets, intelligence, and building.';
+---
+
+<SiteLayout title={post.data.title + ' · Johnny Lee'} description={description}>
+	<main class="article-page">
+		<header class="article-header">
+			<a class="back-link" href="/">← Johnny Lee</a>
+			<h1>{post.data.title}</h1>
+			<div class="article-meta">
+				<time datetime={post.data.pubDate.toISOString()}>
+					{post.data.pubDate.toLocaleDateString('en-US', {
+						year: 'numeric',
+						month: 'long',
+						day: 'numeric',
+					})}
+				</time>
+				<span>Johnny Lee</span>
+			</div>
+			<div class="article-actions">
+				<SharePopover client:load title={post.data.title} url={canonicalUrl.toString()} />
+			</div>
+			{
+				post.data.externalUrl && (
+					<p class="external-link">
+						View the article at{' '}
+						<a
+							href={post.data.externalUrl}
+							target="_blank"
+							rel="noreferrer nofollow"
+						>
+							{new URL(post.data.externalUrl).hostname}
+						</a>
+					</p>
+				)
+			}
+		</header>
+		<article class="markdown-body">
+			<Content />
+		</article>
+	</main>
+</SiteLayout>
