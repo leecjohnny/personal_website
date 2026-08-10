@@ -207,10 +207,24 @@ img {
   margin-bottom: 0.5em;
 }
 
-.footer-links {
+.social-links {
   display: flex;
   flex-wrap: wrap;
   gap: 0.8em;
+  align-items: center;
+  margin: 0 0 0.5em;
+}
+
+.social-links a {
+  display: inline-flex;
+  gap: 0.3em;
+  align-items: center;
+}
+
+.social-icon {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
 }
 
 .article-page {
