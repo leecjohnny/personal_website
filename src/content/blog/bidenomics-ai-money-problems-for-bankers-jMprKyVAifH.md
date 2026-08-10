@@ -49,13 +49,13 @@ Subscribed
 
 ### Speed Read Charts
 
-1. [![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86088427-d7b6-4145-b00d-eff5a40f5dc1_468x311.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86088427-d7b6-4145-b00d-eff5a40f5dc1_468x311.png)
-2. [![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F685ec985-c3bb-44e9-bb20-088cb8c029c0_1280x720.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F685ec985-c3bb-44e9-bb20-088cb8c029c0_1280x720.jpeg)
-3. [![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81840d91-2d61-4731-bc8d-833a38c91327_443x579.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81840d91-2d61-4731-bc8d-833a38c91327_443x579.png)
-4. [![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fc0280c-2d28-4cc4-a57e-a8cb3674a001_468x610.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fc0280c-2d28-4cc4-a57e-a8cb3674a001_468x610.png)
-5. [![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21c6f033-84fb-4595-982f-abc37883c958_468x397.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21c6f033-84fb-4595-982f-abc37883c958_468x397.png)
-6. [![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4176ff87-2704-4539-a9ff-7f4fd8275145_468x624.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4176ff87-2704-4539-a9ff-7f4fd8275145_468x624.png)
-7. [![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F79b2e25c-d30d-4be6-a949-9d8049804868_468x624.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F79b2e25c-d30d-4be6-a949-9d8049804868_468x624.png)
+1. [![](/assets/archive/remote-d93ddbd37e7f7579973879d9f876e923.png)](/assets/archive/remote-d93ddbd37e7f7579973879d9f876e923.png)
+2. [![](/assets/archive/remote-a220e93d0901d5b9c8623c1222adb669.jpg)](/assets/archive/remote-a220e93d0901d5b9c8623c1222adb669.jpg)
+3. [![](/assets/archive/remote-07df47ebbd59fbcc7dc212e0ac82790e.png)](/assets/archive/remote-07df47ebbd59fbcc7dc212e0ac82790e.png)
+4. [![](/assets/archive/remote-4486a180766d5f9a9179b4827aa48f80.png)](/assets/archive/remote-4486a180766d5f9a9179b4827aa48f80.png)
+5. [![](/assets/archive/remote-838509b16677219ac4fc5cbea4717f54.png)](/assets/archive/remote-838509b16677219ac4fc5cbea4717f54.png)
+6. [![](/assets/archive/remote-a0f8ebe651a2a6a52fcc44d1c7d240a0.png)](/assets/archive/remote-a0f8ebe651a2a6a52fcc44d1c7d240a0.png)
+7. [![](/assets/archive/remote-c3b9b098963a48804f741b7eb8b61da3.png)](/assets/archive/remote-c3b9b098963a48804f741b7eb8b61da3.png)
 
 ### This week’s fun fact
 

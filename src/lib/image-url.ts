@@ -5,9 +5,10 @@ type ImageOptions = {
 
 const enabled =
   import.meta.env.PUBLIC_CLOUDFLARE_IMAGE_TRANSFORMS === 'true';
+const host = (import.meta.env.PUBLIC_CLOUDFLARE_IMAGE_HOST ?? '').replace(/\/$/, '');
 
 export function imageUrl(source: string, options: ImageOptions = {}) {
-  if (!enabled || source.startsWith('data:') || source.startsWith('/cdn-cgi/')) {
+  if (!enabled || source.startsWith('data:') || source.includes('/cdn-cgi/image/')) {
     return source;
   }
 
@@ -18,5 +19,5 @@ export function imageUrl(source: string, options: ImageOptions = {}) {
   ].join(',');
   const normalized = source.startsWith('/') ? source.slice(1) : source;
 
-  return '/cdn-cgi/image/' + params + '/' + normalized;
+  return host + '/cdn-cgi/image/' + params + '/' + normalized;
 }

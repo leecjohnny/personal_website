@@ -9,8 +9,9 @@
   "scripts": {
     "dev": "astro dev",
     "assets:generate": "bun scripts/generate-og-image.mjs",
+    "assets:localize": "bun scripts/localize-remote-images.mjs",
     "build": "bun run assets:generate && astro build",
-    "build:cloudflare": "PUBLIC_CLOUDFLARE_IMAGE_TRANSFORMS=true bun run build",
+    "build:cloudflare": "PUBLIC_CLOUDFLARE_IMAGE_TRANSFORMS=true PUBLIC_CLOUDFLARE_IMAGE_HOST=https://johnnyclee.com bun run build",
     "audit:seo": "bun scripts/audit-seo.mjs",
     "audit:cloudflare": "bun scripts/audit-cloudflare.mjs",
     "deploy": "wrangler deploy",

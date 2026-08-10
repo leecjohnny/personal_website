@@ -19,13 +19,39 @@ const files = filesIn(root);
 const oversized = files.filter((file) => statSync(file).size > maximumAssetSize);
 let images = 0;
 let transformedImages = 0;
+let lightboxImages = 0;
+let transformedLightboxImages = 0;
+let remoteOriginTransforms = 0;
+let directlyLinkedImages = 0;
+
+function isTransformedImage(source) {
+  return (
+    source.startsWith('/cdn-cgi/image/') ||
+    source.startsWith('https://johnnyclee.com/cdn-cgi/image/')
+  );
+}
+
+function usesRemoteTransformationOrigin(source) {
+  const marker = '/cdn-cgi/image/';
+  const markerIndex = source.indexOf(marker);
+  if (markerIndex === -1) return false;
+  const sourcePath = source.slice(markerIndex + marker.length).split('/').slice(1).join('/');
+  return sourcePath.startsWith('http://') || sourcePath.startsWith('https://');
+}
 
 for (const file of files.filter((path) => path.endsWith('.html'))) {
   const html = readFileSync(file, 'utf8');
   for (const match of html.matchAll(/<img\s+[^>]*src="([^"]+)"[^>]*>/gi)) {
     images += 1;
-    if (match[1].startsWith('/cdn-cgi/image/')) transformedImages += 1;
+    if (isTransformedImage(match[1])) transformedImages += 1;
+    if (usesRemoteTransformationOrigin(match[1])) remoteOriginTransforms += 1;
   }
+  for (const match of html.matchAll(/data-image-src="([^"]+)"/gi)) {
+    lightboxImages += 1;
+    if (isTransformedImage(match[1])) transformedLightboxImages += 1;
+    if (usesRemoteTransformationOrigin(match[1])) remoteOriginTransforms += 1;
+  }
+  directlyLinkedImages += [...html.matchAll(/<a\b[^>]*>\s*<img\b/gi)].length;
 }
 
 const failures = [];
@@ -39,6 +65,23 @@ for (const file of oversized) {
 if (images !== transformedImages) {
   failures.push(`${images - transformedImages} of ${images} rendered images do not use /cdn-cgi/image/`);
 }
+if (lightboxImages !== transformedLightboxImages) {
+  failures.push(
+    `${lightboxImages - transformedLightboxImages} of ${lightboxImages} lightbox images do not use /cdn-cgi/image/`,
+  );
+}
+if (remoteOriginTransforms) {
+  failures.push(`${remoteOriginTransforms} image transformations still depend on remote origins`);
+}
+if (directlyLinkedImages) {
+  failures.push(`${directlyLinkedImages} article images still navigate directly from an anchor`);
+}
+
+const headersPath = join(root, '_headers');
+const headers = readFileSync(headersPath, 'utf8');
+for (const pattern of ['/_astro/*', '/assets/archive/*', '/assets/essay/*']) {
+  if (!headers.includes(pattern)) failures.push(`_headers is missing a cache policy for ${pattern}`);
+}
 
 if (failures.length) {
   console.error(`Cloudflare audit failed (${failures.length} issue${failures.length === 1 ? '' : 's'}):`);
@@ -47,5 +90,5 @@ if (failures.length) {
 }
 
 console.log(
-  `Cloudflare audit passed: ${files.length} assets, no file over 25 MiB, ${transformedImages}/${images} images transformed.`,
+  `Cloudflare audit passed: ${files.length} assets, no file over 25 MiB, ${transformedImages}/${images} rendered images and ${transformedLightboxImages}/${lightboxImages} lightbox images transformed, with static cache headers present.`,
 );

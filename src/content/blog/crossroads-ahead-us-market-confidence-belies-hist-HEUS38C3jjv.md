@@ -9,7 +9,7 @@ externalUrl: "https://myriadperspectives.substack.com/p/crossroads-ahead-us-mark
 
 One month after Liberation Day, the US stock market looks more or less re-assured about the future economic outlook. For the month of April, the S&P 500 is only down ~1% and the NASDAQ is up ~1%.
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd8325124-07c9-401a-bd53-9b5e08f629f8_1600x1066.png)
+![](/assets/archive/remote-d729ff9f983bb09668513df9190e3e32.png)
 
 ### Liberation Day unleashed the next stage of trade warfare
 
@@ -19,7 +19,7 @@ However on April 2nd (Liberation Day), the US announced broad tariffs on nearly 
 
 The new “reciprocal” tariffs exceeded Wall Street’s worst expectations. US equity and fixed income markets reacted dramatically to the broad protectionist measures.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F465a6540-da39-40c1-8829-f5910300efd2_1282x792.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F465a6540-da39-40c1-8829-f5910300efd2_1282x792.png)
+[![](/assets/archive/remote-9a824a9a073ffff101024288303f20bd.png)](/assets/archive/remote-9a824a9a073ffff101024288303f20bd.png)
 
 In about a week, the S&P 500 lost ~11%. US junk bonds yield increased ~100bps. The US 10-year treasury rate increased ~50bps, the largest weekly increase since 2001. The 10-year is frequently used as the world’s risk-free rate for capital markets, as a global barometer of investment risk appetite and trust in the US financial system.
 
@@ -33,8 +33,8 @@ This time around, there are more signs of structural obstacles to the growth of 
 
 **1. The “US” brand as a symbol of free trade and safe haven has forever been damaged.** “Liberation Day” and the fallout from the US trade policy progression continues to puzzle US and foreign investors. The lack of coherent US policy objectives creates tremendous uncertainty in global trade and development.
 
-1. Year to date, the dollar has continued to weaken, with the US dollar index down ~7%. Tourism to the US sharply declined in the days after tariffs.![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F595f4a19-fd88-4f26-a1bb-3d006c2ae48a_724x414.png)
-2. Ex-US equities are up ~8.4% for the year, outperforming US equities by ~13 points.![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F860a2995-6edf-45e0-98c2-fc138394e190_1600x1066.png)
+1. Year to date, the dollar has continued to weaken, with the US dollar index down ~7%. Tourism to the US sharply declined in the days after tariffs.![](/assets/archive/remote-c10734331e9dfa1a7966de0ebc8f53ea.png)
+2. Ex-US equities are up ~8.4% for the year, outperforming US equities by ~13 points.![](/assets/archive/remote-64b235f045128518377ace9f4f3cf161.png)
 3. The bond selloff in the treasury and corporate bond market was mostly foreign driven, while the recent rebound in prices was mostly inflow from US domestic investors.
 4. The lack of policy coherence creates a large disincentive for 1-5 year capital investments in the US, especially as it relates to reshoring manufacturing and infrastructure capacity.
 5. For example, Apple, the symbol for US consumer brands, has no plans to move manufacturing to the US, but instead will shift more assembly volume to [India](https://www.ft.com/content/c2be45b8-cfad-4cbb-9a1a-bfd0626be372), mostly as a means to side-step the US tariffs.
@@ -42,7 +42,7 @@ This time around, there are more signs of structural obstacles to the growth of 
 **2. The supply chain shock from a man-made shock to the global trade system has yet to arrive.**
 
 1. As much as the US administration may want to decouple global trade, it cannot be done overnight.
-2. Similar to the COVID dual-sided (supply + demand) shock, the supply chain is undergoing a similar shock. Sea-bound containers from China to US have fallen 45% year-over-year in April 2025. ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F451f4453-9594-4328-8749-f4dd22220d86_1424x1022.png)
+2. Similar to the COVID dual-sided (supply + demand) shock, the supply chain is undergoing a similar shock. Sea-bound containers from China to US have fallen 45% year-over-year in April 2025. ![](/assets/archive/remote-892fce6214f56b3d9cc1199677f77ee1.png)
 3. While US merchants front-loaded inventory, they are simply delaying the inevitable: a combination of (1) a shortage of goods and/or (2) a massive drop in demand due to increased prices due to tariffs.
 4. This type of supply shock will impact small businesses the most, those who do not have the working capital capacity to soften the supply chain shock with increased inventory. Small businesses employ 80% of America and are responsible for [~40%](https://www.apolloacademy.com/how-are-imports-from-china-used-in-the-us/#:~:text=%20In%20addition%2C%20small%20and%20medium%2Dsized%20enterprises%20account%20for%2041%%20of%20imports%20from%20China.) of US imports from China. When small businesses suffer, America suffers.
 5. Even assuming the US and China come to some type of equilibrium that is able to restart trade–current conditions are tantamount to a trade embargo for most goods, the infamous [bullwhip](https://www.investopedia.com/bullwhip-effect-definition-5499228) effect will come back into play.
@@ -50,8 +50,8 @@ This time around, there are more signs of structural obstacles to the growth of 
 
 **3. Shift in global security and perspectives is already becoming evident.** Geopolitically, the US absconding from the global alliances and partnerships will have longer term consequences beyond one US presidential term.
 
-1. **Canada:**Most obviously, Trump’s policies have literally reversed the Canadian election. Enabling Mark Carney’s Liberal party to erase the Conservative party’s ~10-15 point lead over a span of 40 days. The Conservative party leader even [lost](https://www.cbc.ca/news/politics/poilievre-uncertain-future-1.7521681) his own seat.![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcafce144-ad98-444c-bee7-cd8110a4361c_1508x1186.png)
-2. **European security: Germany is gearing up for arms.**Its defense industry base is being re-ignited after Germany [approved](https://www.bbc.com/news/articles/c62z6gljv2yo) a new 500 billion euro infrastructure fund. Shepherded by Merz–who was elected in Feb 2025 after Trump started the trade war and embarrassed Ukraine at the White House, the new law exempts defense and security spending from Germany’s strict debt guidelines–enabling the state to issue more Bunds to finance its security objectives. German defense companies (i.e. Rheinmetall) have more than doubled in value since then. ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F28a4e8e6-d961-4d70-b979-dfaa8a272eca_600x617.png)
+1. **Canada:**Most obviously, Trump’s policies have literally reversed the Canadian election. Enabling Mark Carney’s Liberal party to erase the Conservative party’s ~10-15 point lead over a span of 40 days. The Conservative party leader even [lost](https://www.cbc.ca/news/politics/poilievre-uncertain-future-1.7521681) his own seat.![](/assets/archive/remote-c503f1d960a5736e5420c48e6e3539fc.png)
+2. **European security: Germany is gearing up for arms.**Its defense industry base is being re-ignited after Germany [approved](https://www.bbc.com/news/articles/c62z6gljv2yo) a new 500 billion euro infrastructure fund. Shepherded by Merz–who was elected in Feb 2025 after Trump started the trade war and embarrassed Ukraine at the White House, the new law exempts defense and security spending from Germany’s strict debt guidelines–enabling the state to issue more Bunds to finance its security objectives. German defense companies (i.e. Rheinmetall) have more than doubled in value since then. ![](/assets/archive/remote-be2b4934d3b586ea38cfdc0f02c3f9cd.png)
 3. **Indo-Pacific security:**Australia and Philippines will hold general elections in May 2025, on the 3rd and 12th respectively. Both countries play a crucial role in Indo-Pacific security, as a US allies and regional balance of power against China. The Australian elections have already been an intense balance between its Chinese and US ties in recent weeks.
 
 **4. Pending new tax and budget legislation, US debt ceiling and fiscal outlook remain similarly uncertain as trade policy.**

@@ -12,6 +12,7 @@ import rehypeCloudflareImages from './src/lib/rehype-cloudflare-images.mjs';
 
 const cloudflareImageTransforms =
   process.env.PUBLIC_CLOUDFLARE_IMAGE_TRANSFORMS === 'true';
+const cloudflareImageHost = process.env.PUBLIC_CLOUDFLARE_IMAGE_HOST ?? '';
 
 // https://astro.build/config
 export default defineConfig({
@@ -21,7 +22,14 @@ export default defineConfig({
   markdown: {
     processor: unified({
       rehypePlugins: [
-        [rehypeCloudflareImages, { enabled: cloudflareImageTransforms }],
+        [
+          rehypeCloudflareImages,
+          {
+            enabled: cloudflareImageTransforms,
+            host: cloudflareImageHost,
+            version: 3,
+          },
+        ],
       ],
     }),
   },

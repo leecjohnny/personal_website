@@ -1,0 +1,55 @@
+<dialog class="image-lightbox" data-image-lightbox-dialog aria-label="Full-size image viewer">
+	<div class="image-lightbox__panel">
+		<div class="image-lightbox__toolbar">
+			<button type="button" data-image-lightbox-size>Actual size</button>
+			<button type="button" data-image-lightbox-close aria-label="Close image viewer">Close</button>
+		</div>
+		<div class="image-lightbox__canvas">
+			<img data-image-lightbox-image alt="Full-size article image" decoding="async" />
+		</div>
+		<p class="image-lightbox__caption" data-image-lightbox-caption hidden></p>
+	</div>
+</dialog>
+
+<script>
+	const dialog = document.querySelector<HTMLDialogElement>('[data-image-lightbox-dialog]');
+	const image = dialog?.querySelector<HTMLImageElement>('[data-image-lightbox-image]');
+	const caption = dialog?.querySelector<HTMLElement>('[data-image-lightbox-caption]');
+	const sizeButton = dialog?.querySelector<HTMLButtonElement>('[data-image-lightbox-size]');
+	const closeButton = dialog?.querySelector<HTMLButtonElement>('[data-image-lightbox-close]');
+
+	function setActualSize(enabled: boolean) {
+		image?.classList.toggle('is-actual-size', enabled);
+		if (sizeButton) sizeButton.textContent = enabled ? 'Fit to screen' : 'Actual size';
+	}
+
+	function closeLightbox() {
+		if (!dialog?.open) return;
+		dialog.close();
+		if (image) image.removeAttribute('src');
+		setActualSize(false);
+	}
+
+	document.querySelectorAll<HTMLButtonElement>('[data-image-lightbox]').forEach((trigger) => {
+		trigger.addEventListener('click', () => {
+			if (!dialog || !image || !caption) return;
+			const preview = trigger.querySelector<HTMLImageElement>('img');
+			const alt = preview?.alt ?? '';
+			image.src = trigger.dataset.imageSrc || preview?.currentSrc || preview?.src || '';
+			image.alt = alt;
+			caption.textContent = alt;
+			caption.hidden = !alt;
+			setActualSize(false);
+			dialog.showModal();
+			closeButton?.focus();
+		});
+	});
+
+	sizeButton?.addEventListener('click', () => {
+		setActualSize(!image?.classList.contains('is-actual-size'));
+	});
+	closeButton?.addEventListener('click', closeLightbox);
+	dialog?.addEventListener('click', (event) => {
+		if (event.target === dialog) closeLightbox();
+	});
+</script>

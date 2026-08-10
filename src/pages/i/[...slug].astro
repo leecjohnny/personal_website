@@ -1,5 +1,6 @@
 ---
 import { getCollection, render, type CollectionEntry } from 'astro:content';
+import ImageLightbox from '../../components/ImageLightbox.astro';
 import SharePopover from '../../components/SharePopover';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import { DYNAMISM_SLUG } from '../../consts';
@@ -62,5 +63,6 @@ const modifiedTime = (post.data.updatedDate ?? post.data.pubDate).toISOString();
 		<article class="markdown-body">
 			<Content />
 		</article>
+		<ImageLightbox />
 	</main>
 </SiteLayout>

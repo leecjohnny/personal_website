@@ -587,9 +587,11 @@ figcaption a:hover {
   color: var(--vermillion);
 }
 
-footer {
+.essay-footer {
   display: flex;
-  justify-content: flex-start;
+  gap: 24px;
+  align-items: center;
+  justify-content: space-between;
   padding: 34px clamp(24px, 5vw, 72px);
   color: var(--muted-foreground);
   background: transparent;
@@ -600,7 +602,7 @@ footer {
   text-transform: uppercase;
 }
 
-footer p {
+.essay-footer p {
   margin: 0;
 }
 
@@ -706,9 +708,9 @@ footer p {
     margin-bottom: 2.4rem;
   }
 
-  footer {
-    gap: 24px;
+  .essay-footer {
     align-items: flex-start;
+    flex-direction: column;
   }
 }
 

@@ -3,7 +3,6 @@ import essayData from "../../data/essay-content.json";
 import assetData from "../../../public/assets/essay/manifest.json";
 import narrationData from "../../../public/audio/dynamism/article.json";
 import { imageUrl } from "../../lib/image-url";
-import { DYNAMISM_WORKER_URL } from "../../consts";
 import NarrationPlayer from "./NarrationPlayer";
 import ReadingProgress from "./ReadingProgress";
 
@@ -364,13 +363,9 @@ export default function DynamismEssay() {
         </section>
       </article>
 
-      <footer>
+      <footer className="essay-footer">
         <p>Dynamism as a supercomputing race</p>
-        <p>
-          <a href={DYNAMISM_WORKER_URL} target="_blank" rel="noreferrer">
-            Original Cloudflare Worker build ↗
-          </a>
-        </p>
+        <a href="#top">Back to the beginning ↑</a>
       </footer>
     </main>
   );

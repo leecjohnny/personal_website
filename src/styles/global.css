@@ -314,6 +314,94 @@ img {
   margin: 1em auto;
 }
 
+.article-hero-image,
+.article-image-button {
+	display: block;
+	width: 100%;
+}
+
+.article-image-button {
+	padding: 0;
+	border: 0;
+	background: transparent;
+	cursor: zoom-in;
+	font: inherit;
+}
+
+.article-image-button:focus-visible {
+	outline: 2px solid var(--ring);
+	outline-offset: 4px;
+}
+
+.image-lightbox {
+	width: min(96vw, 1600px);
+	max-width: none;
+	height: min(94vh, 1200px);
+	max-height: none;
+	padding: 0;
+	border: 1px solid var(--border);
+	background: var(--card);
+	color: var(--foreground);
+	box-shadow: 0 1em 4em rgb(0 0 0 / 0.3);
+}
+
+.image-lightbox::backdrop {
+	background: rgb(0 0 0 / 0.78);
+}
+
+.image-lightbox__panel {
+	display: grid;
+	grid-template-rows: auto minmax(0, 1fr) auto;
+	height: 100%;
+}
+
+.image-lightbox__toolbar {
+	display: flex;
+	gap: 0.5em;
+	justify-content: flex-end;
+	padding: 0.75em;
+	border-bottom: 1px solid var(--border);
+}
+
+.image-lightbox__toolbar button {
+	padding: 0.35em 0.65em;
+	border: 1px solid var(--border);
+	border-radius: var(--radius);
+	background: transparent;
+	color: inherit;
+	cursor: pointer;
+	font: inherit;
+}
+
+.image-lightbox__canvas {
+	display: grid;
+	min-height: 0;
+	place-items: center;
+	overflow: auto;
+	padding: 1em;
+	background: #f4f4f4;
+}
+
+.image-lightbox__canvas img {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	max-height: 100%;
+	margin: auto;
+}
+
+.image-lightbox__canvas img.is-actual-size {
+	max-width: none;
+	max-height: none;
+}
+
+.image-lightbox__caption {
+	margin: 0;
+	padding: 0.75em 1em;
+	border-top: 1px solid var(--border);
+	font-size: 0.85em;
+}
+
 .markdown-body table {
   display: block;
   max-width: 100%;

@@ -34,21 +34,21 @@ Save on baggage, **rent clothes when visiting Japan, says Japan Airlines (JAL)**
 
 ### Speed Read Charts
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff332b41e-5f53-4c39-8263-bcc356ae088b_468x344.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff332b41e-5f53-4c39-8263-bcc356ae088b_468x344.png)
+[![](/assets/archive/remote-635c9aea739c7224f3f5b6dcaca18de9.png)](/assets/archive/remote-635c9aea739c7224f3f5b6dcaca18de9.png)
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd46c958b-414a-4467-816b-55bd9c134415_468x349.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd46c958b-414a-4467-816b-55bd9c134415_468x349.png)
+[![](/assets/archive/remote-b937913eb229982177e7f9d67663ecec.png)](/assets/archive/remote-b937913eb229982177e7f9d67663ecec.png)
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcce03ada-f221-4c4b-b21c-48d122d00f9c_468x263.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcce03ada-f221-4c4b-b21c-48d122d00f9c_468x263.png)
+[![](/assets/archive/remote-0d2ddb40f030476967aad1601a61e9ce.png)](/assets/archive/remote-0d2ddb40f030476967aad1601a61e9ce.png)
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F94512355-8f41-4eda-a857-abfdc4fa8991_468x333.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F94512355-8f41-4eda-a857-abfdc4fa8991_468x333.png)
+[![](/assets/archive/remote-aa4c6228f53c06a253468116b91181bb.png)](/assets/archive/remote-aa4c6228f53c06a253468116b91181bb.png)
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2550e309-068d-4ac9-a962-ed1768b95b65_468x263.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2550e309-068d-4ac9-a962-ed1768b95b65_468x263.jpeg)
+[![](/assets/archive/remote-6974ac38da515f052d08a64586e90058.jpg)](/assets/archive/remote-6974ac38da515f052d08a64586e90058.jpg)
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F836fefe2-98ec-4cfa-a3b8-b46d89e9bf23_468x266.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F836fefe2-98ec-4cfa-a3b8-b46d89e9bf23_468x266.png)
+[![](/assets/archive/remote-52afcfcd00f7af6bf058b4ff42135caf.png)](/assets/archive/remote-52afcfcd00f7af6bf058b4ff42135caf.png)
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F50a23f44-36a2-4dfd-bbea-e03de74e3c3f_468x262.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F50a23f44-36a2-4dfd-bbea-e03de74e3c3f_468x262.png)
+[![](/assets/archive/remote-b7cd4258c169a7104e37783736c88c01.png)](/assets/archive/remote-b7cd4258c169a7104e37783736c88c01.png)
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2050826-fd1b-4d7a-8b97-aa332a236a29_400x648.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2050826-fd1b-4d7a-8b97-aa332a236a29_400x648.jpeg)
+[![](/assets/archive/remote-bde0b5f758c7651345aadc7ad2a72ad9.jpg)](/assets/archive/remote-bde0b5f758c7651345aadc7ad2a72ad9.jpg)
 
 ### This week’s fun fact
 
@@ -56,4 +56,4 @@ On May 4, 2023, the Federal Reserve’s FOMC (federal open markets committee) in
 
 As of Jul 9, 2023, the market has priced in a 93% probability that the committee will raise the range another 25 basis points at the Jul 26, 2023 meeting.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F365f1c65-1f57-48b8-9a4f-087d675abc48_977x489.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F365f1c65-1f57-48b8-9a4f-087d675abc48_977x489.png)
+[![](/assets/archive/remote-03f76efd263e3a4574f22d1154f11c58.png)](/assets/archive/remote-03f76efd263e3a4574f22d1154f11c58.png)
