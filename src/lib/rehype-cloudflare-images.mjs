@@ -1,6 +1,4 @@
-const enabled = process.env.PUBLIC_CLOUDFLARE_IMAGE_TRANSFORMS === 'true';
-
-function transformedSource(source) {
+function transformedSource(source, enabled) {
   if (
     !enabled ||
     !source ||
@@ -19,12 +17,12 @@ function imageAlt(file) {
   return title ? `Illustration from “${title}”` : 'Article illustration';
 }
 
-function walk(node, file) {
+function walk(node, file, enabled) {
   if (!node || typeof node !== 'object') return;
 
   if (node.type === 'element' && node.tagName === 'img') {
     node.properties ??= {};
-    node.properties.src = transformedSource(node.properties.src);
+    node.properties.src = transformedSource(node.properties.src, enabled);
     if (!String(node.properties.alt ?? '').trim()) {
       node.properties.alt = imageAlt(file);
     }
@@ -32,9 +30,9 @@ function walk(node, file) {
     node.properties.decoding ??= 'async';
   }
 
-  for (const child of node.children ?? []) walk(child, file);
+  for (const child of node.children ?? []) walk(child, file, enabled);
 }
 
-export default function rehypeCloudflareImages() {
-  return (tree, file) => walk(tree, file);
+export default function rehypeCloudflareImages({ enabled = false } = {}) {
+  return (tree, file) => walk(tree, file, enabled);
 }

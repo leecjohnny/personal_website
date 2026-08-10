@@ -18,13 +18,33 @@ The Astro/Vite rebuild of [johnnyclee.com](https://johnnyclee.com): a small pers
 bun install
 bun run dev
 bun run build
+bun run build:cloudflare
 bun run audit:seo
+bun run audit:cloudflare
 bun run preview
 ```
 
+## Cloudflare Workers
+
+The site deploys as pre-rendered Workers Static Assets; no SSR adapter or Worker
+entry point is required. Wrangler is pinned in `devDependencies`, and
+`wrangler.jsonc` points at the generated `dist/` directory.
+
+```sh
+bun run deploy:dry-run
+bun run deploy:cloudflare
+```
+
+For Cloudflare Workers Builds, use `bun run build:cloudflare` as the build
+command and `bun run deploy` as the deploy command. Set the build variable
+`BUN_VERSION=1.3.14` to match the repository toolchain. Test the generated
+`workers.dev` URL before attaching `johnnyclee.com` as the production custom
+domain.
+
 ## Images
 
-Assets are committed locally so the site is self-contained. The optional Cloudflare Images Transformations integration is disabled by default while the zone is being configured. After Cloudflare Image Transformations is enabled for `johnnyclee.com`, set:
+Assets are committed locally so the site is self-contained. Cloudflare Image
+Transformations are enabled for `johnnyclee.com`; production builds opt in with:
 
 ```sh
 PUBLIC_CLOUDFLARE_IMAGE_TRANSFORMS=true bun run build
