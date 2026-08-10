@@ -8,7 +8,7 @@ sourceUrl: "https://johnnyclee.com/i/4-years-of-ai/"
 
 [**"Welcome To Costco, I Love You". Idiocracy (2006)**](https://i.redd.it/ak7cl37bhpj21.jpg)
 
-It has been almost 4 years since AI has been released into the world. ChatGPT was released in November 2022.
+It has been almost four years since ChatGPT was released to the public in November 2022.
 
 For human development, 4 years is a substantial time period. 
 
@@ -20,7 +20,7 @@ Universities and employers are about to receive a shock to their system.
 
 Not only will this new cohort of users expect AI to be easily accessible, but they will likely be in the top \~10% percentile of AI users (compared to their surrounding environment) because they have learned how to use AI as their daily tool for the last four years.  
 
-This fall, students starting university will have used AI throughout high school. This summer, graduates are entering the workforce with the habit that they can reach for AI as their first choice tool for most tasks and settings.
+This fall, students starting university will have used AI throughout high school. This summer, graduates are entering the workforce with the habit of reaching for AI as their first-choice tool for most tasks and settings.
 
 There are some risks to RSI (recursive self improvement), most specifically risks to our next generation’s ability to learn.
 
@@ -30,7 +30,7 @@ First, the following risk narratives are not inevitable, but they are increasing
 
 #### Unfettered dependence on AI
 
-The timing is not great. Still reeling from the Covid lockdowns and pandemic’s impact on students, AI arriving on scene compounds the symptoms of both phenomena. The 1 year of remote learning and digital-only interaction trained students to rely more on digital tools, compared to their peers or mentors. 
+The timing is not great. With students still reeling from COVID-19 lockdowns and the pandemic’s effects, AI’s arrival compounds the symptoms of both phenomena. A year of remote learning and digital-only interaction trained students to rely more heavily on digital tools than previous cohorts did.
 
 Now, it is easier than ever for students and workers to build stronger and stronger dependence on AI. Not only is AI literally trained to convince the user the outputs are useful, the users themselves are becoming more convinced the act of querying and retrieving information from AI systems is effectively learning and productivity. 
 
@@ -44,9 +44,9 @@ Universities and classrooms are mostly risk-free settings for most students to m
 
 Once in the workforce, workers have to balance the social requirements of their job with their functional requirements. In other words, making mistakes not only hurts the worker, it will likely hurt the hierarchy above and around you. It leads to less risk-taking behaviors.
 
-Now, none of the above changed with the introduction of AI. Learning how to learn and making mistakes along the way is a critical friction in obtaining mastery. 
+Now, none of the above has changed with the introduction of AI. Learning how to learn and making mistakes along the way is a critical friction in obtaining mastery.
 
-But AI has become a very easy escape-hatch to lean on to **not** make mistakes. Over time, this escape-hatch will bias users more and more towards avoiding the friction of learning. Eventually, it can lead to a loss in mastery learning overall. 
+But AI has become a very easy escape-hatch to lean on to **not** make mistakes. Over time, this escape-hatch will bias users more and more toward avoiding the friction of learning. Eventually, it can lead to a loss in mastery learning overall.
 
 #### Deepening generational angst 
 
@@ -72,7 +72,7 @@ Yes, today’s models have intelligence that is jagged, and rough around the edg
 
 Abstractly, we need to think about how to train the next generation of models to also prioritize “learning outcomes” and “user skill mastery”, exactly alongside other outcomes that our models optimize towards today (i.e. usefulness, helpfulness, harmfulness, etc…).
 
-Tactically, the only way models “learn” to achieve anything is via datasets. We have to invest in environments that "demonstrates" human skill mastery in action. 
+Tactically, the only way models “learn” to achieve anything is via datasets. We have to invest in environments that demonstrate human skill mastery in action.
 
 Some principles for the path forward:
 
@@ -82,6 +82,6 @@ Some principles for the path forward:
 
 #### What’s even better than a country of geniuses in a data center? 
 
-An actual country of geniuses running those data centers\! Computers will get smarter, it’s on us to also get smarter too.
+An actual country of geniuses running those data centers\! Computers will get smarter; it’s on us to get smarter, too.
 
-That’s a future worth building towards.
+That’s a future worth building.
