@@ -30,7 +30,6 @@ const description =
 <SiteLayout title={post.data.title + ' · Johnny Lee'} description={description}>
 	<main class="article-page">
 		<header class="article-header">
-			<a class="back-link" href="/">← Johnny Lee</a>
 			<h1>{post.data.title}</h1>
 			<div class="article-meta">
 				<time datetime={post.data.pubDate.toISOString()}>
@@ -40,25 +39,10 @@ const description =
 						day: 'numeric',
 					})}
 				</time>
-				<span>Johnny Lee</span>
 			</div>
 			<div class="article-actions">
 				<SharePopover client:load title={post.data.title} url={canonicalUrl.toString()} />
 			</div>
-			{
-				post.data.externalUrl && (
-					<p class="external-link">
-						View the article at{' '}
-						<a
-							href={post.data.externalUrl}
-							target="_blank"
-							rel="noreferrer nofollow"
-						>
-							{new URL(post.data.externalUrl).hostname}
-						</a>
-					</p>
-				)
-			}
 		</header>
 		<article class="markdown-body">
 			<Content />

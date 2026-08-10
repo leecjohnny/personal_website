@@ -5,4 +5,4 @@ sourceUrl: "https://johnnyclee.com/i/something-small-is-happening-Pn3tHnIIkGu/"
 externalUrl: "https://myriadperspectives.com/p/something-small-is-happening"
 ---
 
-> View the article at [myriadperspectives.com](https://myriadperspectives.com/p/something-small-is-happening)
+<p class="external-notice">External article: <a href="https://myriadperspectives.com/p/something-small-is-happening" target="_blank" rel="noreferrer nofollow">Read the original on myriadperspectives.com ↗</a></p>

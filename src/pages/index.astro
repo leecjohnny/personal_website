@@ -11,21 +11,17 @@ const posts = (await getCollection('blog'))
 <SiteLayout>
 	<main class="home">
 		<section class="home-intro" aria-labelledby="home-title">
-			<div>
-				<p class="eyebrow">Johnny Lee</p>
-				<h1 id="home-title">Hi!<br />Welcome.</h1>
-			</div>
+			<h2 id="home-title">Hi! Welcome! I’m Johnny.</h2>
 			<div class="intro-copy">
 				<p>
-					Building <a href="https://caisey.me">caisey.me</a>.
+					Building <a href="https://caisey.me">caisey.me</a>!
 				</p>
 				<p>
-					Previously, at Adept (exited to Amazon), Amazon Lab126,
-					23andMe, and Salesforce.
-				</p>
-				<p>
-					Writing about technology, markets, intelligence, and the
-					things that make the future feel close.
+					Previously, at Adept (prev. computer use AI research lab
+					{' '}<a href="https://www.cnbc.com/2024/06/28/amazon-hires-execs-from-ai-startup-adept-and-licenses-its-technology.html">exited</a>{' '}
+					to Amazon),{' '}<a href="https://amazon.jobs/en/teams/lab126/">Amazon Lab126</a>,{' '}
+					<a href="https://23andme.com/">23andMe</a>, and{' '}
+					<a href="https://salesforce.com/">Salesforce</a>.
 				</p>
 			</div>
 		</section>
@@ -33,7 +29,6 @@ const posts = (await getCollection('blog'))
 		<section class="latest" id="latest" aria-labelledby="latest-title">
 			<div class="section-heading">
 				<h2 id="latest-title">Latest</h2>
-				<a href="/blog/">View all articles →</a>
 			</div>
 			<ul class="article-list">
 				{
@@ -50,12 +45,7 @@ const posts = (await getCollection('blog'))
 										day: 'numeric',
 									})}
 								</time>
-								<div>
-									<h3 class="post-title">{post.data.title}</h3>
-									{post.data.externalUrl && (
-										<span class="post-external">Also published externally</span>
-									)}
-								</div>
+							<h3 class="post-title">{post.data.title}</h3>
 								<span class="post-arrow" aria-hidden="true">↗</span>
 							</a>
 						</li>

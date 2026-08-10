@@ -604,23 +604,6 @@ footer p {
   margin: 0;
 }
 
-.worker-note {
-  margin: 0;
-  padding: 0 24px 32px;
-  color: var(--muted-foreground);
-  font-size: 11px;
-  text-align: center;
-}
-
-.worker-note a {
-  text-decoration-color: transparent;
-}
-
-.worker-note a:hover {
-  color: var(--vermillion);
-  text-decoration-color: currentColor;
-}
-
 .essay-table {
   display: grid;
   gap: 1px;

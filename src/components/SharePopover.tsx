@@ -22,10 +22,10 @@ export default function SharePopover({ title, url }: Props) {
 		window.setTimeout(() => setCopied(false), 1800);
 	}
 
-	return (
+		return (
 		<Popover.Root>
 			<Popover.Trigger
-				render={<Button variant="outline" size="sm">Share</Button>}
+				render={<Button className="share-trigger" variant="outline" size="sm">Share</Button>}
 			/>
 			<Popover.Portal>
 				<Popover.Positioner sideOffset={8}>

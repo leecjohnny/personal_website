@@ -5,4 +5,4 @@ sourceUrl: "https://johnnyclee.com/i/power-and-fab-capacity-last-jigsaw-pieces-i
 externalUrl: "https://myriadperspectives.com/p/power-and-fab-capacity-last-jigsaw"
 ---
 
-> View the article at [myriadperspectives.com](https://myriadperspectives.com/p/power-and-fab-capacity-last-jigsaw)
+<p class="external-notice">External article: <a href="https://myriadperspectives.com/p/power-and-fab-capacity-last-jigsaw" target="_blank" rel="noreferrer nofollow">Read the original on myriadperspectives.com ↗</a></p>

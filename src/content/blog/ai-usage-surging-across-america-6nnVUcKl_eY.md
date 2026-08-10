@@ -5,4 +5,4 @@ sourceUrl: "https://johnnyclee.com/i/ai-usage-surging-across-america-6nnVUcKl_eY
 externalUrl: "https://myriadperspectives.com/p/ai-usage-surging-across-america-update"
 ---
 
-> View the article at [myriadperspectives.com](https://myriadperspectives.com/p/ai-usage-surging-across-america-update)
+<p class="external-notice">External article: <a href="https://myriadperspectives.com/p/ai-usage-surging-across-america-update" target="_blank" rel="noreferrer nofollow">Read the original on myriadperspectives.com ↗</a></p>

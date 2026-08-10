@@ -5,4 +5,4 @@ sourceUrl: "https://johnnyclee.com/i/openais-road-to-become-a-hyperscaler-tSkynN
 externalUrl: "https://myriadperspectives.com/p/openais-road-to-become-a-hyperscaler"
 ---
 
-> View the article at [myriadperspectives.com](https://myriadperspectives.com/p/openais-road-to-become-a-hyperscaler)
+<p class="external-notice">External article: <a href="https://myriadperspectives.com/p/openais-road-to-become-a-hyperscaler" target="_blank" rel="noreferrer nofollow">Read the original on myriadperspectives.com ↗</a></p>
