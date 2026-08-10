@@ -1,5 +1,6 @@
 ---
 import DynamismEssay from '../../components/dynamism/DynamismEssay';
+import ArticleNavigation from '../../components/ArticleNavigation.astro';
 import BaseHead from '../../components/BaseHead.astro';
 import { articleSchema, siteSchemaGraph } from '../../lib/seo';
 import '../../styles/dynamism.css';
@@ -37,7 +38,8 @@ const image = '/assets/essay/figure-01.png';
 			)}
 		/>
 	</head>
-	<body>
+	<body id="top">
+		<ArticleNavigation variant="overlay" meta="July 2026" />
 		<DynamismEssay client:load />
 	</body>
 </html>

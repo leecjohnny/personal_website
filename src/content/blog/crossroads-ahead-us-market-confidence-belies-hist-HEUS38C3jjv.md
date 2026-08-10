@@ -5,8 +5,6 @@ sourceUrl: "https://johnnyclee.com/i/crossroads-ahead-us-market-confidence-belie
 externalUrl: "https://myriadperspectives.substack.com/p/crossroads-ahead-us-market-confidence"
 ---
 
-<p class="external-notice">External article: <a href="https://myriadperspectives.substack.com/p/crossroads-ahead-us-market-confidence" target="_blank" rel="noreferrer nofollow">Read the original on myriadperspectives.substack.com ↗</a></p>
-
 One month after Liberation Day, the US stock market looks more or less re-assured about the future economic outlook. For the month of April, the S&P 500 is only down ~1% and the NASDAQ is up ~1%.
 
 ![](/assets/archive/remote-d729ff9f983bb09668513df9190e3e32.png)

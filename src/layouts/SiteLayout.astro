@@ -1,5 +1,6 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
+import ArticleNavigation from '../components/ArticleNavigation.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
@@ -49,8 +50,8 @@ const {
 			structuredData={siteSchemaGraph(structuredData ?? [])}
 		/>
 	</head>
-	<body>
-		<Header />
+	<body id={type === 'article' ? 'top' : undefined}>
+		{type === 'article' ? <ArticleNavigation /> : <Header />}
 		<div class="site-shell">
 			<slot />
 		</div>

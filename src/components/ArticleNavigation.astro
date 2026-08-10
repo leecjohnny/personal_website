@@ -1,0 +1,170 @@
+---
+interface Props {
+	variant?: 'standard' | 'overlay';
+	meta?: string;
+}
+
+const { variant = 'standard', meta } = Astro.props;
+---
+
+<header class:list={['article-navigation', `article-navigation--${variant}`]} data-article-navigation>
+	<nav aria-label="Breadcrumb">
+		<ol class="breadcrumb-list">
+			<li>
+				<a class="breadcrumb-link" href="/">
+					<svg viewBox="0 0 24 24" aria-hidden="true">
+						<path d="m12 19-7-7 7-7"></path>
+						<path d="M19 12H5"></path>
+					</svg>
+					<span>Home</span>
+				</a>
+			</li>
+		</ol>
+	</nav>
+	{meta && <span class="article-navigation__meta">{meta}</span>}
+</header>
+
+<a class="back-to-top" href="#top" data-back-to-top aria-label="Back to top">
+	<svg viewBox="0 0 24 24" aria-hidden="true">
+		<path d="m18 15-6-6-6 6"></path>
+	</svg>
+	<span>Back to top</span>
+</a>
+
+<script>
+	function setupBackToTop() {
+		const navigation = document.querySelector<HTMLElement>('[data-article-navigation]');
+		const control = document.querySelector<HTMLAnchorElement>('[data-back-to-top]');
+
+		if (!navigation || !control || control.dataset.enhanced === 'true') return;
+
+		control.dataset.enhanced = 'true';
+		const observer = new IntersectionObserver(([entry]) => {
+			control.dataset.visible = String(!entry.isIntersecting);
+		});
+
+		observer.observe(navigation);
+	}
+
+	setupBackToTop();
+</script>
+
+<style>
+	.article-navigation {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.article-navigation--standard {
+		width: min(
+			calc(100% - var(--page-gutter) - var(--page-gutter)),
+			var(--content-max-width)
+		);
+		margin: 0 auto;
+		padding: 1.5rem 0;
+	}
+
+	.article-navigation--overlay {
+		position: absolute;
+		z-index: 10;
+		inset: 0 0 auto;
+		width: 100%;
+		padding: 1.75rem clamp(1.5rem, 5vw, 4.5rem);
+	}
+
+	.breadcrumb-list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.breadcrumb-link,
+	.back-to-top {
+		display: inline-flex;
+		gap: 0.5rem;
+		align-items: center;
+		justify-content: center;
+		min-height: 2.75rem;
+		color: var(--foreground);
+		font-family: inherit;
+		font-size: 0.875rem;
+		font-weight: 600;
+		line-height: 1;
+		text-decoration: none;
+	}
+
+	.breadcrumb-link svg,
+	.back-to-top svg {
+		width: 1rem;
+		height: 1rem;
+		fill: none;
+		stroke: currentColor;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+		stroke-width: 2;
+	}
+
+	.breadcrumb-link:hover {
+		opacity: 0.65;
+	}
+
+	.breadcrumb-link:focus-visible,
+	.back-to-top:focus-visible {
+		outline: 2px solid var(--ring);
+		outline-offset: 3px;
+	}
+
+	.article-navigation__meta {
+		color: var(--muted-foreground);
+		font-size: 0.75rem;
+		font-weight: 600;
+		letter-spacing: 0.08em;
+	}
+
+	.back-to-top {
+		position: fixed;
+		z-index: 30;
+		right: max(1rem, env(safe-area-inset-right));
+		bottom: max(1rem, env(safe-area-inset-bottom));
+		padding: 0 0.875rem;
+		border: 1px solid var(--border);
+		border-radius: 999px;
+		background: var(--card);
+		box-shadow: 0 0.35rem 1.25rem rgb(0 0 0 / 0.14);
+		transition:
+			opacity 160ms ease,
+			transform 160ms ease;
+	}
+
+	.back-to-top:hover {
+		transform: translateY(-2px);
+	}
+
+	.back-to-top[data-enhanced='true'][data-visible='false']:not(:focus-visible) {
+		opacity: 0;
+		pointer-events: none;
+		transform: translateY(0.5rem);
+	}
+
+	@media (max-width: 560px) {
+		.article-navigation--overlay {
+			padding: 1.375rem 1.25rem;
+		}
+
+		.back-to-top {
+			width: 2.75rem;
+			padding: 0;
+		}
+
+		.back-to-top span {
+			display: none;
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.back-to-top {
+			transition: none;
+		}
+	}
+</style>

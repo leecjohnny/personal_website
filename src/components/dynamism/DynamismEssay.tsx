@@ -301,14 +301,7 @@ export default function DynamismEssay() {
     <main>
       <ReadingProgress />
 
-      <header className="site-header">
-        <a className="wordmark" href="#top" aria-label="Back to the beginning">
-          Dynamism
-        </a>
-        <span className="edition">July 2026</span>
-      </header>
-
-      <article id="top">
+      <article>
         <section className="hero" aria-labelledby="essay-title">
           <div className="hero-copy">
             <p className="eyebrow">Essay</p>

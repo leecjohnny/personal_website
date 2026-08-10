@@ -1,0 +1,41 @@
+---
+interface Props {
+	title: string;
+	url: string;
+}
+
+const { title, url } = Astro.props;
+const hostname = new URL(url).hostname.replace(/^www\./, '');
+const isMyriadPerspectives =
+	hostname === 'myriadperspectives.com' || hostname === 'myriadperspectives.substack.com';
+---
+
+<p class="external-notice">
+	External article:{' '}
+	<a href={url} target="_blank" rel="noreferrer nofollow">
+		Read the original on {hostname} ↗
+	</a>
+</p>
+
+{
+	isMyriadPerspectives && (
+		<div class="substack-embed" aria-label={`Embedded preview of ${title}`}>
+			<div class="substack-post-embed">
+				<a data-post-link href={url}>View “{title}” on Substack</a>
+			</div>
+			<script is:inline async src="https://substack.com/embedjs/embed.js" charset="utf-8" />
+		</div>
+	)
+}
+
+<style>
+	.substack-embed {
+		min-height: 9rem;
+		margin-bottom: 2rem;
+		overflow: hidden;
+	}
+
+	.substack-post-embed {
+		max-width: 100%;
+	}
+</style>

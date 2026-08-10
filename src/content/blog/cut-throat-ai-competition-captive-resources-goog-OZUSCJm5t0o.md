@@ -4,5 +4,3 @@ pubDate: 2025-07-21
 sourceUrl: "https://johnnyclee.com/i/cut-throat-ai-competition-captive-resources-goog-OZUSCJm5t0o/"
 externalUrl: "https://myriadperspectives.com/p/cut-throat-ai-competition-captive"
 ---
-
-<p class="external-notice">External article: <a href="https://myriadperspectives.com/p/cut-throat-ai-competition-captive" target="_blank" rel="noreferrer nofollow">Read the original on myriadperspectives.com ↗</a></p>

@@ -81,32 +81,6 @@ a {
   will-change: transform;
 }
 
-.site-header {
-  position: absolute;
-  z-index: 10;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  padding: 28px clamp(24px, 5vw, 72px);
-  font-size: 11px;
-  font-weight: 650;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
-.wordmark {
-  text-decoration: none;
-}
-
-.edition {
-  color: var(--muted-foreground);
-  letter-spacing: 0.08em;
-  text-transform: none;
-}
-
 .hero {
   position: relative;
   display: grid;
@@ -657,10 +631,6 @@ figcaption a:hover {
 }
 
 @media (max-width: 560px) {
-  .site-header {
-    padding: 22px 20px;
-  }
-
   .hero {
     gap: 56px;
     padding-right: 20px;
