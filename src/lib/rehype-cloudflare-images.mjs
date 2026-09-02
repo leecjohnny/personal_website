@@ -57,9 +57,30 @@ function imageLabel(image) {
   return alt ? `Open ${alt} at full size` : 'Open image at full size';
 }
 
-function prepareImage(node, file, enabled, host) {
+function imageLayout(file, state) {
+  const isLeadImage = state.imageCount === 0;
+  state.imageCount += 1;
+
+  return isLeadImage ? file?.data?.astro?.frontmatter?.leadImageLayout : undefined;
+}
+
+function prepareImage(node, file, enabled, host, state) {
   node.properties ??= {};
-  node.properties.src = transformedSource(node.properties.src, enabled, host);
+  const source = String(node.properties.src ?? '');
+  const layout = imageLayout(file, state);
+
+  if (layout === 'portrait') {
+    addClass(node, 'article-image--portrait');
+    node.properties.src = transformedSource(
+      source,
+      enabled,
+      host,
+      'fit=scale-down,width=auto,wmobile=480,wdesktop=960,quality=82,format=auto',
+    );
+  } else {
+    node.properties.src = transformedSource(source, enabled, host);
+  }
+
   if (!String(node.properties.alt ?? '').trim()) {
     node.properties.alt = imageAlt(file);
   }
@@ -67,7 +88,7 @@ function prepareImage(node, file, enabled, host) {
   node.properties.decoding ??= 'async';
 }
 
-function walk(node, file, enabled, host) {
+function walk(node, file, enabled, host, state) {
   if (!node || typeof node !== 'object') return;
 
   if (node.type === 'element') {
@@ -80,7 +101,7 @@ function walk(node, file, enabled, host) {
       const linkedSource = String(node.properties.href ?? '');
       const isHero = HERO_ASSET_PATTERN.test(originalSource);
 
-      prepareImage(linkedImage, file, enabled, host);
+      prepareImage(linkedImage, file, enabled, host, state);
 
       if (isHero) {
         node.tagName = 'span';
@@ -111,12 +132,12 @@ function walk(node, file, enabled, host) {
       return;
     }
 
-    if (node.tagName === 'img') prepareImage(node, file, enabled, host);
+    if (node.tagName === 'img') prepareImage(node, file, enabled, host, state);
   }
 
-  for (const child of node.children ?? []) walk(child, file, enabled, host);
+  for (const child of node.children ?? []) walk(child, file, enabled, host, state);
 }
 
 export default function rehypeCloudflareImages({ enabled = false, host = '' } = {}) {
-  return (tree, file) => walk(tree, file, enabled, host);
+  return (tree, file) => walk(tree, file, enabled, host, { imageCount: 0 });
 }

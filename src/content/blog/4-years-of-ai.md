@@ -2,6 +2,7 @@
 title: "4 years of AI"
 pubDate: 2026-08-10
 sourceUrl: "https://johnnyclee.com/i/4-years-of-ai/"
+leadImageLayout: portrait
 ---
 
 ![Three toddlers climbing wooden stairs together on hands and feet.](/assets/archive/three-toddlers-climbing-stairs-imagegen-v2.jpg)

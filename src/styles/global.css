@@ -409,6 +409,17 @@ img {
   margin: 1.5em auto 0.6em;
 }
 
+.markdown-body img.article-image--portrait {
+  max-height: min(52svh, 30rem);
+  object-fit: contain;
+}
+
+@media (min-width: 48rem) {
+  .markdown-body img.article-image--portrait {
+    max-height: 40rem;
+  }
+}
+
 .markdown-body p:has(> img:only-child),
 .markdown-body p:has(> .article-hero-image:only-child),
 .markdown-body p:has(> .article-image-button:only-child) {
