@@ -4,9 +4,7 @@ pubDate: 2026-08-10
 sourceUrl: "https://johnnyclee.com/i/4-years-of-ai/"
 ---
 
-![A Costco greeter in Idiocracy wearing a “Welcome To Costco, I Love You” apron.](/assets/archive/item-ad12656c88ea1804b666b01fe1c82829.jpg)
-
-[**"Welcome To Costco, I Love You". Idiocracy (2006)**](https://www.youtube.com/watch?v=ZIFCWpn4qQ4)
+![Three toddlers climbing wooden stairs together on hands and feet.](/assets/archive/three-toddlers-climbing-stairs-imagegen-v2.jpg)
 
 It has been almost four years since ChatGPT was released to the public in November 2022.
 
